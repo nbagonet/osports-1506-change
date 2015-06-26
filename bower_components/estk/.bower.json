@@ -1,0 +1,15 @@
+{
+  "name": "estk",
+  "homepage": "https://github.com/ecomfe/est",
+  "version": "2.0.2",
+  "_release": "2.0.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "2.0.2",
+    "commit": "fe9e679d42758bbb2a9c1ee5a653be3215a32abb"
+  },
+  "_source": "git://github.com/ecomfe/est.git",
+  "_target": "~2.0.2",
+  "_originalSource": "estk",
+  "_direct": true
+}

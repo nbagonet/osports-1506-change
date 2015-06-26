@@ -1,0 +1,1073 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tra",
+				"translateX"
+			],
+			[
+				"tran",
+				"translateX"
+			],
+			[
+				"tx",
+				"txt0.png	w:585 h:47"
+			],
+			[
+				"lo",
+				"logo.png	w:564 h:203"
+			],
+			[
+				"pa",
+				"pageSwitch.js"
+			],
+			[
+				"src",
+				"src/"
+			],
+			[
+				"img",
+				"img/"
+			],
+			[
+				"jq",
+				"jquery.min.js"
+			],
+			[
+				"di",
+				"dist/"
+			],
+			[
+				"tick",
+				"ticketParam"
+			],
+			[
+				"gameOv",
+				"gameOverTxt"
+			],
+			[
+				"gameS",
+				"gameSuccTxt"
+			],
+			[
+				"mo",
+				"mockjax"
+			],
+			[
+				"gameEnd",
+				"gameEndTime"
+			],
+			[
+				"game",
+				"gameOver"
+			],
+			[
+				"stop",
+				"stopTime"
+			],
+			[
+				"fin",
+				"finishGame"
+			],
+			[
+				"pla",
+				"playGame"
+			],
+			[
+				"remove",
+				"remove	.remove()"
+			],
+			[
+				"hea",
+				"heart"
+			],
+			[
+				"sof",
+				"sofa01.png	w:443 h:411"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"tab",
+				"table02.jpg	w:640 h:172"
+			],
+			[
+				"han",
+				"hand03.png	w:494 h:153"
+			],
+			[
+				"music",
+				"music03.png	w:154 h:97"
+			],
+			[
+				"trx",
+				"trf-tx	transform: translateX(${1:x});"
+			],
+			[
+				"pro",
+				"progress03.png	w:23 h:31"
+			],
+			[
+				"pr",
+				"progress-tit50.png	w:89 h:62"
+			],
+			[
+				"j",
+				"jquery.timers.min.js"
+			],
+			[
+				"jqr",
+				"jquery.timers"
+			],
+			[
+				"progress-tit",
+				"progress-tit50.png	w:89 h:62"
+			],
+			[
+				"im",
+				"img/"
+			],
+			[
+				"mus",
+				"music02.png	w:54 h:74"
+			],
+			[
+				"peop",
+				"people02	(style.less)"
+			],
+			[
+				"sta",
+				"stage01.png	w:515 h:198"
+			],
+			[
+				"stage",
+				"stage01	(main.js)"
+			],
+			[
+				"txt",
+				"txt04.png	w:454 h:124"
+			],
+			[
+				"poin",
+				"pointer-events"
+			],
+			[
+				"shin",
+				"shine01.png	w:267 h:100"
+			],
+			[
+				"kuaizi",
+				"kuaizi01.png	w:133 h:254"
+			],
+			[
+				"hand01",
+				"hand01.png	w:73 h:94"
+			],
+			[
+				"bg01",
+				"bg01.jpg	w:640 h:1515"
+			],
+			[
+				"ti",
+				"ticket"
+			],
+			[
+				"pin",
+				"pin01.png	w:64 h:54"
+			],
+			[
+				"aw",
+				"award50.png	w:492 h:267"
+			],
+			[
+				"txt05",
+				"txt05.png	w:485 h:95"
+			],
+			[
+				"bg03",
+				"bg03.png	w:591 h:122"
+			],
+			[
+				"btn02",
+				"btn02.png	w:316 h:94"
+			],
+			[
+				"heart",
+				"heart01.png	w:35 h:32"
+			],
+			[
+				"dog",
+				"dog02.png	w:180 h:221"
+			],
+			[
+				"people06",
+				"people06.png	w:261 h:456"
+			],
+			[
+				"jpg",
+				"banner02.jpg	w:381 h:247"
+			],
+			[
+				"banne",
+				"banner01.png	w:402 h:143"
+			],
+			[
+				"err",
+				"errmsg"
+			],
+			[
+				"anima",
+				"animated"
+			],
+			[
+				"anim",
+				"animated"
+			],
+			[
+				"hand",
+				"hand02.png	w:293 h:118"
+			],
+			[
+				"con",
+				"contain	(style.less)"
+			],
+			[
+				"shak",
+				"shakeHead	(style.less)"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"logo-",
+				"logo-t2.png	w:603 h:283"
+			],
+			[
+				"head",
+				"head04.png	w:167 h:231"
+			],
+			[
+				"p",
+				"preloadjs-0.6.1.min.js"
+			],
+			[
+				"li",
+				"lib/"
+			],
+			[
+				"sc",
+				"scroll"
+			],
+			[
+				"re",
+				"resource/"
+			],
+			[
+				"pred",
+				"preventDefault()	Event"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"bg",
+				"bg+	background: ${1:#fff} url(${2}) ${3:0} ${4:0} ${5:no-repeat};"
+			],
+			[
+				"outer",
+				"outerHeight	.outerHeight()"
+			],
+			[
+				"slide",
+				"slideDown	.slideDown()"
+			],
+			[
+				"an",
+				"angular-sanitize.min.js"
+			],
+			[
+				"vide",
+				"video-preload.png	w:800 h:450"
+			],
+			[
+				"wid",
+				"width	.width()"
+			],
+			[
+				"fadeInDown",
+				"fadeInDownBig"
+			],
+			[
+				"ta",
+				"ta-l	text-align: left;"
+			],
+			[
+				"tal",
+				"tal-l	text-align-last: left;"
+			],
+			[
+				"dis",
+				"disabled"
+			],
+			[
+				"uc-",
+				"uc-card-2.html"
+			],
+			[
+				"sr",
+				"src	src=\"\""
+			],
+			[
+				"award",
+				"awardlist"
+			],
+			[
+				"per",
+				"percentage"
+			],
+			[
+				"in",
+				"inherit"
+			],
+			[
+				"awar",
+				"award-1"
+			],
+			[
+				"tr",
+				"transparent"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"for",
+				"form	form"
+			],
+			[
+				"awa",
+				"award-3"
+			],
+			[
+				"sub",
+				"submit	.submit()"
+			],
+			[
+				"pop",
+				"popup"
+			],
+			[
+				"trANS",
+				"transparent"
+			],
+			[
+				"inf",
+				"infinite"
+			],
+			[
+				"sha",
+				"shake.js"
+			],
+			[
+				"pac",
+				"pace.min.js"
+			],
+			[
+				"le",
+				"less/"
+			],
+			[
+				"pre",
+				"percentage"
+			],
+			[
+				"bann",
+				"banner-btn.png	w:95 h:26"
+			],
+			[
+				"sel",
+				"select-file.png	w:124 h:124"
+			],
+			[
+				"shunan",
+				"shunanzhuhai.jpg	w:960 h:1495"
+			],
+			[
+				"de",
+				"decimal"
+			],
+			[
+				"bower",
+				"bower_components/"
+			],
+			[
+				"ve",
+				"vendor/"
+			],
+			[
+				"eas",
+				"easytabs/"
+			],
+			[
+				"bo",
+				"bower_components/"
+			],
+			[
+				"top",
+				"topbg.jpg	w:960 h:208"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"home",
+				"home-btn2.png	w:359 h:92"
+			],
+			[
+				"hom",
+				"home-btn1.png	w:359 h:92"
+			],
+			[
+				"text",
+				"text-indent"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"clos",
+				"close.png	w:55 h:56"
+			],
+			[
+				"qr",
+				"qr-follow.png	w:104 h:105"
+			],
+			[
+				"share-",
+				"share-wechat.png	w:60 h:49"
+			],
+			[
+				"vi",
+				"video.jpg	w:650 h:273"
+			],
+			[
+				"tar",
+				"ta-r	text-align: right;"
+			],
+			[
+				"mouse",
+				"mouseleave	.mouseleave()"
+			],
+			[
+				"ba",
+				"banner-1.1.jpg	w:408 h:525"
+			],
+			[
+				"ima",
+				"images/"
+			],
+			[
+				"jquery",
+				"jquery.browser"
+			],
+			[
+				"ea",
+				"easytabs/"
+			],
+			[
+				"ma",
+				"main.js"
+			],
+			[
+				"tabl-c",
+				"table-cell"
+			],
+			[
+				"whi",
+				"white-space"
+			],
+			[
+				"togg",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"check",
+				"check_order"
+			],
+			[
+				"f_",
+				"f_img"
+			],
+			[
+				"off",
+				"offset	.offset()"
+			],
+			[
+				"table-",
+				"table-row"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 173.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"svn",
+				"SVN: Checkout…"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"sftp",
+				"SFTP: Browse Server…"
+			],
+			[
+				"auto",
+				"Autoprefix CSS"
+			],
+			[
+				"au",
+				"Autoprefix CSS"
+			],
+			[
+				"autop",
+				"Autoprefix CSS"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 601.0
+	},
+	"console":
+	{
+		"height": 283.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"import  urllib.request,os;pf='Package Control.sublime-package';ipp=sublime.installed_packages_path();urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler()));open(os.path.join(ipp,pf),'wb').write(urllib.request.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read())",
+			"import urllib2,os;pf='Package Control.sublime-package';ipp=sublime.installed_packages_path();os.makedirs(ipp) if not os.path.exists(ipp) else None;open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/wangshuo/works/personal/2015/tangchao1/page/jade/index.jade",
+		"/Users/wangshuo/works/personal/2015/tangchao1/page/less/main.less",
+		"/Users/wangshuo/works/personal/2015/tangchao1/page/js/main.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/150616-12feng/js/main.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/150616-12feng/less/pre2.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/150616-12feng/less/gameend.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/150616-12feng/less/game.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/150616-12feng/less/food-duck.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/150616-12feng/less/reset.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/150616-12feng/less/main.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/150616-12feng/less/style.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/150616-12feng/less/animation.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/150616-12feng/less/note.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/150616-12feng/less/pre5.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/150616-12feng/jade/index.jade",
+		"/Applications/XAMPP/xamppfiles/htdocs/mdmt100.com/web/crm/. htaccess",
+		"/Users/wangshuo/Library/Caches/Cleanup At Startup/Transmit/D1838FFC-DCF0-4CAC-906F-4A96C5702BD8/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/150616-12feng/less/pre4.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/150616-12feng/less/pre3.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/150616-12feng/less/loading.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/150616-12feng/less/pre1.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/150616-12feng/less/pin.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/150616-12feng/less/heart.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/150616-12feng/less/dog.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/150616-12feng/less/people.less",
+		"/Users/wangshuo/Library/Application Support/Sublime Text 3/Packages/List LESS Variables/lessvariables.sublime-settings",
+		"/Users/wangshuo/Library/Application Support/Sublime Text 3/Packages/SVN/SVN.sublime-settings",
+		"/Users/wangshuo/Library/Application Support/Sublime Text 3/Packages/Autoprefixer/Autoprefixer.sublime-settings",
+		"/Users/wangshuo/Library/Application Support/Sublime Text 3/Packages/User/Autoprefixer.sublime-settings",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/150616-12feng/bower_components/PreloadJS/lib/preloadjs-NEXT.combined.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/150616-12feng/bower_components/PreloadJS/lib/preloadjs-0.6.1.combined.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/150616-12feng/html/index.html",
+		"/Users/wangshuo/Library/Application Support/Sublime Text 3/Packages/SVN/Default (OSX).sublime-keymap",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201506-联想nbd测试/less/main.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201506-联想nbd测试/less/reset.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201506-联想nbd测试/less/style.less",
+		"/Users/wangshuo/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/巢妈团儿童节-local/less/reset.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/巢妈团儿童节-local/less/main.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/巢妈团儿童节-local/html/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/150616-12feng/jade/layout.jade",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/巢妈团儿童节-local/jade/layout.jade",
+		"/Users/wangshuo/Documents/jade文档.html",
+		"/Users/wangshuo/Desktop/15.06-app/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/lexus/trunk/web/html/mag/15.06/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/test/HelloWorld/template/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/test/HelloWorld/bin-debug/Main.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/newbd_mall/newbd_mall/css/m-activity.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/newbd_mall/newbd_mall/html/activity/activity-m-index.html",
+		"/private/var/folders/_5/km95dh5d40b1k__kxbhfpqgc0000gn/T/smartsvn282445362719087903tmp/openfile__6266885043042562965_activity-m-index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/newbd_mall/newbd_mall/html/activity/activity-index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/newbd_mall/newbd_mall/css/m2-style2-2.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/wp/wp-config.php",
+		"/Users/wangshuo/Downloads/15.06/home.html",
+		"/Users/wangshuo/Desktop/WelcomeAPP/page/welcome.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/LexusApp/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/LexusApp/menu/menu.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/LexusApp/main.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/lexus-book-app/LexusBook/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/lexus-book-app/LexusBook/manifest.json",
+		"/Users/wangshuo/Desktop/修改记录/index.html修改记录.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/20150606ychb/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/20150606ychb/launcher/game-min.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/20150606ychb/launcher/pace.js",
+		"/Users/wangshuo/works/alltosun/tools/yeoman/generator-an-jade-less/package.json",
+		"/Users/wangshuo/Desktop/Hook.js-master/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/lexus/trunk/web/html/mag/get_magazine_list.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/lexus-mag/mag/get_magazine_list.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/lexus-mag/打包资源/HBuilder-Hello/HBuilder-Hello/Pandora/apps/HelloH5/www/manifest.json",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/lexus-mag/打包资源/H5B7FFCC0/www/manifest.json",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/html/success.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/js/regist.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/js/forget.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/js/change.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/html/detail-service.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/html/detail-video.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/html/my-center.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/config.xml",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/html/detail-act.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/js/modify-info.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/html/modify-center.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/js/isLogin.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/js/loginId.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/html/comment.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/html/basic.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/html/basic_address.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/html/change.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/js/header-back-btn.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/html/homePage.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/js/homePage.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/html/login.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/html/regist.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/html/my-save.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/html/m-address.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/高尔夫电视台APP-线上/trunk/html/golf-app/proxy-upload_avatar.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/html/my-act.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/html/recommend.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/html/regist_ok.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/js/login.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/html/forget.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/html/detail-pics.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/html/detail-news.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/html/apply.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/html/baoming.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/css/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/js/everyRoute.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/js/everyAddress.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/js/address.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/js/focus.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/js/lunbo.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/js/md5.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/js/recommend.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/html/add-address.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/html/my-act-detail.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/高尔夫电视台APP-线上/trunk/html/golf-app/html/detail-act.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/高尔夫电视台APP-线上/trunk/html/golf-app/js/everyRoute.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/高尔夫电视台APP-线上/trunk/html/golf-app/html/detail-service.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www/html/searchview.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/高尔夫电视台APP-线上/trunk/html/golf-app/html/basic.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/高尔夫电视台APP-线上/trunk/html/golf-app/html/homePage.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/高尔夫电视台APP-线上/trunk/html/golf-app/html/my-act-detail.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/高尔夫电视台APP-线上/trunk/html/golf-app/html/add-address.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/高尔夫电视台APP-线上/trunk/html/golf-app/html/address.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/高尔夫电视台APP-线上/trunk/html/golf-app/html/apply.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/高尔夫电视台APP-线上/trunk/html/golf-app/html/baoming.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/高尔夫电视台APP-线上/trunk/html/golf-app/html/basic_address.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/高尔夫电视台APP-线上/trunk/html/golf-app/html/change.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/高尔夫电视台APP-线上/trunk/html/golf-app/html/detail-news.html"
+	],
+	"find":
+	{
+		"height": 46.0
+	},
+	"find_in_files":
+	{
+		"height": 109.0,
+		"where_history":
+		[
+			"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201505-golftv-app/golftv/www",
+			"/Applications/XAMPP/xamppfiles/htdocs/alltosun/高尔夫电视台APP-线上/trunk/html",
+			"/Applications/XAMPP/xamppfiles/htdocs/alltosun/高尔夫电视台APP-线上/trunk/",
+			"/Applications/XAMPP/xamppfiles/htdocs/alltosun/高尔夫电视台APP-线上/trunk/html/golf-app",
+			"/Applications/XAMPP/xamppfiles/htdocs/alltosun/201504-zhiqu/trunk/src/html",
+			"/Users/wangshuo/works/alltosun/tools/yeoman/generator-an-jade-less",
+			"/Users/wangshuo/works/personal/2015/terntour/public_html",
+			"/Users/wangshuo/works/2015/terntour/public_html",
+			"/Users/wangshuo/works/2015/terntour/public_html/templets",
+			"/Users/wangshuo/works/2015/terntour/public_html/templets/smore",
+			"/Users/wangshuo/works/2015/terntour/public_html/admin",
+			"/Applications/XAMPP/xamppfiles/htdocs/AlphaAdminTemplate/dist/vendor/StickyTableHeaders,/Applications/XAMPP/xamppfiles/htdocs/AlphaAdminTemplate/dist/vendor/tableExport",
+			"/Applications/XAMPP/xamppfiles/htdocs/AlphaAdminTemplate/dist/vendor/StickyTableHeaders",
+			"/Applications/XAMPP/xamppfiles/htdocs/AlphaAdminTemplate/dist/vendor",
+			"/Applications/XAMPP/xamppfiles/htdocs/AlphaAdminTemplate/dist/js",
+			"/Applications/XAMPP/xamppfiles/htdocs/AlphaAdminTemplate/source/less",
+			"/Applications/XAMPP/xamppfiles/htdocs/AlphaAdmin/HTML"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".food",
+			"ticketParam",
+			"fe.port.ticket",
+			"gameTime",
+			"on('click",
+			"on(\"click",
+			"showPre4",
+			"ticketValue",
+			"showPre3",
+			"../img",
+			"people",
+			"playGame",
+			"people02",
+			"showPre5",
+			"showPre4",
+			"初始状态5：送券",
+			"shine",
+			"argument",
+			"left",
+			":none",
+			"TODO：非法面值，视为已发完",
+			"auto",
+			"src",
+			"scdrc",
+			"data",
+			"/472)",
+			"3vh",
+			"100vh",
+			"354",
+			"absolute",
+			"10px",
+			"absolute",
+			"18px",
+			"8vw",
+			"absolute",
+			"popup-page",
+			".popup-page a",
+			"敬请期待",
+			"swiper-button-next",
+			"nuTh",
+			"transform",
+			"nuT",
+			"important",
+			"nuT",
+			"游戏",
+			"\\u6e38\\u620f",
+			"http://192.168.31.240/alltosun/lexus-mag/mag/",
+			"lexus.alltosun.net",
+			"  <script src=\"../cordova.js\"></script>\n  <script src=\"../cordova_plugins.js\"></script>",
+			"$rootScope.errorInfo",
+			"请您登录",
+			"请求错误",
+			"exitOk",
+			"checkout-float2",
+			"退出登录",
+			"请您登录",
+			"个人中心",
+			"video-border",
+			"<video",
+			"video",
+			"恭喜！",
+			"恭喜，您已成功报名",
+			"is_apply",
+			"window.localStorage.uid",
+			"get_user_info",
+			"registPhone",
+			"registNow",
+			"hasBm",
+			"手机注册",
+			"恭喜你以",
+			"service-info-e",
+			"sayWord",
+			"my-say",
+			"wrap",
+			"sayWord",
+			"input",
+			"changeNow",
+			"change.js",
+			"changePhone",
+			"upload_avatar",
+			"href=\"#",
+			"h're",
+			"-212",
+			"sureExit",
+			"pageTitle",
+			"goB = true",
+			"订购",
+			"want-pay",
+			"hide",
+			"服务详情",
+			"success",
+			"报名步骤一",
+			"bm",
+			"b'm",
+			"true",
+			"go",
+			"ggoB",
+			"bm",
+			"b'm",
+			"报名",
+			"服务详情",
+			"报名",
+			"$http",
+			"$(\".checkout-float\").show();",
+			"isError = true",
+			"isError",
+			"rootScope.title",
+			"rootScope.Title",
+			"isError",
+			"服务详情",
+			"www.cngolf.tv",
+			"user.phone",
+			"myAct",
+			"我的活动详情",
+			"myAct",
+			".my-detail-head p",
+			".act-time",
+			"14p'x",
+			"changePhone",
+			".phone-info",
+			".pic-subject",
+			"pace-activity",
+			"video-content",
+			"slider1_container",
+			"mainPic",
+			"detail_image",
+			"图片详情",
+			"alert"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"/640)",
+			"http://lexus.alltosun.net/html/mag/",
+			"http://lexus.alltosun.net",
+			"  <!--<script src=\"../cordova.js\"></script>\n  <script src=\"../cordova_plugins.js\"></script>-->",
+			"加载中...",
+			"<i class=\"fa fa-angle-left\"></i>返回",
+			"<i class=\"fa fa-angle-left\"></i>",
+			"1.5s linear);",
+			"80%\n    {",
+			"100%\n    {",
+			"2s linear);",
+			"3s linear);",
+			"3s linear infinite);",
+			"3s ease infinite);",
+			"2s ease 1s infinite);",
+			"2s ease .5s infinite);",
+			"2s",
+			"#{f_css}",
+			"#{f_js}",
+			"../images/tmp/",
+			"",
+			"@color-black",
+			"127.0.0.1",
+			"",
+			"#{page_email_view_mail.url}",
+			"entypo-",
+			"",
+			"#{userhead[15]}",
+			"",
+			"i.icon-minus-circled",
+			"i.icon-clock",
+			"i.icon-minus-circled",
+			"icon-folder",
+			"i.fa.fa-file-text-o.mright5\n                |",
+			"span.file\n                i.fa.fa-file-text-o\n                |(.*?).txt",
+			"i.fa.fa-folder-o.mright5\n                |",
+			"span.folder\n                i.fa.fa-folder-o\n                |",
+			"<option data-icon=\"notific8-fontastic-pencil\" value=",
+			"\n\n    ",
+			"    div.ptop10.pbottom10",
+			"\n    h4",
+			"\n \n    h4",
+			"    div.ptop10.pbottom10",
+			"h4",
+			"    h4",
+			"    div.ptop10.pbottom10",
+			"    h4",
+			"   h4",
+			"h5",
+			"th",
+			"sprite-skin-alpha.png",
+			"",
+			"fixed-height-150",
+			"<!doctype html>\n<html class=\"no-js\" lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <title>Progress Bar - UI Elements</title>\n    <meta name=\"description\" content=\"\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    \n    <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->\n    \n    <!-- core styles -->\n    <link rel=\"stylesheet\" href=\"//fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700\">\n    <link rel=\"stylesheet\" href=\"css/bootstrap.min.css\">\n    <link rel=\"stylesheet\" href=\"css/font-awesome.min.css\">\n    <link rel=\"stylesheet\" href=\"css/themify-icons.css\">\n    <link rel=\"stylesheet\" href=\"css/animate.min.css\">\n    <link rel=\"stylesheet\" href=\"css/icheck/all.css\">\n    <link rel=\"stylesheet\" href=\"css/bootstrap-progressbar-3.2.0.css\">\n    <link rel=\"stylesheet\" href=\"css/main.css\">\n    <!-- /core styles -->\n    \n    <!-- template styles -->\n    <link rel=\"stylesheet\" href=\"css/style_1.css\">\n    <!-- /template styles -->\n    \n    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->\n    <!--[if lt IE 9]>\n    <script src=\"js/vendor/html5shiv.min.js\"></script>\n    <script src=\"js/vendor/respond.min.js\"></script>\n    <![endif]-->\n    \n    <!-- load modernizer -->\n    <script src=\"js/vendor/modernizr-2.8.3.min.js\"></script>\n    <!-- /load modernizer -->\n    \n  </head>\n  <body>\n  \n    <!-- IE6/7 can show this notic -->\n    <!--[if lt IE 8]>\n    <p class=\"browsehappy\">You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience.</p>\n    <![endif]-->\n    \n    <div class=\"container-fluid head-wrapper\">\n    \n      <!-- top header -->\n      <header class=\"navbar topheader\" role=\"navigation\">\n        <div class=\"container-fluid\">\n        \n          <div class=\"navbar-header\">\n          \n            <!-- toggle offscreen menu -->\n            <button type=\"button\" class=\"navbar-toggle collapsed sidebar-toggle\" data-toggle=\"collapse\" data-target=\"#sidebar\">\n              <span class=\"icon-bar\"></span>\n              <span class=\"icon-bar\"></span>\n              <span class=\"icon-bar\"></span>\n            </button>\n             <!-- /toggle offscreen menu -->\n            \n            <!-- brand -->\n            <a class=\"navbar-brand brand\" href=\"dashboard.html\"><img src=\"img/logo.png\" alt=\"\"></a>\n            <a class=\"hide navbar-brand navbar-brand-small brand\" href=\"dashboard.html\"><img src=\"img/logo-s.png\" alt=\"\"></a>\n            <!-- /brand -->\n          \n          </div>\n          \n          <div class=\"collapse navbar-collapse navbar-left\">\n            <ul class=\"nav navbar-nav\">\n              \n              <!-- toggle small menu -->\n              <li id=\"smallsidebar-toggle\" class=\"smallsidebar-toogle\"><a href=\"javascript:void(0)\"><i class=\"fa fa-bars\"></i></a></li>\n              <!-- /toggle small menu -->\n              \n              <!-- toggle search -->\n              <li class=\"search-toogle\">\n                <a class=\"pull-left btn-search\" href=\"javascript:void(0)\"><i class=\"fa fa-search\"></i></a>\n                <form class=\"navbar-form pull-left\" role=\"search\">\n                  <div class=\"form-group\">\n                    <input type=\"text\" class=\"form-control topsearch\" placeholder=\"type and press enter\">\n                  </div>\n                </form>\n              </li>\n              <!-- /toggle search -->\n              \n            </ul>\n          </div>\n          \n          <ul class=\"nav navbar-nav navbar-right navbar-top-links\">\n            \n            <!-- Quick Links -->\n            <li class=\"dropdown\">\n              <a class=\"dropdown-toggle\" href=\"javascript:void(0)\" data-toggle=\"dropdown\">\n                <i class=\"fa fa-fw fa-ellipsis-h\"></i>\n              </a>\n              <ul class=\"dropdown-menu dropdown-quick-links\" role=\"menu\">\n                <li class=\"dropdown-header\">Quick Links</li>\n                <li><a href=\"#\">Action</a></li>\n                <li><a href=\"#\">Another action</a></li>\n                <li><a href=\"#\">Something else here</a></li>\n                <li class=\"divider\"></li>\n                <li><a href=\"#\">Separated link</a></li>\n                <li class=\"divider\"></li>\n                <li class=\"disabled\"><a role=\"menuitem\" tabindex=\"-1\" href=\"#\">Disabled link</a></li>\n              </ul>\n            </li>\n            <!-- /Quick Links -->\n            \n            <!-- toggle notifications -->\n            <li class=\"dropdown\">\n              <a class=\"dropdown-toggle\" href=\"javascript:void(0)\" data-toggle=\"dropdown\">\n                <i class=\"fa fa-fw fa-bell-o\"></i>\n                <span class=\"badge badge-blue\">9</span>\n              </a>\n              <ul class=\"dropdown-menu dropdown-notifications\" role=\"menu\">\n                <li class=\"dropdown-header\">You have 9 new notifications</li>\n                \n                <li data-scroll=\"slimscroll\" data-scroll-size=\"350|200\">\n                  <ul class=\"list-unstyled\">\n                    <li>\n                      <a href=\"#\">\n                        <span class=\"label label-primary\">\n                          <i class=\"fa fa-facebook\"></i>\n                        </span>\n                        <span class=\"dropdown-notifications-info\">Will Smith accepted your friend request</span>\n                        <span class=\"small dropdown-notifications-time\">5 mins ago</span>\n                      </a>\n                    </li>\n                    <li>\n                      <a href=\"#\">\n                        <span class=\"label label-info\">\n                          <i class=\"fa fa-twitter\"></i>\n                        </span>\n                        <span class=\"dropdown-notifications-info\">7 New Followers</span>\n                        <span class=\"small dropdown-notifications-time\">7 mins ago</span>\n                      </a>\n                    </li>\n                    <li>\n                      <a href=\"#\">\n                        <span class=\"label label-warning\">\n                          <i class=\"fa fa-weibo\"></i>\n                        </span>\n                        <span class=\"dropdown-notifications-info\">3 Friends Circle Weibos</span>\n                        <span class=\"small dropdown-notifications-time\">10 mins ago</span>\n                      </a>\n                    </li>\n                    <li>\n                      <a href=\"#\">\n                        <span class=\"label label-default\">\n                          <i class=\"fa fa-comment\"></i>\n                        </span>\n                        <span class=\"dropdown-notifications-info\">New Comment</span>\n                        <span class=\"small dropdown-notifications-time\">11 mins ago</span>\n                      </a>\n                    </li>\n                    <li>\n                      <a href=\"#\">\n                        <span class=\"label label-success\">\n                          <i class=\"fa fa-envelope\"></i>\n                        </span>\n                        <span class=\"dropdown-notifications-info\">New Message</span>\n                        <span class=\"small dropdown-notifications-time\">11 mins ago</span>\n                      </a>\n                    </li>\n                    <li>\n                      <a href=\"#\">\n                        <span class=\"label label-danger\">\n                          <i class=\"fa fa-fw fa-tasks\"></i>\n                        </span>\n                        <span class=\"dropdown-notifications-info\">New Task</span>\n                        <span class=\"small dropdown-notifications-time\">32 mins ago</span>\n                      </a>\n                    </li>\n                    <li>\n                      <a href=\"#\">\n                        <span class=\"label label-danger\">\n                          <i class=\"fa fa-fw fa-warning\"></i>\n                        </span>\n                        <span class=\"dropdown-notifications-info\">Server Rebooted</span>\n                        <span class=\"small dropdown-notifications-time\">37 mins ago</span>\n                      </a>\n                    </li>\n                    <li>\n                      <a href=\"#\">\n                        <span class=\"label label-success\">\n                          <i class=\"fa fa-fw fa-upload\"></i>\n                        </span>\n                        <span class=\"dropdown-notifications-info\">Upload Progress</span>\n                        <span class=\"small dropdown-notifications-time\">39 mins ago</span>\n                        <div class=\"progress\">\n                          <div class=\"progress-bar progress-bar-striped active\" role=\"progressbar\" data-transitiongoal=\"60\" aria-valuemin=\"0\" aria-valuemax=\"100\"></div>\n                        </div>\n                      </a>\n                    </li>\n                  </ul>\n                </li>\n                \n                <li class=\"dropdown-footer text-right\"><a href=\"#\">See all alerts</a></li>\n              </ul>\n            </li>\n            <!-- /toggle notifications -->\n            \n            <!-- toggle messages -->\n            <li class=\"dropdown\">\n              <a class=\"dropdown-toggle\" href=\"javascript:void(0)\" data-toggle=\"dropdown\">\n                <i class=\"fa fa-fw fa-envelope-o\"></i>\n                <span class=\"badge badge-red\">5</span>\n              </a>\n              <ul class=\"dropdown-menu dropdown-messages\" role=\"menu\">\n                <li class=\"dropdown-header\">You have 5 new messages</li>\n                \n                <li data-scroll=\"slimscroll\" data-scroll-size=\"300|256\">\n                  <ul class=\"list-unstyled\">\n                    <li>\n                      <a href=\"email-view_mail.html\">\n                        <dl class=\"media\">\n                          <dt class=\"pull-left\" href=\"#\">\n                            <img class=\"media-object img-circle img-responsive\" src=\"img/user-head-1.jpg\" alt=\"Gem Tang\">\n                          </dt>\n                          <dd class=\"media-body\">\n                            <h6 class=\"media-heading\">Gem Tang <span class=\"badge badge-blue\">New</span></h6>\n                            <p><small>Thanks to my two babes, Laurinda & Renee:)</small></p>\n                          </dd>\n                        </dl>\n                      </a>\n                    </li>\n                    \n                    <li>\n                      <a href=\"email-view_mail.html\">\n                        <dl class=\"media\">\n                          <dt class=\"pull-left\" href=\"#\">\n                            <img class=\"media-object img-circle img-responsive\" src=\"img/user-head-2.jpg\" alt=\"Julien Gong Min\">\n                          </dt>\n                          <dd class=\"media-body\">\n                            <h6 class=\"media-heading\">Julien Gong Min <span class=\"badge badge-orange\">Trash</span></h6>\n                            <p><small>I typed two articles with Hanx Writer app. Gee. It really helps me to write more</small></p>\n                          </dd>\n                        </dl>\n                      </a>\n                    </li>\n                    \n                    <li>\n                      <a href=\"email-view_mail.html\">\n                        <dl class=\"media\">\n                          <dt class=\"pull-left\" href=\"#\">\n                            <img class=\"media-object img-circle img-responsive\" src=\"img/user-head-3.jpg\" alt=\"Mophy Mo\">\n                          </dt>\n                          <dd class=\"media-body\">\n                            <h6 class=\"media-heading\">Mophy Mo <span class=\"badge badge-red\">Social</span></h6>\n                            <p><small>Flat Interaction Design</small></p>\n                          </dd>\n                        </dl>\n                      </a>\n                    </li>\n                    \n                    <li>\n                      <a href=\"email-view_mail.html\">\n                        <dl class=\"media\">\n                          <dt class=\"pull-left\" href=\"#\">\n                            <img class=\"media-object img-circle img-responsive\" src=\"img/user-head-4.jpg\" alt=\"Michael Wynn Ma\">\n                          </dt>\n                          <dd class=\"media-body\">\n                            <h6 class=\"media-heading\">Michael Wynn Ma <span class=\"badge badge-blue\">Promotions</span></h6>\n                            <p><small>there is no noise about Smartisan ? let me show it. thats pretty good</small></p>\n                          </dd>\n                        </dl>\n                      </a>\n                    </li>\n                    \n                    <li>\n                      <a href=\"email-view_mail.html\">\n                        <dl class=\"media\">\n                          <dt class=\"pull-left\" href=\"#\">\n                            <img class=\"media-object img-circle img-responsive\" src=\"img/user-head-5.jpg\" alt=\"Mag Fay\">\n                          </dt>\n                          <dd class=\"media-body\">\n                            <h6 class=\"media-heading\">Mag Fay <span class=\"badge badge-green\">Updates</span></h6>\n                            <p><small>Skandinavien ! Köstliche Lachs, kalten Sommer , eine schöne Meerjungfrau Legenden, die kritischste ist meinen Vater mit mir</small></p>\n                          </dd>\n                        </dl>\n                      </a>\n                    </li>\n                  </ul>\n                </li>\n                \n                <li class=\"dropdown-footer text-right\"><a href=\"email-inbox.html\">Read all messages</a></li>\n              </ul>\n            </li>\n            <!-- /toggle messages -->\n            \n            <!-- toggle tasks -->\n            <li class=\"dropdown\">\n              <a class=\"dropdown-toggle\" href=\"javascript:void(0)\" data-toggle=\"dropdown\">\n                <i class=\"fa fa-fw fa-tasks\"></i>\n                <span class=\"badge badge-orange\">6</span>\n              </a>\n              <ul class=\"dropdown-menu dropdown-tasks\" role=\"menu\">\n                <li class=\"dropdown-header\">You have 6 pending tasks</li>\n                \n                <li data-scroll=\"slimscroll\" data-scroll-size=\"250|186\">\n                  <ul class=\"list-unstyled\">\n                    <li>\n                      <a href=\"#\">\n                        <h6>Fix BUG #479</h6>\n                        <div class=\"progress\">\n                          <div class=\"progress-bar progress-bar-danger\" role=\"progressbar\" aria-valuenow=\"47\" aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"width:47%;\">\n                            47%\n                          </div>\n                        </div>\n                      </a>\n                    </li>\n                    <li>\n                      <a href=\"#\">\n                        <h6>Review javascript code</h6>\n                        <div class=\"progress\">\n                          <div class=\"progress-bar progress-bar-success\" role=\"progressbar\" aria-valuenow=\"47\" aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"width:87%;\">\n                            87%\n                          </div>\n                        </div>\n                      </a>\n                    </li>\n                    <li>\n                      <a href=\"#\">\n                        <h6>Update database</h6>\n                        <div class=\"progress\">\n                          <div class=\"progress-bar progress-bar-info\" role=\"progressbar\" aria-valuenow=\"47\" aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"width:53%;\">\n                            53%\n                          </div>\n                        </div>\n                      </a>\n                    </li>\n                    <li>\n                      <a href=\"#\">\n                        <h6>Reinstall the server operating system</h6>\n                        <div class=\"progress\">\n                          <div class=\"progress-bar progress-bar-warning\" role=\"progressbar\" aria-valuenow=\"47\" aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"width:10%;\">\n                            10%\n                          </div>\n                        </div>\n                      </a>\n                    </li>\n                  </ul>\n                </li>\n                \n                <li class=\"dropdown-footer text-right\"><a href=\"#\">See all tasks</a></li>\n              </ul>\n            </li>\n            <!-- /toogle tasks -->\n            \n            <!-- toggle personal menu -->\n            <li class=\"dropdown topbar-user\">\n              <a class=\"dropdown-toggle\" href=\"javascript:void(0)\" data-toggle=\"dropdown\">\n                <img src=\"img/user-head-6.jpg\" class=\"img-circle\" alt=\"Ryan Hsu\" title=\"Ryan Hsu\">\n                Ryan Hsu\n                <span class=\"caret\"></span>\n              </a>\n              <ul class=\"dropdown-menu dropdown-personal\" role=\"menu\">\n                <li>\n                  <a href=\"pages-profile.html\">\n                    <i class=\"fa fa-user\"></i>\n                    My Profile\n                  </a>\n                </li>\n                <li>\n                  <a href=\"pages-calendar.html\">\n                    <i class=\"fa fa-calendar\"></i>\n                    My Calendar\n                  </a>\n                </li>\n                <li>\n                  <a href=\"email-inbox.html\">\n                    <i class=\"fa fa-envelope\"></i>\n                    My Inbox\n                    <span class=\"badge badge-orange\">5</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"#\">\n                    <i class=\"fa fa-calendar\"></i>\n                    My Tasks\n                    <span class=\"badge badge-red\">6</span>\n                  </a>\n                </li>\n                <li class=\"divider\"></li>\n                <li>\n                  <a href=\"#\">\n                    <i class=\"fa fa-cog\"></i>\n                    Settings\n                  </a>\n                </li>\n                <li>\n                  <a href=\"#\">\n                    <i class=\"fa fa-cloud-download\"></i>\n                    Upgrade\n                  </a>\n                </li>\n                <li>\n                  <a href=\"#\">\n                    <i class=\"fa fa-question-circle\"></i>\n                    Help\n                  </a>\n                </li>\n                <li class=\"divider\"></li>\n                <li>\n                  <a href=\"pages-lock_screen.html\">\n                    <i class=\"fa fa-lock\"></i>\n                    Lock Screen\n                  </a>\n                </li>\n                <li>\n                  <a href=\"pages-lock_screen.html\">\n                    <i class=\"fa fa-sign-out\"></i>\n                    Sign Out\n                  </a>\n                </li>\n              </ul>\n            </li>\n            <!-- /toggle personal menu -->\n            \n          </ul>\n          \n        </div>\n      </header>\n      <!-- /top header -->\n      \n    </div>\n      \n    <div class=\"container-fluid page-wrapper\">\n        \n      <!-- sidebar -->\n      <nav id=\"sidebar\" class=\"sidebar\" role=\"navigation\">\n        <div class=\"sidebar-collapse collapse\">\n          \n          <!-- sidebar profile -->\n          <ul class=\"nav side-menu\">\n            <li class=\"sidebar-profile\">\n              <div class=\"media\">\n                <div class=\"pull-left\">\n                  <img class=\"media-object img-circle img-responsive\" src=\"img/user-head-7.jpg\" alt=\"Ryan Hsu\">\n                </div>\n                <div class=\"media-body\">\n                  <h5 class=\"media-heading\">Ryan Hsu <span class=\"badge badge-green\" data-hover=\"tooltip\" title=\"online\" data-placement=\"right\">&nbsp;</span></h5>\n                  <ul class=\"list-inline list-unstyled\">\n                    <li><a href=\"pages-profile.html\" data-hover=\"tooltip\" title=\"Profile\" data-placement=\"top\"><i class=\"fa fa-user\"></i></a></li>\n                    <li><a href=\"email-inbox.html\" data-hover=\"tooltip\" title=\"Mail\" data-placement=\"top\"><i class=\"fa fa-envelope\"></i></a></li>\n                    <li><a href=\"#\" data-hover=\"tooltip\" title=\"Settings\" data-placement=\"top\"><i class=\"fa fa-cog\"></i></a></li>\n                    <li><a href=\"pages-lock_screen.html\" data-hover=\"tooltip\" title=\"Logout\" data-placement=\"top\"><i class=\"fa fa-sign-out\"></i></a></li>\n                  </ul>\n                </div>\n              </div>\n            </li>            \n          </ul>\n          <!-- /sidebar profile -->\n          \n          <!-- sidebar menu -->\n          <h4 class=\"side-menu-title\">MENU</h4>\n          <ul class=\"nav side-menu\">\n            <li>\n              <a href=\"dashboard.html\">\n                <i class=\"fa fa-tachometer\"></i>\n                <span class=\"menu-title\">Dashboard</span>\n              </a>\n            </li>\n            <li>\n              <a href=\"javascript:void(0)\" data-trigger=\"collapse\" data-parent=\"#sidebar\">\n                <i class=\"fa fa-columns\"></i>\n                <span class=\"menu-title\">Layouts</span>\n                <span class=\"fa fa-angle-left arrow\"></span>\n              </a>\n              <ul class=\"nav side-menu-sub collapsible\" style=\"display:none;\">\n                <li>\n                  <a href=\"layout-left_sidebar.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Left Sidebar</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"layout-left_sidebar_collapsed.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Left Sidebar Collapsed</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"layout-right_sidebar.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Right Sidebar</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"layout-right_sidebar_collapsed.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Right Sidebar Collapsed</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"layout-horizontal_menu_and_sidebar.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Horizontal Menu & Side Bar</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"layout-horizontal_menu.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Horizontal Menu</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"layout-horizontal_menu_boxed.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Horizontal Boxed</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"layout-fixed_topbar.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Fixed Topbar</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"layout-language_switcher.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Language Switcher</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"layout-boxed_layout.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Boxed Layout</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"layout-title_and_breadcrumb.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Title &amp; Breadcrumb</span>\n                  </a>\n                </li>\n              </ul>\n            </li>\n            <li>\n              <a class=\"active\" href=\"javascript:void(0)\" data-trigger=\"collapse\" data-parent=\"#sidebar\">\n                <i class=\"fa fa-laptop\"></i>\n                <span class=\"menu-title\">UI Elements</span>\n                <span class=\"fa fa-angle-left arrow\"></span>\n              </a>\n              <ul class=\"nav side-menu-sub collapsible\" style=\"display:;\">\n                <li>\n                  <a href=\"ui-buttons.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Buttons</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"ui-general.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">General</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"ui-typography.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Typography</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"ui-tabs_and_accordions.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Tabs &amp; Accordions</span>\n                  </a>\n                </li>\n                <li>\n                  <a class=\"active\" href=\"ui-progress_bars.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Progress Bar</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"ui-sliders.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Silders</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"ui-modals.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Modals</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"ui-checkbox_and_radio.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Checkbox &amp; Radio</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"ui-icons.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Icons</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"ui-grid_layout.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Grid Layout</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"ui-widgets.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Widgets</span>\n                  </a>\n                </li>\n              </ul>\n            </li>\n            <li>\n              <a href=\"javascript:void(0)\" data-trigger=\"collapse\" data-parent=\"#sidebar\">\n                <i class=\"fa fa-desktop\"></i>\n                <span class=\"menu-title\">UI Advanced</span>\n                <span class=\"fa fa-angle-left arrow\"></span>\n              </a>\n              <ul class=\"nav side-menu-sub collapsible\" style=\"display:none;\">\n                <li>\n                  <a href=\"uia-preloader.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Preloader</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"uia-editor.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Editor</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"uia-sortable_and_nestable_lists.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Sortable &amp; Netsable List</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"uia-dropdown_select.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Dropdown Select</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"uia-toastr_notifications.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Toastr Notifications</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"uia-tree_view.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Tree View</span>\n                  </a>\n                </li>\n              </ul>\n            </li>\n            <li>\n              <a href=\"javascript:void(0)\" data-trigger=\"collapse\" data-parent=\"#sidebar\">\n                <i class=\"fa fa-pencil-square-o\"></i>\n                <span class=\"menu-title\">Forms</span>\n                <span class=\"fa fa-angle-left arrow\"></span>\n              </a>\n              <ul class=\"nav side-menu-sub collapsible\" style=\"display:none;\">\n                <li>\n                  <a href=\"forms-form_layouts.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Form Layouts</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"forms-form_elements.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Forms Elements</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"forms-coustomized_elements.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Customized Elements</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"forms-form_basics.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Form Basics</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"forms-form_wizards.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Form Wizards</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"forms-form_validation.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Form Validation</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"forms-form_pickers.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Form Pickers</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"forms-multiple_file_upload.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Multiple File Upload</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"forms-dropzone_file_upload.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Dropzone File Upload</span>\n                  </a>\n                </li>\n              </ul>\n            </li>\n            <li>\n              <a href=\"javascript:void(0)\" data-trigger=\"collapse\" data-parent=\"#sidebar\">\n                <i class=\"fa fa-table\"></i>\n                <span class=\"menu-title\">Tables</span>\n                <span class=\"fa fa-angle-left arrow\"></span>\n              </a>\n              <ul class=\"nav side-menu-sub collapsible\" style=\"display:none;\">\n                <li>\n                  <a href=\"tables-basic_tables.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Basic Tables</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"tables-resonsive_tables.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Resonsive Tables</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"tables-action_tables.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Action Tables</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"tables-filter_tables.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Filter Tables</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"tables-table_export.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Table Export</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"tables-jeditable.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Jeditable</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"tables-data_tables.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Data Tables</span>\n                  </a>\n                </li>\n              </ul>\n            </li>\n            <li>\n              <a href=\"javascript:void(0)\" data-trigger=\"collapse\" data-parent=\"#sidebar\">\n                <i class=\"fa fa-file-o\"></i>\n                <span class=\"menu-title\">Pages</span>\n                <span class=\"fa fa-angle-left arrow\"></span>\n              </a>\n              <ul class=\"nav side-menu-sub collapsible\" style=\"display:none;\">\n                <li>\n                  <a href=\"pages-profile.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Profile</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"pages-invoice.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Invoice</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"pages-gallery.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Gallery</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"pages-calendar.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Calendar</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"pages-timeline.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Timeline</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"pages-blog_page.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Blog Page</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"pages-blog_item.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Blog Item</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"pages-about_us.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">About Us</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"pages-contact_us.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Contact Us</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"pages-signin.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Signin</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"pages-signup.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Signup</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"pages-forgot_password.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Forgot Password</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"pages-lock_screen.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Lock Screen</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"pages-404.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">404 Page</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"pages-500.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">500 page</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"pages-user_list.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">User List</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"pages-faq.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">FAQ</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"pages-pricing_tables.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Pricing Tables</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"pages-change_log.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Change Log</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"pages-user_list.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Blank Page</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"pages-fullscreen.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Full Screen</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"pages-catalog.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Catalog</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"pages-chat.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Chat</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"pages-search_result.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Search Result</span>\n                  </a>\n                </li>\n              </ul>\n            </li>\n            <li>\n              <a href=\"javascript:void(0)\" data-trigger=\"collapse\" data-parent=\"#sidebar\">\n                <i class=\"fa fa-envelope-o\"></i>\n                <span class=\"menu-title\">Email</span>\n                <span class=\"fa fa-angle-left arrow\"></span>\n              </a>\n              <ul class=\"nav side-menu-sub collapsible\" style=\"display:none;\">\n                <li>\n                  <a href=\"email-inbox.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Inbox</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"email-compose_mail.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Compose Mail</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"email-view_mail.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">View Mail</span>\n                  </a>\n                </li>\n              </ul>\n            </li>\n            <li>\n              <a href=\"javascript:void(0)\" data-trigger=\"collapse\" data-parent=\"#sidebar\">\n                <i class=\"fa fa-line-chart\"></i>\n                <span class=\"menu-title\">Charts</span>\n                <span class=\"fa fa-angle-left arrow\"></span>\n              </a>\n              <ul class=\"nav side-menu-sub collapsible\" style=\"display:none;\">\n                <li>\n                  <a href=\"chart-flot_charts.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Flot Charts</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"chart-chart.js.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Chart.js</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"chart-easy_pie_chart.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Easy Pie Chart</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"chart-highcharts-line.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">HighCharts</span>\n                  </a>\n                </li>\n              </ul>\n            </li>\n            <li>\n              <a href=\"javascript:void(0)\" data-trigger=\"collapse\" data-parent=\"#sidebar\">\n                <i class=\"fa fa-map-marker\"></i>\n                <span class=\"menu-title\">Maps</span>\n                <span class=\"label label-danger\">New</span>\n                <span class=\"fa fa-angle-left arrow\"></span>\n              </a>\n              <ul class=\"nav side-menu-sub collapsible\" style=\"display:none;\">\n                <li>\n                  <a href=\"maps-google_map.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Google Map</span>\n                  </a>\n                </li>\n                <li>\n                  <a href=\"maps-jvector_map.html\">\n                    <i class=\"fa fa-angle-double-right\"></i>\n                    <span class=\"menu-title\">Jvector Map</span>\n                  </a>\n                </li>\n              </ul>\n            </li>\n          </ul>\n          <!-- /sidebar menu -->\n          \n          <!-- Labels -->\n          <h4 class=\"side-menu-title\">LABELS</h4>\n          <ul class=\"nav side-menu\">\n            <li>\n              <a href=\"#\">\n                <i class=\"fa fa-circle-o text-success\"></i>\n                <span class=\"menu-title\">Trash</span>\n              </a>\n            </li>\n            <li>\n              <a href=\"#\">\n                <i class=\"fa fa-circle-o text-danger\"></i>\n                <span class=\"menu-title\">New</span>\n              </a>\n            </li>\n            <li>\n              <a href=\"#\">\n                <i class=\"fa fa-circle-o text-warning\"></i>\n                <span class=\"menu-title\">Social</span>\n              </a>\n            </li>\n          </ul>\n          <!-- /Labels -->\n          \n        </div>\n      </nav>\n      <!-- /sidebar -->\n      \n      <!-- main -->\n      <div class=\"main\">\n        \n        <!-- Title & Breadcrumb -->\n        <div class=\"layouts-title-breadcrumb clearfix\">\n          <!-- Breadcrumb -->\n          <ol class=\"breadcrumb layout-breadcrumb\">\n            <li><a href=\"dashboard.html\"><i class=\"fa fa-home\"></i> Home</a></li>\n            <li><a href=\"#\">UI Elements</a></li>\n            <li class=\"active\">Progress Bar</li>\n          </ol>\n          <!-- /Breadcrumb -->\n          <!-- Title -->\n          <div class=\"layout-title\">\n            <h3>Progress Bar</h3>\n          </div>\n          <!-- /Title -->\n        </div>\n        <!-- /Title & Breadcrumb -->\n        \n        <!-- Page content -->\n        <div class=\"container-fluid page-content\">\n          <div class=\"row\">\n            <div class=\"col-lg-12\">\n              \n              <!-- Nav Tabs -->\n              <ul class=\"nav nav-tabs nav-tabs-orange\" role=\"tablist\">\n                <li class=\"active\"><a href=\"#horizontal\" role=\"tab\" data-toggle=\"tab\">Horizontal</a></li>\n                <li><a href=\"#vertical\" role=\"tab\" data-toggle=\"tab\">Vertical</a></li>\n              </ul>\n              <!-- /Nav Tabs -->\n              \n              <!-- Tab Panes -->\n              <div class=\"tab-content\">\n                \n                <!-- Horizontal -->\n                <div class=\"tab-pane fade in active\" id=\"horizontal\">\n                  <div class=\"row\">\n            \n                    <div class=\"col-lg-4\">\n                      \n                      <div class=\"panel panel-white\">\n                        <div class=\"panel-heading\">Horizontal</div>\n                        <div class=\"panel-body\">\n                          \n                          <!-- Basic -->\n                          <h3>Basic</h3>\n                          \n                          <div class=\"progress\">\n                              <div class=\"progress-bar\" role=\"progressbar\" data-transitiongoal=\"20\"></div>\n                          </div>\n                          <!-- /Basic -->\n                          \n                          <br>\n                          \n                          <!-- Themed -->\n                          <h3>Themed</h3>\n                          \n                          <div class=\"progress\">\n                              <div class=\"progress-bar progress-bar-success\" role=\"progressbar\" data-transitiongoal=\"40\"></div>\n                          </div>\n                          <div class=\"progress\">\n                              <div class=\"progress-bar progress-bar-info\" role=\"progressbar\" data-transitiongoal=\"60\"></div>\n                          </div>\n                          <div class=\"progress\">\n                              <div class=\"progress-bar progress-bar-warning\" role=\"progressbar\" data-transitiongoal=\"80\"></div>\n                          </div>\n                          <div class=\"progress\">\n                              <div class=\"progress-bar progress-bar-danger\" role=\"progressbar\" data-transitiongoal=\"100\"></div>\n                          </div>\n                          <!-- /Themed -->\n                          \n                          <br>\n                          \n                          <!-- Striped -->\n                          <h3>Striped</h3>\n                          \n                          <div class=\"progress progress-striped\">\n                              <div class=\"progress-bar\" role=\"progressbar\" data-transitiongoal=\"20\"></div>\n                          </div>\n                          <div class=\"progress progress-striped\">\n                              <div class=\"progress-bar progress-bar-success\" role=\"progressbar\" data-transitiongoal=\"40\"></div>\n                          </div>\n                          <div class=\"progress progress-striped\">\n                              <div class=\"progress-bar progress-bar-info\" role=\"progressbar\" data-transitiongoal=\"60\"></div>\n                          </div>\n                          <div class=\"progress progress-striped\">\n                              <div class=\"progress-bar progress-bar-warning\" role=\"progressbar\" data-transitiongoal=\"80\"></div>\n                          </div>\n                          <div class=\"progress progress-striped\">\n                              <div class=\"progress-bar progress-bar-danger\" role=\"progressbar\" data-transitiongoal=\"100\"></div>\n                          </div>\n                          <!-- /Striped -->\n                          \n                          <br>\n                          \n                          <!-- Animated -->\n                          <h3>Animated</h3>\n                          \n                          <div class=\"progress progress-striped active\">\n                              <div class=\"progress-bar progress-bar-striped\" role=\"progressbar\" data-transitiongoal=\"20\"></div>\n                          </div>\n                          <div class=\"progress progress-striped active\">\n                              <div class=\"progress-bar progress-bar-success\" role=\"progressbar\" data-transitiongoal=\"40\"></div>\n                          </div>\n                          <div class=\"progress progress-striped active\">\n                              <div class=\"progress-bar progress-bar-info\" role=\"progressbar\" data-transitiongoal=\"60\"></div>\n                          </div>\n                          <div class=\"progress progress-striped active\">\n                              <div class=\"progress-bar progress-bar-warning\" role=\"progressbar\" data-transitiongoal=\"80\"></div>\n                          </div>\n                          <div class=\"progress progress-striped active\">\n                              <div class=\"progress-bar progress-bar-danger\" role=\"progressbar\" data-transitiongoal=\"100\"></div>\n                          </div>\n                          <!-- /Animated -->\n                          \n                          <br>\n                          \n                          <!-- Custom aria range -->\n                          <h3>Custom aria range</h3>\n                          \n                          <div class=\"progress progress-striped\">\n                              <div class=\"progress-bar\" role=\"progressbar\" data-transitiongoal=\"2\" aria-valuemin=\"1\" aria-valuemax=\"6\"></div>\n                          </div>\n                          <div class=\"progress progress-striped\">\n                              <div class=\"progress-bar progress-bar-success\" role=\"progressbar\" data-transitiongoal=\"40\" aria-valuemin=\"-40\" aria-valuemax=\"200\"></div>\n                          </div>\n                          <div class=\"progress progress-striped\">\n                              <div class=\"progress-bar progress-bar-info\" role=\"progressbar\" data-transitiongoal=\"60\" aria-valuemax=\"120\"></div>\n                          </div>\n                          <div class=\"progress progress-striped\">\n                              <div class=\"progress-bar progress-bar-warning\" role=\"progressbar\" data-transitiongoal=\"80\" aria-valuemin=\"30\"></div>\n                          </div>\n                          <div class=\"progress progress-striped\">\n                              <div class=\"progress-bar progress-bar-danger\" role=\"progressbar\" data-transitiongoal=\"100\"></div>\n                          </div>\n                          <!-- /Custom aria range -->\n                          \n                          <br>\n                          \n                          <!-- custom animations -->\n                          <h3>Custom Animations</h3>\n                          \n                          <style>\n                          .six-sec-ease-in-out {\n                              -webkit-transition: width 6s ease-in-out;\n                              -moz-transition: width 6s ease-in-out;\n                              -ms-transition: width 6s ease-in-out;\n                              -o-transition: width 6s ease-in-out;\n                              transition: width 6s ease-in-out;\n                          }\n                          </style>\n                          <div class=\"progress\">\n                              <div class=\"progress-bar six-sec-ease-in-out\" role=\"progressbar\" data-transitiongoal=\"20\"></div>\n                          </div>\n                          <div class=\"progress\">\n                              <div class=\"progress-bar progress-bar-success six-sec-ease-in-out\" role=\"progressbar\" data-transitiongoal=\"40\"></div>\n                          </div>\n                          <div class=\"progress\">\n                              <div class=\"progress-bar progress-bar-info six-sec-ease-in-out\" role=\"progressbar\" data-transitiongoal=\"60\"></div>\n                          </div>\n                          <div class=\"progress\">\n                              <div class=\"progress-bar progress-bar-warning six-sec-ease-in-out\" role=\"progressbar\" data-transitiongoal=\"80\"></div>\n                          </div>\n                          <div class=\"progress\">\n                              <div class=\"progress-bar progress-bar-danger six-sec-ease-in-out\" role=\"progressbar\" data-transitiongoal=\"100\"></div>\n                          </div>\n                          <!-- /custom animations -->\n                          \n                          <br>\n                          \n                          <!-- Custom Size -->\n                          <h3>Custom Size</h3>\n                          \n                          <div class=\"progress progress-xs\">\n                            <div role=\"progressbar\" aria-valuetransitiongoal=\"20\" class=\"progress-bar progress-bar-info\" data-transitiongoal=\"20\"></div>\n                          </div>\n                          <div class=\"progress progress-sm\">\n                            <div role=\"progressbar\" aria-valuetransitiongoal=\"40\" class=\"progress-bar progress-bar-success\" data-transitiongoal=\"40\"></div>\n                          </div>\n                          <div class=\"progress\">\n                            <div role=\"progressbar\" aria-valuetransitiongoal=\"60\" class=\"progress-bar progress-bar-warning\" data-transitiongoal=\"60\"></div>\n                          </div>\n                          <div class=\"progress progress-lg\">\n                            <div role=\"progressbar\" aria-valuetransitiongoal=\"80\" class=\"progress-bar progress-bar-danger\" data-transitiongoal=\"80\"></div>\n                          </div>\n                          <!-- /Custom Size -->\n                          \n                        </div>\n                      </div>\n                      \n                      <div class=\"panel panel-white\">\n                        <div class=\"panel-heading\">Center Text</div>\n                        \n                        <div class=\"panel-body\">\n                          \n                          <!-- Basic -->\n                          <h3>Basic</h3>\n                          \n                          <div class=\"progress progress-center-text\">\n                              <div class=\"progress-bar\" role=\"progressbar\" data-transitiongoal=\"75\"></div>\n                          </div>\n                          <!-- /Basic -->\n                          \n                          <br>\n                          \n                          <!-- Themed -->\n                          <h3>Themed</h3>\n                          \n                          <div class=\"progress progress-center-text\">\n                              <div class=\"progress-bar progress-bar-success\" role=\"progressbar\" data-transitiongoal=\"40\"></div>\n                          </div>\n                          <div class=\"progress progress-center-text\">\n                              <div class=\"progress-bar progress-bar-info\" role=\"progressbar\" data-transitiongoal=\"60\"></div>\n                          </div>\n                          <div class=\"progress progress-center-text\">\n                              <div class=\"progress-bar progress-bar-warning\" role=\"progressbar\" data-transitiongoal=\"80\"></div>\n                          </div>\n                          <div class=\"progress progress-center-text\">\n                              <div class=\"progress-bar progress-bar-danger\" role=\"progressbar\" data-transitiongoal=\"100\"></div>\n                          </div>\n                          <!-- /Themed -->\n                          \n                          <br>\n                          \n                          <!-- Striped -->\n                          <h3>Striped</h3>\n                          \n                          <div class=\"progress progress-striped progress-center-text\">\n                            <div class=\"progress-bar\" role=\"progressbar\" data-transitiongoal=\"20\"></div>\n                          </div>\n                          <div class=\"progress progress-striped progress-center-text\">\n                            <div class=\"progress-bar progress-bar-success\" role=\"progressbar\" data-transitiongoal=\"40\"></div>\n                          </div>\n                          <div class=\"progress progress-striped progress-center-text\">\n                            <div class=\"progress-bar progress-bar-info\" role=\"progressbar\" data-transitiongoal=\"60\"></div>\n                          </div>\n                          <div class=\"progress progress-striped progress-center-text\">\n                            <div class=\"progress-bar progress-bar-warning\" role=\"progressbar\" data-transitiongoal=\"80\"></div>\n                          </div>\n                          <div class=\"progress progress-striped progress-center-text\">\n                            <div class=\"progress-bar progress-bar-danger\" role=\"progressbar\" data-transitiongoal=\"100\"></div>\n                          </div>\n                          <!-- /Striped -->\n                          \n                          <br>\n                          \n                          <!-- Animated -->\n                          <h3>Animated</h3>\n                          \n                          <div class=\"progress progress-striped active progress-center-text\">\n                            <div class=\"progress-bar progress-bar-striped\" role=\"progressbar\" data-transitiongoal=\"20\"></div>\n                          </div>\n                          <div class=\"progress progress-striped active progress-center-text\">\n                            <div class=\"progress-bar progress-bar-success\" role=\"progressbar\" data-transitiongoal=\"40\"></div>\n                          </div>\n                          <div class=\"progress progress-striped active progress-center-text\">\n                            <div class=\"progress-bar progress-bar-info\" role=\"progressbar\" data-transitiongoal=\"60\"></div>\n                          </div>\n                          <div class=\"progress progress-striped active progress-center-text\">\n                            <div class=\"progress-bar progress-bar-warning\" role=\"progressbar\" data-transitiongoal=\"80\"></div>\n                          </div>\n                          <div class=\"progress progress-striped active progress-center-text\">\n                            <div class=\"progress-bar progress-bar-danger\" role=\"progressbar\" data-transitiongoal=\"100\"></div>\n                          </div>\n                          <!-- /Animated -->\n                          \n                          <br>\n                          \n                          <!-- Custom aria range -->\n                          <h3>Custom aria range</h3>\n                          \n                          <div class=\"progress progress-striped progress-center-text\">\n                            <div class=\"progress-bar\" role=\"progressbar\" data-transitiongoal=\"2\" aria-valuemin=\"1\" aria-valuemax=\"6\"></div>\n                          </div>\n                          <div class=\"progress progress-striped progress-center-text\">\n                            <div class=\"progress-bar progress-bar-success\" role=\"progressbar\" data-transitiongoal=\"40\" aria-valuemin=\"-40\" aria-valuemax=\"200\"></div>\n                          </div>\n                          <div class=\"progress progress-striped progress-center-text\">\n                            <div class=\"progress-bar progress-bar-info\" role=\"progressbar\" data-transitiongoal=\"60\" aria-valuemax=\"120\"></div>\n                          </div>\n                          <div class=\"progress progress-striped progress-center-text\">\n                            <div class=\"progress-bar progress-bar-warning\" role=\"progressbar\" data-transitiongoal=\"80\" aria-valuemin=\"30\"></div>\n                          </div>\n                          <div class=\"progress progress-striped progress-center-text\">\n                            <div class=\"progress-bar progress-bar-danger\" role=\"progressbar\" data-transitiongoal=\"100\"></div>\n                          </div>\n                          <!-- /Custom aria range -->\n                          \n                          <br>\n                          \n                          <!-- custom animations -->\n                          <h3>Custom Animations</h3>\n                          \n                          <style>\n                          .five-sec-ease-in-out {\n                              -webkit-transition: width 5s ease-in-out;\n                              -moz-transition: width 5s ease-in-out;\n                              -ms-transition: width 5s ease-in-out;\n                              -o-transition: width 5s ease-in-out;\n                              transition: width 5s ease-in-out;\n                          }\n                          </style>\n                          <div class=\"progress progress-center-text\">\n                            <div class=\"progress-bar five-sec-ease-in-out\" role=\"progressbar\" data-transitiongoal=\"20\"></div>\n                          </div>\n                          <div class=\"progress progress-center-text\">\n                              <div class=\"progress-bar progress-bar-success five-sec-ease-in-out\" role=\"progressbar\" data-transitiongoal=\"40\"></div>\n                          </div>\n                          <div class=\"progress progress-center-text\">\n                            <div class=\"progress-bar progress-bar-info five-sec-ease-in-out\" role=\"progressbar\" data-transitiongoal=\"60\"></div>\n                          </div>\n                          <div class=\"progress progress-center-text\">\n                            <div class=\"progress-bar progress-bar-warning five-sec-ease-in-out\" role=\"progressbar\" data-transitiongoal=\"80\"></div>\n                          </div>\n                          <div class=\"progress progress-center-text\">\n                            <div class=\"progress-bar progress-bar-danger five-sec-ease-in-out\" role=\"progressbar\" data-transitiongoal=\"100\"></div>\n                          </div>\n                          <!-- /custom animations -->\n                          \n                        </div>\n                      </div>\n                      \n                    </div>\n                    \n                    <div class=\"col-lg-4\">\n                      \n                      <div class=\"panel panel-white\">\n                        <div class=\"panel-heading\">Filled Text</div>\n                        \n                        <div class=\"panel-body\">\n                          \n                          <!-- Basic -->\n                          <h3>Basic</h3>\n                          \n                          <div class=\"progress progress-fill-text\">\n                            <div class=\"progress-bar\" role=\"progressbar\" data-transitiongoal=\"75\"></div>\n                          </div>\n                          <!-- /Basic -->\n                          \n                          <br>\n                          \n                          <!-- Themed -->\n                          <h3>Themed</h3>\n                          \n                          <div class=\"progress progress-fill-text\">\n                            <div class=\"progress-bar progress-bar-success\" role=\"progressbar\" data-transitiongoal=\"40\"></div>\n                          </div>\n                          <div class=\"progress progress-fill-text\">\n                            <div class=\"progress-bar progress-bar-info\" role=\"progressbar\" data-transitiongoal=\"60\"></div>\n                          </div>\n                          <div class=\"progress progress-fill-text\">\n                            <div class=\"progress-bar progress-bar-warning\" role=\"progressbar\" data-transitiongoal=\"80\"></div>\n                          </div>\n                          <div class=\"progress progress-fill-text\">\n                            <div class=\"progress-bar progress-bar-danger\" role=\"progressbar\" data-transitiongoal=\"100\"></div>\n                          </div>\n                          <!-- /Themed -->\n                          \n                          <br>\n                          \n                          <!-- Striped -->\n                          <h3>Striped</h3>\n                          \n                          <div class=\"progress progress-striped progress-fill-text\">\n                            <div class=\"progress-bar\" role=\"progressbar\" data-transitiongoal=\"20\"></div>\n                          </div>\n                          <div class=\"progress progress-striped progress-fill-text\">\n                            <div class=\"progress-bar progress-bar-success\" role=\"progressbar\" data-transitiongoal=\"40\"></div>\n                          </div>\n                          <div class=\"progress progress-striped progress-fill-text\">\n                            <div class=\"progress-bar progress-bar-info\" role=\"progressbar\" data-transitiongoal=\"60\"></div>\n                          </div>\n                          <div class=\"progress progress-striped progress-fill-text\">\n                              <div class=\"progress-bar progress-bar-warning\" role=\"progressbar\" data-transitiongoal=\"80\"></div>\n                          </div>\n                          <div class=\"progress progress-striped progress-fill-text\">\n                            <div class=\"progress-bar progress-bar-danger\" role=\"progressbar\" data-transitiongoal=\"100\"></div>\n                          </div>\n                          <!-- /Striped -->\n                          \n                          <br>\n                          \n                          <!-- Animated -->\n                          <h3>Animated</h3>\n                          \n                          <div class=\"progress progress-striped active progress-fill-text\">\n                            <div class=\"progress-bar progress-bar-striped\" role=\"progressbar\" data-transitiongoal=\"20\"></div>\n                          </div>\n                          <div class=\"progress progress-striped active progress-fill-text\">\n                            <div class=\"progress-bar progress-bar-success\" role=\"progressbar\" data-transitiongoal=\"40\"></div>\n                          </div>\n                          <div class=\"progress progress-striped active progress-fill-text\">\n                            <div class=\"progress-bar progress-bar-info\" role=\"progressbar\" data-transitiongoal=\"60\"></div>\n                          </div>\n                          <div class=\"progress progress-striped active progress-fill-text\">\n                            <div class=\"progress-bar progress-bar-warning\" role=\"progressbar\" data-transitiongoal=\"80\"></div>\n                          </div>\n                          <div class=\"progress progress-striped active progress-fill-text\">\n                            <div class=\"progress-bar progress-bar-danger\" role=\"progressbar\" data-transitiongoal=\"100\"></div>\n                          </div>\n                          <!-- /Animated -->\n                          \n                          <br>\n                          \n                          <!-- Custom aria range -->\n                          <h3>Custom aria range</h3>\n                          \n                          <div class=\"progress progress-striped progress-fill-text\">\n                            <div class=\"progress-bar\" role=\"progressbar\" data-transitiongoal=\"2\" aria-valuemin=\"1\" aria-valuemax=\"6\"></div>\n                          </div>\n                          <div class=\"progress progress-striped progress-fill-text\">\n                            <div class=\"progress-bar progress-bar-success\" role=\"progressbar\" data-transitiongoal=\"40\" aria-valuemin=\"-40\" aria-valuemax=\"200\"></div>\n                          </div>\n                          <div class=\"progress progress-striped progress-fill-text\">\n                            <div class=\"progress-bar progress-bar-info\" role=\"progressbar\" data-transitiongoal=\"60\" aria-valuemax=\"120\"></div>\n                          </div>\n                          <div class=\"progress progress-striped progress-fill-text\">\n                            <div class=\"progress-bar progress-bar-warning\" role=\"progressbar\" data-transitiongoal=\"80\" aria-valuemin=\"30\"></div>\n                          </div>\n                          <div class=\"progress progress-striped progress-fill-text\">\n                            <div class=\"progress-bar progress-bar-danger\" role=\"progressbar\" data-transitiongoal=\"100\"></div>\n                          </div>\n                          <!-- /Custom aria range -->\n                          \n                          <br>\n                          \n                          <!-- Custom Animations -->\n                          <h3>Custom Animations</h3>\n                          \n                          <style>\n                          .seven-sec-ease-in-out {\n                              -webkit-transition: width 7s ease-in-out;\n                              -moz-transition: width 7s ease-in-out;\n                              -ms-transition: width 7s ease-in-out;\n                              -o-transition: width 7s ease-in-out;\n                              transition: width 7s ease-in-out;\n                          }\n                          </style>\n                          <div class=\"progress progress-fill-text\">\n                            <div class=\"progress-bar seven-sec-ease-in-out\" role=\"progressbar\" data-transitiongoal=\"20\"></div>\n                          </div>\n                          <div class=\"progress progress-fill-text\">\n                            <div class=\"progress-bar progress-bar-success seven-sec-ease-in-out\" role=\"progressbar\" data-transitiongoal=\"40\"></div>\n                          </div>\n                          <div class=\"progress progress-fill-text\">\n                            <div class=\"progress-bar progress-bar-info seven-sec-ease-in-out\" role=\"progressbar\" data-transitiongoal=\"60\"></div>\n                          </div>\n                          <div class=\"progress progress-fill-text\">\n                            <div class=\"progress-bar progress-bar-warning seven-sec-ease-in-out\" role=\"progressbar\" data-transitiongoal=\"80\"></div>\n                          </div>\n                          <div class=\"progress progress-fill-text\">\n                            <div class=\"progress-bar progress-bar-danger seven-sec-ease-in-out\" role=\"progressbar\" data-transitiongoal=\"100\"></div>\n                          </div>\n                          <!-- /Custom Animations -->\n                          \n                          <br>\n                          \n                          <!-- Custom Size -->\n                          <h3>Custom Size</h3>\n                          \n                          <div class=\"progress progress-fill-text\">\n                            <div class=\"progress-bar progress-bar-success\" role=\"progressbar\" data-transitiongoal=\"40\"></div>\n                          </div>\n                          <div class=\"progress progress-lg progress-fill-text\">\n                            <div class=\"progress-bar progress-bar-info\" role=\"progressbar\" data-transitiongoal=\"60\"></div>\n                          </div>\n                          <!-- /Custom Size -->\n                          \n                        </div>\n                      </div>\n                      \n                      <div class=\"panel panel-white\">\n                        <div class=\"panel-heading\">Filled Text (nonpercentage)</div>\n                        \n                        <div class=\"panel-body\">\n                          \n                          <!-- Basic -->\n                          <h3>Basic</h3>\n                          \n                          <div class=\"progress progress-fill-text-nonpercentage\">\n                            <div class=\"progress-bar\" role=\"progressbar\" data-transitiongoal=\"75\"></div>\n                          </div>\n                          <!-- /Basic -->\n                          \n                          <br>\n                          \n                          <!-- Themed -->\n                          <h3>Themed</h3>\n                          \n                          <div class=\"progress progress-fill-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-success\" role=\"progressbar\" data-transitiongoal=\"40\"></div>\n                          </div>\n                          <div class=\"progress progress-fill-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-info\" role=\"progressbar\" data-transitiongoal=\"60\"></div>\n                          </div>\n                          <div class=\"progress progress-fill-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-warning\" role=\"progressbar\" data-transitiongoal=\"80\"></div>\n                          </div>\n                          <div class=\"progress progress-fill-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-danger\" role=\"progressbar\" data-transitiongoal=\"100\"></div>\n                          </div>\n                          <!-- /Themed -->\n                          \n                          <br>\n                          \n                          <!-- Striped -->\n                          <h3>Striped</h3>\n                          \n                          <div class=\"progress progress-striped progress-fill-text-nonpercentage\">\n                            <div class=\"progress-bar\" role=\"progressbar\" data-transitiongoal=\"20\"></div>\n                          </div>\n                          <div class=\"progress progress-striped progress-fill-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-success\" role=\"progressbar\" data-transitiongoal=\"40\"></div>\n                          </div>\n                          <div class=\"progress progress-striped progress-fill-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-info\" role=\"progressbar\" data-transitiongoal=\"60\"></div>\n                          </div>\n                          <div class=\"progress progress-striped progress-fill-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-warning\" role=\"progressbar\" data-transitiongoal=\"80\"></div>\n                          </div>\n                          <div class=\"progress progress-striped progress-fill-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-danger\" role=\"progressbar\" data-transitiongoal=\"100\"></div>\n                          </div>\n                          <!-- /Striped -->\n                          \n                          <br>\n                          \n                          <!-- Animated -->\n                          <h3>Animated</h3>\n                          \n                          <div class=\"progress progress-striped active progress-fill-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-striped\" role=\"progressbar\" data-transitiongoal=\"20\"></div>\n                          </div>\n                          <div class=\"progress progress-striped active progress-fill-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-success\" role=\"progressbar\" data-transitiongoal=\"40\"></div>\n                          </div>\n                          <div class=\"progress progress-striped active progress-fill-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-info\" role=\"progressbar\" data-transitiongoal=\"60\"></div>\n                          </div>\n                          <div class=\"progress progress-striped active progress-fill-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-warning\" role=\"progressbar\" data-transitiongoal=\"80\"></div>\n                          </div>\n                          <div class=\"progress progress-striped active progress-fill-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-danger\" role=\"progressbar\" data-transitiongoal=\"100\"></div>\n                          </div>\n                          <!-- /Animated -->\n                          \n                          <br>\n                          \n                          <!-- Custom aria range -->\n                          <h3>Custom aria range</h3>\n                          \n                          <div class=\"progress progress-striped progress-fill-text-nonpercentage\">\n                            <div class=\"progress-bar\" role=\"progressbar\" data-transitiongoal=\"2\" aria-valuemin=\"1\" aria-valuemax=\"6\"></div>\n                          </div>\n                          <div class=\"progress progress-striped progress-fill-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-success\" role=\"progressbar\" data-transitiongoal=\"40\" aria-valuemin=\"-40\" aria-valuemax=\"200\"></div>\n                          </div>\n                          <div class=\"progress progress-striped progress-fill-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-info\" role=\"progressbar\" data-transitiongoal=\"60\" aria-valuemax=\"120\"></div>\n                          </div>\n                          <div class=\"progress progress-striped progress-fill-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-warning\" role=\"progressbar\" data-transitiongoal=\"80\" aria-valuemin=\"30\"></div>\n                          </div>\n                          <div class=\"progress progress-striped progress-fill-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-danger\" role=\"progressbar\" data-transitiongoal=\"100\"></div>\n                          </div>\n                          <!-- /Custom aria range -->\n                          \n                          <br>\n                          \n                          <!-- Custom Animations -->\n                          <h3>Custom Animations</h3>\n                          \n                          <style>\n                          .eight-sec-ease-in-out {\n                              -webkit-transition: width 8s ease-in-out;\n                              -moz-transition: width 8s ease-in-out;\n                              -ms-transition: width 8s ease-in-out;\n                              -o-transition: width 8s ease-in-out;\n                              transition: width 8s ease-in-out;\n                          }\n                          </style>\n                          <div class=\"progress progress-fill-text-nonpercentage\">\n                            <div class=\"progress-bar eight-sec-ease-in-out\" role=\"progressbar\" data-transitiongoal=\"20\"></div>\n                          </div>\n                          <div class=\"progress progress-fill-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-success eight-sec-ease-in-out\" role=\"progressbar\" data-transitiongoal=\"40\"></div>\n                          </div>\n                          <div class=\"progress progress-fill-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-info eight-sec-ease-in-out\" role=\"progressbar\" data-transitiongoal=\"60\"></div>\n                          </div>\n                          <div class=\"progress progress-fill-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-warning eight-sec-ease-in-out\" role=\"progressbar\" data-transitiongoal=\"80\"></div>\n                          </div>\n                          <div class=\"progress progress-fill-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-danger eight-sec-ease-in-out\" role=\"progressbar\" data-transitiongoal=\"100\"></div>\n                          </div>\n                          <!-- /Custom Animations -->\n                          \n                        </div>\n                      </div>\n                      \n                    </div>\n                    \n                    <div class=\"col-lg-4\">\n                      \n                      <div class=\"panel panel-white\">\n                        <div class=\"panel-heading\">Horizontal (Right)</div>\n                        \n                        <div class=\"panel-body\">\n                          \n                          <!-- Basic -->\n                          <h3>Basic</h3>\n                          \n                          <div class=\"progress right\">\n                            <div class=\"progress-bar\" role=\"progressbar\" data-transitiongoal=\"75\"></div>\n                          </div>\n                          <!-- /Basic -->\n                          \n                          <br>\n                          \n                          <!-- Themed -->\n                          <h3>Themed</h3>\n                          \n                          <div class=\"progress right\">\n                              <div class=\"progress-bar progress-bar-success\" role=\"progressbar\" data-transitiongoal=\"40\"></div>\n                          </div>\n                          <div class=\"progress right\">\n                              <div class=\"progress-bar progress-bar-info\" role=\"progressbar\" data-transitiongoal=\"60\"></div>\n                          </div>\n                          <div class=\"progress right\">\n                              <div class=\"progress-bar progress-bar-warning\" role=\"progressbar\" data-transitiongoal=\"80\"></div>\n                          </div>\n                          <div class=\"progress right\">\n                              <div class=\"progress-bar progress-bar-danger\" role=\"progressbar\" data-transitiongoal=\"100\"></div>\n                          </div>\n                          <!-- /Themed -->\n                          \n                          <br>\n                          \n                          <!-- Striped -->\n                          <h3>Striped</h3>\n                          \n                          <div class=\"progress progress-striped right\">\n                              <div class=\"progress-bar\" role=\"progressbar\" data-transitiongoal=\"20\"></div>\n                          </div>\n                          <div class=\"progress progress-striped right\">\n                              <div class=\"progress-bar progress-bar-success\" role=\"progressbar\" data-transitiongoal=\"40\"></div>\n                          </div>\n                          <div class=\"progress progress-striped right\">\n                              <div class=\"progress-bar progress-bar-info\" role=\"progressbar\" data-transitiongoal=\"60\"></div>\n                          </div>\n                          <div class=\"progress progress-striped right\">\n                              <div class=\"progress-bar progress-bar-warning\" role=\"progressbar\" data-transitiongoal=\"80\"></div>\n                          </div>\n                          <div class=\"progress progress-striped right\">\n                              <div class=\"progress-bar progress-bar-danger\" role=\"progressbar\" data-transitiongoal=\"100\"></div>\n                          </div>\n                          <!-- /Striped -->\n                          \n                          <br>\n                          \n                          <!-- Animated -->\n                          <h3>Animated</h3>\n                          \n                          <div class=\"progress progress-striped active right\">\n                              <div class=\"progress-bar progress-bar-striped\" role=\"progressbar\" data-transitiongoal=\"20\"></div>\n                          </div>\n                          <div class=\"progress progress-striped active right\">\n                              <div class=\"progress-bar progress-bar-success\" role=\"progressbar\" data-transitiongoal=\"40\"></div>\n                          </div>\n                          <div class=\"progress progress-striped active right\">\n                              <div class=\"progress-bar progress-bar-info\" role=\"progressbar\" data-transitiongoal=\"60\"></div>\n                          </div>\n                          <div class=\"progress progress-striped active right\">\n                              <div class=\"progress-bar progress-bar-warning\" role=\"progressbar\" data-transitiongoal=\"80\"></div>\n                          </div>\n                          <div class=\"progress progress-striped active right\">\n                              <div class=\"progress-bar progress-bar-danger\" role=\"progressbar\" data-transitiongoal=\"100\"></div>\n                          </div>\n                          <!-- /Animated -->\n                          \n                          <br>\n                          \n                          <!-- Custom aria range -->\n                          <h3>Custom aria range</h3>\n                          \n                          <div class=\"progress progress-striped right\">\n                              <div class=\"progress-bar\" role=\"progressbar\" data-transitiongoal=\"2\" aria-valuemin=\"1\" aria-valuemax=\"6\"></div>\n                          </div>\n                          <div class=\"progress progress-striped right\">\n                              <div class=\"progress-bar progress-bar-success\" role=\"progressbar\" data-transitiongoal=\"40\" aria-valuemin=\"-40\" aria-valuemax=\"200\"></div>\n                          </div>\n                          <div class=\"progress progress-striped right\">\n                              <div class=\"progress-bar progress-bar-info\" role=\"progressbar\" data-transitiongoal=\"60\" aria-valuemax=\"120\"></div>\n                          </div>\n                          <div class=\"progress progress-striped right\">\n                              <div class=\"progress-bar progress-bar-warning\" role=\"progressbar\" data-transitiongoal=\"80\" aria-valuemin=\"30\"></div>\n                          </div>\n                          <div class=\"progress progress-striped right\">\n                              <div class=\"progress-bar progress-bar-danger\" role=\"progressbar\" data-transitiongoal=\"100\"></div>\n                          </div>\n                          <!-- /Custom aria range -->\n                          \n                          <br>\n                          \n                          <!-- custom animations -->\n                          <h3>Custom Animations</h3>\n                          \n                          <style>\n                          .six-sec-ease-in-out {\n                              -webkit-transition: width 6s ease-in-out;\n                              -moz-transition: width 6s ease-in-out;\n                              -ms-transition: width 6s ease-in-out;\n                              -o-transition: width 6s ease-in-out;\n                              transition: width 6s ease-in-out;\n                          }\n                          </style>\n                          <div class=\"progress right\">\n                              <div class=\"progress-bar six-sec-ease-in-out\" role=\"progressbar\" data-transitiongoal=\"20\"></div>\n                          </div>\n                          <div class=\"progress right\">\n                              <div class=\"progress-bar progress-bar-success six-sec-ease-in-out\" role=\"progressbar\" data-transitiongoal=\"40\"></div>\n                          </div>\n                          <div class=\"progress right\">\n                              <div class=\"progress-bar progress-bar-info six-sec-ease-in-out\" role=\"progressbar\" data-transitiongoal=\"60\"></div>\n                          </div>\n                          <div class=\"progress right\">\n                              <div class=\"progress-bar progress-bar-warning six-sec-ease-in-out\" role=\"progressbar\" data-transitiongoal=\"80\"></div>\n                          </div>\n                          <div class=\"progress right\">\n                              <div class=\"progress-bar progress-bar-danger six-sec-ease-in-out\" role=\"progressbar\" data-transitiongoal=\"100\"></div>\n                          </div>\n                          <!-- /custom animations -->\n                          \n                          <br>\n                          \n                          <!-- Custom Size -->\n                          <h3>Custom Size</h3>\n                          \n                          <div class=\"progress progress-xs right\">\n                            <div role=\"progressbar\" aria-valuetransitiongoal=\"20\" class=\"progress-bar progress-bar-info\" data-transitiongoal=\"20\"></div>\n                          </div>\n                          <div class=\"progress progress-sm right\">\n                            <div role=\"progressbar\" aria-valuetransitiongoal=\"40\" class=\"progress-bar progress-bar-success\" data-transitiongoal=\"40\"></div>\n                          </div>\n                          <div class=\"progress right\">\n                            <div role=\"progressbar\" aria-valuetransitiongoal=\"60\" class=\"progress-bar progress-bar-warning\" data-transitiongoal=\"60\"></div>\n                          </div>\n                          <div class=\"progress progress-lg right\">\n                            <div role=\"progressbar\" aria-valuetransitiongoal=\"80\" class=\"progress-bar progress-bar-danger\" data-transitiongoal=\"80\"></div>\n                          </div>\n                          <!-- /Custom Size -->\n                          \n                        </div>\n                      </div>\n                      \n                      <div class=\"panel panel-white\">\n                        <div class=\"panel-heading\">Center text (nonpercentage)</div>\n                        \n                        <div class=\"panel-body\">\n                          \n                          <!-- Basic -->\n                          <h3>Basic</h3>\n                          \n                          <div class=\"progress progress-centered-text-nonpercentage\">\n                            <div class=\"progress-bar\" role=\"progressbar\" data-transitiongoal=\"75\"></div>\n                          </div>\n                          <!-- /Basic -->\n                          \n                          <br>\n                          \n                          <!-- Themed -->\n                          <h3>Themed</h3>\n                          \n                          <div class=\"progress progress-centered-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-success\" role=\"progressbar\" data-transitiongoal=\"40\"></div>\n                          </div>\n                          <div class=\"progress progress-centered-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-info\" role=\"progressbar\" data-transitiongoal=\"60\"></div>\n                          </div>\n                          <div class=\"progress progress-centered-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-warning\" role=\"progressbar\" data-transitiongoal=\"80\"></div>\n                          </div>\n                          <div class=\"progress progress-centered-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-danger\" role=\"progressbar\" data-transitiongoal=\"100\"></div>\n                          </div>\n                          <!-- /Themed -->\n                          \n                          <br>\n                          \n                          <!-- Striped -->\n                          <h3>Striped</h3>\n                          \n                          <div class=\"progress progress-striped progress-centered-text-nonpercentage\">\n                            <div class=\"progress-bar\" role=\"progressbar\" data-transitiongoal=\"20\"></div>\n                          </div>\n                          <div class=\"progress progress-striped progress-centered-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-success\" role=\"progressbar\" data-transitiongoal=\"40\"></div>\n                          </div>\n                          <div class=\"progress progress-striped progress-centered-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-info\" role=\"progressbar\" data-transitiongoal=\"60\"></div>\n                          </div>\n                          <div class=\"progress progress-striped progress-centered-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-warning\" role=\"progressbar\" data-transitiongoal=\"80\"></div>\n                          </div>\n                          <div class=\"progress progress-striped progress-centered-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-danger\" role=\"progressbar\" data-transitiongoal=\"100\"></div>\n                          </div>\n                          <!-- /Striped -->\n                          \n                          <br>\n                          \n                          <!-- Animated -->\n                          <h3>Animated</h3>\n                          \n                          <div class=\"progress progress-striped active progress-centered-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-striped\" role=\"progressbar\" data-transitiongoal=\"20\"></div>\n                          </div>\n                          <div class=\"progress progress-striped active progress-centered-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-success\" role=\"progressbar\" data-transitiongoal=\"40\"></div>\n                          </div>\n                          <div class=\"progress progress-striped active progress-centered-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-info\" role=\"progressbar\" data-transitiongoal=\"60\"></div>\n                          </div>\n                          <div class=\"progress progress-striped active progress-centered-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-warning\" role=\"progressbar\" data-transitiongoal=\"80\"></div>\n                          </div>\n                          <div class=\"progress progress-striped active progress-centered-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-danger\" role=\"progressbar\" data-transitiongoal=\"100\"></div>\n                          </div>\n                          <!-- /Animated -->\n                          \n                          <br>\n                          \n                          <!-- Custom aria range -->\n                          <h3>Custom aria range</h3>\n                          \n                          <div class=\"progress progress-striped progress-centered-text-nonpercentage\">\n                            <div class=\"progress-bar\" role=\"progressbar\" data-transitiongoal=\"2\" aria-valuemin=\"1\" aria-valuemax=\"6\"></div>\n                          </div>\n                          <div class=\"progress progress-striped progress-centered-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-success\" role=\"progressbar\" data-transitiongoal=\"40\" aria-valuemin=\"-40\" aria-valuemax=\"200\"></div>\n                          </div>\n                          <div class=\"progress progress-striped progress-centered-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-info\" role=\"progressbar\" data-transitiongoal=\"60\" aria-valuemax=\"120\"></div>\n                          </div>\n                          <div class=\"progress progress-striped progress-centered-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-warning\" role=\"progressbar\" data-transitiongoal=\"80\" aria-valuemin=\"30\"></div>\n                          </div>\n                          <div class=\"progress progress-striped progress-centered-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-danger\" role=\"progressbar\" data-transitiongoal=\"100\"></div>\n                          </div>\n                          <!-- /Custom aria range -->\n                          \n                          <br>\n                          \n                          <!-- Custom Animations -->\n                          <h3>Custom Animations</h3>\n                          \n                          <style>\n                          .eight-sec-ease-in-out {\n                              -webkit-transition: width 8s ease-in-out;\n                              -moz-transition: width 8s ease-in-out;\n                              -ms-transition: width 8s ease-in-out;\n                              -o-transition: width 8s ease-in-out;\n                              transition: width 8s ease-in-out;\n                          }\n                          </style>\n                          <div class=\"progress progress-centered-text-nonpercentage\">\n                            <div class=\"progress-bar eight-sec-ease-in-out\" role=\"progressbar\" data-transitiongoal=\"20\"></div>\n                          </div>\n                          <div class=\"progress progress-centered-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-success eight-sec-ease-in-out\" role=\"progressbar\" data-transitiongoal=\"40\"></div>\n                          </div>\n                          <div class=\"progress progress-centered-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-info eight-sec-ease-in-out\" role=\"progressbar\" data-transitiongoal=\"60\"></div>\n                          </div>\n                          <div class=\"progress progress-centered-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-warning eight-sec-ease-in-out\" role=\"progressbar\" data-transitiongoal=\"80\"></div>\n                          </div>\n                          <div class=\"progress progress-centered-text-nonpercentage\">\n                            <div class=\"progress-bar progress-bar-danger eight-sec-ease-in-out\" role=\"progressbar\" data-transitiongoal=\"100\"></div>\n                          </div>\n                          <!-- /Custom Animations -->\n                          \n                        </div>\n                      </div>\n                      \n                    </div>\n                    \n                  </div>\n                </div>\n                <!-- /Horizontal -->\n                \n                <!-- Vertical -->\n                <div class=\"tab-pane fade in\" id=\"vertical\">\n                  <div class=\"row\">\n            \n                    <div class=\"col-lg-4\">\n                      \n                      <div class=\"panel panel-white\">\n                        <div class=\"panel-heading\">Vertical</div>\n                        <div class=\"panel-body\">\n                          \n                          <!-- Basic -->\n                          <h3>Basic</h3>\n                          \n                          <div class=\"fixed-height-250\">\n                            <div class=\"progress vertical\">\n                              <div class=\"progress-bar\" role=\"progressbar\" data-transitiongoal=\"75\"></div>\n                            </div>\n                          </div>\n                          <!-- /Basic -->\n                          \n                          <br>\n                          \n                          <!-- Themed -->\n                          <h3>Themed</h3>\n                          \n                          <div class=\"fixed-height-250\">\n                            <div class=\"progress vertical\">\n                              <div class=\"progress-bar progress-bar-success\" role=\"progressbar\" data-transitiongoal=\"40\"></div>\n                            </div>\n                            <div class=\"progress vertical\">\n                              <div class=\"progress-bar progress-bar-info\" role=\"progressbar\" data-transitiongoal=\"60\"></div>\n                            </div>\n                            <div class=\"progress vertical\">\n                              <div class=\"progress-bar progress-bar-warning\" role=\"progressbar\" data-transitiongoal=\"80\"></div>\n                            </div>\n                            <div class=\"progress vertical\">\n                              <div class=\"progress-bar progress-bar-danger\" role=\"progressbar\" data-transitiongoal=\"100\"></div>\n                            </div>\n                          </div>\n                          <!-- /Themed -->\n                          \n                          <br>\n                          \n                          <!-- Striped -->\n                          <h3>Striped</h3>\n                          \n                          <div class=\"fixed-height-250\">\n                            <div class=\"progress progress-striped vertical\">\n                              <div class=\"progress-bar progress-bar-success\" role=\"progressbar\" data-transitiongoal=\"40\"></div>\n                            </div>\n                            <div class=\"progress progress-striped vertical\">\n                              <div class=\"progress-bar progress-bar-info\" role=\"progressbar\" data-transitiongoal=\"60\"></div>\n                            </div>\n                            <div class=\"progress progress-striped vertical\">\n                              <div class=\"progress-bar progress-bar-warning\" role=\"progressbar\" data-transitiongoal=\"80\"></div>\n                            </div>\n                            <div class=\"progress progress-striped vertical\">\n                              <div class=\"progress-bar progress-bar-danger\" role=\"progressbar\" data-transitiongoal=\"100\"></div>\n                            </div>\n                          </div>\n                          <!-- /Striped -->\n                          \n                          <br>\n                          \n                          <!-- Animated -->\n                          <h3>Animated</h3>\n                          \n                          <div class=\"fixed-height-250\">\n                            <div class=\"progress progress-striped active vertical\">\n                              <div class=\"progress-bar progress-bar-success\" role=\"progressbar\" data-transitiongoal=\"40\"></div>\n                            </div>\n                            <div class=\"progress progress-striped active vertical\">\n                              <div class=\"progress-bar progress-bar-info\" role=\"progressbar\" data-transitiongoal=\"60\"></div>\n                            </div>\n                            <div class=\"progress progress-striped active vertical\">\n                              <div class=\"progress-bar progress-bar-warning\" role=\"progressbar\" data-transitiongoal=\"80\"></div>\n                            </div>\n                            <div class=\"progress progress-striped active vertical\">\n                              <div class=\"progress-bar progress-bar-danger\" role=\"progressbar\" data-transitiongoal=\"100\"></div>\n                            </div>\n                          </div>\n                          <!-- /Animated -->\n                          \n                          <br>\n                          \n                          <!-- Custom aria range -->\n                          <h3>Custom aria range</h3>\n                          \n                          <div class=\"fixed-height-250\">\n                            <div class=\"progress progress-striped vertical\">\n                              <div class=\"progress-bar progress-bar-success\" role=\"progressbar\" data-transitiongoal=\"40\" aria-valuemin=\"-40\" aria-valuemax=\"200\"></div>\n                            </div>\n                            <div class=\"progress progress-striped vertical\">\n                              <div class=\"progress-bar progress-bar-info\" role=\"progressbar\" data-transitiongoal=\"60\" aria-valuemax=\"120\"></div>\n                            </div>\n                            <div class=\"progress progress-striped vertical\">\n                              <div class=\"progress-bar progress-bar-warning\" role=\"progressbar\" data-transitiongoal=\"80\" aria-valuemin=\"30\"></div>\n                            </div>\n                            <div class=\"progress progress-striped vertical\">\n                              <div class=\"progress-bar progress-bar-danger\" role=\"progressbar\" data-transitiongoal=\"100\"></div>\n                            </div>\n                          </div>\n                          <!-- /Custom aria range -->\n                          \n                          <br>\n                          \n                          <!-- Custom animations -->\n                          <h3>Custom animations</h3>\n                          \n                          <style>\n                          .six-sec-ease-in-out {\n                              -webkit-transition: width 6s ease-in-out;\n                              -moz-transition: width 6s ease-in-out;\n                              -ms-transition: width 6s ease-in-out;\n                              -o-transition: width 6s ease-in-out;\n                              transition: width 6s ease-in-out;\n                          }\n                          </style>\n                          \n                          <div class=\"fixed-height-250\">\n                            <div class=\"progress vertical\">\n                              <div class=\"progress-bar progress-bar-success six-sec-ease-in-out\" role=\"progressbar\" data-transitiongoal=\"40\"></div>\n                            </div>\n                            <div class=\"progress vertical\">\n                              <div class=\"progress-bar progress-bar-info six-sec-ease-in-out\" role=\"progressbar\" data-transitiongoal=\"60\"></div>\n                            </div>\n                            <div class=\"progress vertical\">\n                              <div class=\"progress-bar progress-bar-warning six-sec-ease-in-out\" role=\"progressbar\" data-transitiongoal=\"80\"></div>\n                            </div>\n                            <div class=\"progress vertical\">\n                              <div class=\"progress-bar progress-bar-danger six-sec-ease-in-out\" role=\"progressbar\" data-transitiongoal=\"100\"></div>\n                            </div>\n                          </div>\n                          <!-- /Custom animations -->\n                          \n                          <br>\n                          \n                          <!-- Custom Size -->\n                          <h3>Custom Size</h3>\n                          \n                          <div class=\"fixed-height-250\">\n                            <div class=\"progress progress-xs vertical\">\n                              <div class=\"progress-bar progress-bar-success six-sec-ease-in-out\" role=\"progressbar\" data-transitiongoal=\"40\"></div>\n                            </div>\n                            <div class=\"progress progress-sm vertical\">\n                              <div class=\"progress-bar progress-bar-info six-sec-ease-in-out\" role=\"progressbar\" data-transitiongoal=\"60\"></div>\n                            </div>\n                            <div class=\"progress vertical\">\n                              <div class=\"progress-bar progress-bar-warning six-sec-ease-in-out\" role=\"progressbar\" data-transitiongoal=\"80\"></div>\n                            </div>\n                            <div class=\"progress progress-lg vertical\">\n                              <div class=\"progress-bar progress-bar-danger six-sec-ease-in-out\" role=\"progressbar\" data-transitiongoal=\"100\"></div>\n                            </div>\n                          </div>\n                          <!-- /Custom Size -->\n                          \n                        </div>\n                      </div>\n\n                      <div class=\"panel panel-white\">\n                        <div class=\"panel-heading\">Center text</div>\n                        <div class=\"panel-body\">\n                          \n                          <!-- Basic -->\n                          <h3>Basic</h3>\n\n                          <div class=\"fixed-height-250\">\n                            <div class=\"progress vertical progress-center-text\">\n                              <div class=\"progress-bar\" role=\"progressbar\" data-transitiongoal=\"75\"></div>\n                            </div>\n                          </div>\n                          <!-- /Basic -->\n\n                          <br>\n\n                          <!-- Themed -->\n                          <h3>Themed</h3>\n\n                          <div class=\"fixed-height-250\">\n                            <div class=\"progress vertical progress-center-text\">\n                                <div class=\"progress-bar progress-bar-success\" role=\"progressbar\" data-transitiongoal=\"40\"></div>\n                            </div>\n                            <div class=\"progress vertical progress-center-text\">\n                                <div class=\"progress-bar progress-bar-info\" role=\"progressbar\" data-transitiongoal=\"60\"></div>\n                            </div>\n                            <div class=\"progress vertical progress-center-text\">\n                                <div class=\"progress-bar progress-bar-warning\" role=\"progressbar\" data-transitiongoal=\"80\"></div>\n                            </div>\n                            <div class=\"progress vertical progress-center-text\">\n                                <div class=\"progress-bar progress-bar-danger\" role=\"progressbar\" data-transitiongoal=\"100\"></div>\n                            </div>\n                          </div>\n                          <!-- /Themed -->\n\n                          <br>\n\n                          <!-- Striped -->\n                          <h3>Striped</h3>\n\n                          <div class=\"fixed-height-250\">\n                            <div class=\"progress progress-striped vertical progress-center-text\">\n                                <div class=\"progress-bar progress-bar-success\" role=\"progressbar\" data-transitiongoal=\"40\"></div>\n                            </div>\n                            <div class=\"progress progress-striped vertical progress-center-text\">\n                                <div class=\"progress-bar progress-bar-info\" role=\"progressbar\" data-transitiongoal=\"60\"></div>\n                            </div>\n                            <div class=\"progress progress-striped vertical progress-center-text\">\n                                <div class=\"progress-bar progress-bar-warning\" role=\"progressbar\" data-transitiongoal=\"80\"></div>\n                            </div>\n                            <div class=\"progress progress-striped vertical progress-center-text\">\n                                <div class=\"progress-bar progress-bar-danger\" role=\"progressbar\" data-transitiongoal=\"100\"></div>\n                            </div>\n                          </div>\n                          <!-- /Striped -->\n\n                          <br>\n\n                          <!-- Animated -->\n                          <h3>Animated</h3>\n\n                          <div class=\"fixed-height-250\">\n                            <div class=\"progress progress-striped active vertical progress-center-text\">\n                                <div class=\"progress-bar progress-bar-success\" role=\"progressbar\" data-transitiongoal=\"40\"></div>\n                            </div>\n                            <div class=\"progress progress-striped active vertical progress-center-text\">\n                                <div class=\"progress-bar progress-bar-info\" role=\"progressbar\" data-transitiongoal=\"60\"></div>\n                            </div>\n                            <div class=\"progress progress-striped active vertical progress-center-text\">\n                                <div class=\"progress-bar progress-bar-warning\" role=\"progressbar\" data-transitiongoal=\"80\"></div>\n                            </div>\n                            <div class=\"progress progress-striped active vertical progress-center-text\">\n                                <div class=\"progress-bar progress-bar-danger\" role=\"progressbar\" data-transitiongoal=\"100\"></div>\n                            </div>\n                          </div>\n                          <!-- /Animated -->\n\n                        </div>\n                      </div>\n                      \n                    </div>\n                    \n                    <div class=\"col-lg-4\">\n                      \n                      <div class=\"panel panel-white\">\n                        <div class=\"panel-heading\">222</div>\n                        <div class=\"panel-body\">\n                          222\n                        </div>\n                      </div>\n                      \n                    </div>\n                    \n                    <div class=\"col-lg-4\">\n                      \n                      <div class=\"panel panel-white\">\n                        <div class=\"panel-heading\">333</div>\n                        <div class=\"panel-body\">\n                          333\n                        </div>\n                      </div>\n                      \n                    </div>\n                    \n                  </div>\n                </div>\n                <!-- /Vertical -->\n                \n              </div>\n              <!-- /Tab Panes -->\n              \n            </div>\n          </div>\n        </div>\n        <!-- /Page content -->\n        \n      </div>\n      <!-- /main -->\n        \n    </div>\n     \n    <!-- ScrollToTop -->\n    <div id=\"scroll-to-top\" class=\"scroll-to-top\">\n      <a href=\"javascript:void(0)\">\n        <i class=\"fa fa-angle-up\"></i>\n      </a>\n    </div>\n    <!-- /ScrollToTop -->\n\n    <!-- IE load jquery-1.11.1, other browser load jquery-2.1.1 --> \n    <!--[if IE]>\n    <script src=\"//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.1.min.js\"></script>\n    <script>window.jQuery || document.write('<script src=\"js/vendor/jquery-1.11.1.min.js\"><\\/script>')</script>\n    <![endif]-->\n    <!--[if !IE]> -->\n    <script src=\"//ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js\"></script>\n    <script>window.jQuery || document.write('<script src=\"js/vendor/jquery-2.1.1.min.js\"><\\/script>')</script>\n    <!-- <![endif]-->\n    \n    <script src=\"js/plugins.js\"></script>\n    <script src=\"js/main.js\"></script>\n    \n    <!-- !!!THIS SCRIPT IS DEMO USE, PLEASE DO NOT INCLUDE IT IN FORMAL SYSTEM!!! -->\n    <script src=\"js/demo/demo.js\"></script>\n    <!-- /!!!THIS SCRIPT IS DEMO USE, PLEASE DO NOT INCLUDE IT IN FORMAL SYSTEM!!! -->\n    \n    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->\n    <script>\n    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=\n    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;\n    e=o.createElement(i);r=o.getElementsByTagName(i)[0];\n    e.src='//www.google-analytics.com/analytics.js';\n    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));\n    ga('create','UA-XXXXX-X','auto');ga('send','pageview');\n    </script>\n    </script>\n    \n  </body>\n</html>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 122.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 319.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 122.0
+	},
+	"pinned_build_system": "",
+	"project": "osports1.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/Applications/XAMPP/xamppfiles/htdocs/AlphaAdminTemplate/AlphaAdminTemplate.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 223.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

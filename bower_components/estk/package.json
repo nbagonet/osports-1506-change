@@ -1,0 +1,42 @@
+{
+  "name": "less-plugin-est",
+  "version": "2.0.2",
+  "description": "EFE Styling Toolkit",
+  "devDependencies": {
+    "less": "~2.0.0",
+    "chalk": "~0.5.1",
+    "diff": "~1.2.2"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/ecomfe/est.git"
+  },
+  "keywords": [
+    "less plugins",
+    "est",
+    "ecosystem:less"
+  ],
+  "contributors": [
+    {
+      "name": "justineo",
+      "email": "justice360@gmail.com"
+    },
+    {
+      "name": "zmmbreeze",
+      "email": "zmmbreeze0825@gmail.com"
+    },
+    {
+      "name": "firede",
+      "email": "firede@firede.us"
+    }
+  ],
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/ecomfe/est.git"
+  },
+  "homepage": "http://ecomfe.github.io/est/"
+}
