@@ -1,11 +1,11 @@
 {
   "name": "pageSwitch",
   "homepage": "https://github.com/qiqiboy/pageSwitch",
-  "_release": "2e28a4294a",
+  "_release": "ef7b2858cf",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "2e28a4294a0ccdcedeec2382e486f8b5d2f58960"
+    "commit": "ef7b2858cf412d118e1d88d00a18731c44d30330"
   },
   "_source": "https://github.com/qiqiboy/pageSwitch.git",
   "_target": "*",

@@ -25,16 +25,47 @@ $(function() {
    */
   pw.on('after', function() {
     var p = this,
+      cur = this.current,
       p0 = $('#p0'),
       p1 = $('#p1');
 
-    if (this.current == 0) {
-      p0.find('.bg:eq(0)').removeClass('none').addClass('animated fadeIn').one(as, function() {
-        p0.find('.con > .bg').removeClass('none').addClass('animated fadeIn').one(as, function() {
-          p0.find('.con > .logo').removeClass('none').addClass('animated fadeInDown').one(as, function() {
-            p0.find('.con > .txt').removeClass('none').addClass('animated fadeInUp').one(as, function() {
-              p0.find('.con > .plus').removeClass('none').addClass('animated zoomIn').one(as, function() {
-                p0.find('.arr-up').removeClass('none').addClass('animated fadeIn');
+    if (cur == 0) {
+      pw.freeze(false);
+      p0.find('.bg:eq(0)').removeClass('none').addClass('fadeIn').one(as, function() {
+        p0.find('.content > .bg').removeClass('none').addClass('fadeIn').one(as, function() {
+          p0.find('.content > .logo').removeClass('none').addClass('fadeInDown').one(as, function() {
+            p0.find('.content > .txt').removeClass('none').addClass('fadeInUp').one(as, function() {
+              p0.find('.content > .plus').removeClass('none').addClass('zoomIn').one(as, function() {
+                p0.find('.arr-up').removeClass('none').addClass('fadeIn');
+              });
+            });
+          });
+        });
+      });
+    } else if (cur == 1) {
+      pw.freeze(true);
+      var conH = p1.find('.con > .timeline').height(),
+        conOH = p1.find('.con').height();
+      p1.find('.con').scroll(function(event) {
+        var p1st = p1.find('.con').scrollTop();
+        if (p1st <= 0 || (p1st + conOH + 5) >= conH) {
+          pw.freeze(false);
+        }
+      });
+      p1.find('.con > .timeline > li').eq(0).removeClass('none').addClass('flipInX').one(as, function() {
+        p1.find('.con > .timeline > li').eq(1).removeClass('none').addClass('flipInX').one(as, function() {
+          p1.find('.con > .timeline > li').eq(2).removeClass('none').addClass('flipInX').one(as, function() {
+            p1.find('.con > .timeline > li').eq(3).removeClass('none').addClass('flipInX').one(as, function() {
+              p1.find('.con > .timeline > li').eq(4).removeClass('none').addClass('flipInX').one(as, function() {
+                p1.find('.con > .timeline > li').eq(5).removeClass('none').addClass('flipInX').one(as, function() {
+                  p1.find('.con > .timeline > li').eq(6).removeClass('none').addClass('flipInX').one(as, function() {
+                    p1.find('.con > .timeline > li').eq(7).removeClass('none').addClass('flipInX').one(as, function() {
+                      p1.find('.con > .timeline > li').eq(8).removeClass('none').addClass('flipInX').one(as, function() {
+                        p1.find('.con > .timeline > li').eq(9).removeClass('none').addClass('flipInX');
+                      });
+                    });
+                  });
+                });
               });
             });
           });
@@ -44,7 +75,7 @@ $(function() {
   });
 
   Pace.on('hide', function() {
-    $('#wrap').removeClass('hide').addClass('animated zoomIn');
+    $('#wrap').removeClass('hide').addClass('zoomIn');
     pw.slide(0);
   });
 

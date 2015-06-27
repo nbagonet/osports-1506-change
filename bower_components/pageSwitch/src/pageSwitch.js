@@ -48,6 +48,7 @@
             return divstyle[transformStyle]=='preserve-3d';
         }(),
         toString=Object.prototype.toString,
+        slice=[].slice,
         class2type={},
         event2type={},
         event2code={
@@ -638,7 +639,7 @@
         ev.type=oldEvent.type.toLowerCase();
         ev.eventType=event2type[ev.type]||ev.type;
         ev.eventCode=event2code[ev.type]||0;
-        ev.pointerType=POINTERTYPES[oldEvent.pointerType]||oldEvent.pointerType||ev.eventtype;
+        ev.pointerType=POINTERTYPES[oldEvent.pointerType]||oldEvent.pointerType||ev.eventType;
 
         ev.target=oldEvent.target||oldEvent.srcElement||DOC.documentElement;
         if(ev.target.nodeType===3){
@@ -713,17 +714,11 @@
             this.pages[this.current].style.display='block';
 
             this.on({
-                before:function(){clearTimeout(self.playTimer);},
-                dragStart:function(){clearTimeout(self.playTimer);removeRange();},
-                after:function(){
-                    if(self.playing){
-                        self.playTimer=setTimeout(function(){
-                            self.next();
-                        },self.interval);
-                    }
-                },
+                before:function(){clearTimeout(this.playTimer);},
+                dragStart:function(){clearTimeout(this.playTimer);removeRange();},
+                after:this.firePlay,
                 update:null
-            }).fire('after');
+            }).firePlay();
 
             this.comment=document.createComment(' Powered by pageSwitch v'+this.version+'  https://github.com/qiqiboy/pageSwitch ');
             this.container.appendChild(this.comment);
@@ -773,9 +768,9 @@
             }
             return this;
         },
-        fire:function(ev,percent,tpageIndex){
+        fire:function(ev){
             var self=this,
-                args=[].slice.call(arguments,1);
+                args=slice.call(arguments,1);
             each(this.events[ev]||[],function(func){
                 if(isFunction(func)){
                     func.apply(self,args);
@@ -810,7 +805,7 @@
             }else if(tpage.style.display=='none'){
                 percent=0;
             }
-
+            
             this.fixBlock(current,tIndex);
             this.fire('before',current,fixIndex);
             this.current=fixIndex;
@@ -847,7 +842,16 @@
         },
         play:function(){
             this.playing=true;
-            return this.slide(this.current);
+            return this.firePlay();
+        },
+        firePlay:function(){
+            var self=this;
+            if(this.playing){
+                this.playTimer=setTimeout(function(){
+                    self.slide((self.current+1)%(self.loop?Infinity:self.length));
+                },this.interval);
+            }
+            return this;
         },
         pause:function(){
             this.playing=false;
@@ -855,7 +859,7 @@
             return this;
         },
         fixIndex:function(index){
-            return this.length>1&&(this.loop||this.playing)?(this.length+index%this.length)%this.length:index;
+            return this.length>1&&this.loop?(this.length+index)%this.length:index;
         },
         fixBlock:function(cIndex,tIndex){
             each(this.pages,function(page,index){
@@ -891,11 +895,11 @@
         },
         handleEvent:function(oldEvent){
             var ev=filterEvent(oldEvent),
-                canDrag=ev.length<2&&ev.button<1&&(!this.pointerType||this.pointerType==ev.eventType)&&(this.mouse||ev.pointerType!='mouse');
+                canDrag=ev.button<1&&(!this.pointerType||this.pointerType==ev.eventType)&&(this.mouse||ev.pointerType!='mouse');
 
             switch(ev.eventCode){
                 case 2:
-                    if(canDrag&&this.rect){
+                    if(canDrag&&ev.length<2&&this.rect){
                         var cIndex=this.current,
                             dir=this.direction,
                             rect=[ev.clientX,ev.clientY],
@@ -923,17 +927,21 @@
                     break;
 
                 case 1:
-                    if(canDrag&&!this.pointerType){
-                        this.pointerType=ev.eventType;
+                    if(canDrag){
+                        this.start=true;
                     }
                 case 3:
-                    if(canDrag){
+                    if(canDrag&&ev.length<2&&this.start){
                         var self=this,
                             index=this.current,
                             percent=this.getPercent(),
                             isDrag,offset,tm,nn;
                         if(ev.length){
                             nn=ev.target.nodeName.toLowerCase();
+                            clearTimeout(this.eventTimer);
+                            if(!this.pointerType){
+                                this.pointerType=ev.eventType;
+                            }
                             if(this.timer){
                                 cancelFrame(this.timer);
                                 delete this.timer;
@@ -949,7 +957,7 @@
                             offset=this._offset;
                             isDrag=this.drag;
 
-                            each("rect drag time percent _offset offsetParent pointerType".split(" "),function(prop){
+                            each("rect drag time percent _offset offsetParent".split(" "),function(prop){
                                 delete self[prop];
                             });
 
@@ -964,6 +972,10 @@
                             if(percent){
                                 this.slide(index);
                             }
+
+                            this.eventTimer=setTimeout(function(){
+                                delete self.pointerType;
+                            },30);
                         }
                     }
                     break;

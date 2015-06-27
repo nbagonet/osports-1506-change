@@ -13,22 +13,34 @@ head
   link(rel='stylesheet', type='text/css', href='../css/main.css')
 body
 
-  #wrap.hide
+  #wrap.hide.animated
 
     //- page0
     .page#p0
-      .bg.none
-      .con
-        .bg.none
-        .plus.none: img(src="../img/+.png")
-        .logo.none: img(src="../img/00/logo.png")
-        .txt.none: img(src="../img/00/txt0.png")
-      .arr-up.none: img(src="../img/up.png")
+      .bg.none.animated
+      .content
+        .bg.none.animated
+        .plus.none.animated: img(src="../img/+.png")
+        .logo.none.animated: img(src="../img/00/logo.png")
+        .txt.none.animated: img(src="../img/00/txt0.png")
+      .arr-up.none.animated: img(src="../img/up.png")
 
     //- page1
     .page#p1
-      .tmp
+      .bg.animated
+      .title.animated
+        h1: img(src="../img/01/title.png")
+        small: img(src="../img/01/title-sub.png")
+      .con
+        ul.timeline
+          - for(var i=1;i<=10;i++)
+            li.animated.none
+              dl
+                dt.animated: img(src="../img/01/c#{i}-1.png")
+                dd.animated: img(src="../img/01/c#{i}-2.png")
+      .arr-up.animated: img(src="../img/up.png")
 
   script(src="../bower_components/jquery/dist/jquery.min.js")
   script(src="../bower_components/pageSwitch/src/pageSwitch.js")
+  script(src="../bower_components/OwlCarousel/owl-carousel/owl.carousel.min.js")
   script(src="../js/main.js")
