@@ -43,15 +43,23 @@ $(function() {
         });
       });
     } else if (cur == 1) {
-      pw.freeze(true);
-      var conH = p1.find('.con > .timeline').height(),
-        conOH = p1.find('.con').height();
-      p1.find('.con').scroll(function(event) {
-        var p1st = p1.find('.con').scrollTop();
-        if (p1st <= 0 || (p1st + conOH + 5) >= conH) {
-          pw.freeze(false);
-        }
+      // pw.freeze(true);
+      // var conH = p1.find('.con > .timeline').height(),
+      //   conOH = p1.find('.con').height();
+      // p1.find('.con').scroll(function(event) {
+      //   var p1st = p1.find('.con').scrollTop();
+      //   if (p1st <= 0 || (p1st + conOH + 5) >= conH) {
+      //     pw.freeze(false);
+      //   }
+      // });
+      p1.find('.con > .timeline').on('touchstart', function(e) {
+        pw.freeze(true);
+      }).on('touchend', function(e) {
+        pw.freeze(false);
       });
+      // p1.find('.con > .bg, .con > .title, .com > .arr-up').on('touchstart', function(e) {
+      //   pw.freeze(false);
+      // });
       p1.find('.con > .timeline > li').eq(0).removeClass('none').addClass('flipInX').one(as, function() {
         p1.find('.con > .timeline > li').eq(1).removeClass('none').addClass('flipInX').one(as, function() {
           p1.find('.con > .timeline > li').eq(2).removeClass('none').addClass('flipInX').one(as, function() {
@@ -76,7 +84,7 @@ $(function() {
 
   Pace.on('hide', function() {
     $('#wrap').removeClass('hide').addClass('zoomIn');
-    pw.slide(0);
+    pw.slide(1);
   });
 
 
