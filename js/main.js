@@ -27,7 +27,9 @@ $(function() {
     var p = this,
       cur = this.current,
       p0 = $('#p0'),
-      p1 = $('#p1');
+      p1 = $('#p1'),
+      p2 = $('#p2'),
+      p3 = $('#p3');
 
     if (cur == 0) {
       pw.freeze(false);
@@ -43,23 +45,20 @@ $(function() {
         });
       });
     } else if (cur == 1) {
-      // pw.freeze(true);
-      // var conH = p1.find('.con > .timeline').height(),
-      //   conOH = p1.find('.con').height();
-      // p1.find('.con').scroll(function(event) {
-      //   var p1st = p1.find('.con').scrollTop();
-      //   if (p1st <= 0 || (p1st + conOH + 5) >= conH) {
-      //     pw.freeze(false);
-      //   }
-      // });
       p1.find('.con > .timeline').on('touchstart', function(e) {
+        // p1.find('.con').scroll(function(event) {
+        //   var p1st = p1.find('.con').scrollTop();
+        //   console.log(p1st);
+        //   if (p1st <= 0) {
+        //     pw.freeze(false);
+        //   } else {
+        //     pw.freeze(true);
+        //   }
+        // });
         pw.freeze(true);
       }).on('touchend', function(e) {
         pw.freeze(false);
       });
-      // p1.find('.con > .bg, .con > .title, .com > .arr-up').on('touchstart', function(e) {
-      //   pw.freeze(false);
-      // });
       p1.find('.con > .timeline > li').eq(0).removeClass('none').addClass('flipInX').one(as, function() {
         p1.find('.con > .timeline > li').eq(1).removeClass('none').addClass('flipInX').one(as, function() {
           p1.find('.con > .timeline > li').eq(2).removeClass('none').addClass('flipInX').one(as, function() {
@@ -79,14 +78,32 @@ $(function() {
           });
         });
       });
+    } else if (cur == 2) {
+      p2.find('.con img').eq(0).removeClass('none').addClass('flipInY').one(as, function() {
+        p2.find('.con img').eq(1).removeClass('none').addClass('flipInY').one(as, function() {
+          p2.find('.con img').eq(2).removeClass('none').addClass('flipInY').one(as, function() {
+            p2.find('.con img').eq(3).removeClass('none').addClass('flipInY').one(as, function() {
+
+            });
+          });
+        });
+      });
+    } else if (cur == 3) {
+      p3.find('.con').removeClass('hide').addClass('fadeIn');
     }
   });
 
   Pace.on('hide', function() {
     $('#wrap').removeClass('hide').addClass('zoomIn');
-    pw.slide(1);
+    pw.slide(3);
   });
 
-
+  // 翻页
+  $('#p3slider').owlCarousel({
+    navigation: false,
+    slideSpeed: 300,
+    paginationSpeed: 400,
+    singleItem: true
+  });
 
 });

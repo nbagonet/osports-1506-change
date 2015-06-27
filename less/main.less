@@ -1,5 +1,7 @@
 @import '../bower_components/estk/src/all.less';
 @import (inline) '../bower_components/animate.css/animate.min.css';
+@import (inline) '../bower_components/OwlCarousel/owl-carousel/owl.carousel.css';
+@import (inline) '../bower_components/OwlCarousel/owl-carousel/owl.theme.css';
 
 /* Reset */
 *
@@ -580,6 +582,99 @@ a
                         {
                             .inline-block();
                         }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/** page2 */
+#p2
+{
+    > .bg
+    {
+        z-index: 1;
+
+        overflow: hidden;
+
+        background: url(../img/02/bg.jpg) 50% 50% no-repeat;
+        background-size: cover;
+
+        .absolute(0,0,0,0);
+    }
+    > .con
+    {
+        > ul
+        {
+            font-size: 0;
+
+            .clearfix();
+            > li
+            {
+                .inline-block();
+                .size(50%);
+                .padding(10vh/1704*100);
+            }
+        }
+    }
+}
+
+/** page3 */
+#p3
+{
+    > .bg
+    {
+        z-index: 1;
+
+        overflow: hidden;
+
+        background: url(../img/03/bg.jpg) 50% 50% no-repeat;
+        background-size: cover;
+
+        .absolute(0,0,0,0);
+    }
+    > .con
+    {
+        background-color: rgba(255,255,255,.25);
+        #p3slider
+        {
+            .size(100%);
+            .owl-pagination
+            {
+                .owl-page
+                {
+                    &.active
+                    {
+                        span
+                        {
+                            background-color: rgba(255,255,255,.8);
+                        }
+                    }
+                    span
+                    {
+                        .transition(all .5s ease);
+                        opacity: 1;
+                        background-color: rgba(0,0,0,.3);
+                    }
+                }
+            }
+            ul
+            {
+                .clearfix();
+                .padding(_,5%);
+                li
+                {
+                    float: left;
+
+                    .size(50%,350vh/1704*100);
+                    > img
+                    {
+                        max-width: 250vw/960*100;
+                        max-height: 250vh/1704*100;
+
+                        .margin(50%,auto,_);
+                        .translateY(-50%);
                     }
                 }
             }

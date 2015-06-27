@@ -40,6 +40,35 @@ body
                 dd.animated: img(src="../img/01/c#{i}-2.png")
       .arr-up.animated: img(src="../img/up.png")
 
+    //- page2
+    .page#p2
+      .bg.animated
+      .title.animated
+        h1: img(src="../img/02/title.png")
+        small: img(src="../img/02/title-sub.png")
+      .con
+        ul
+          - for(var i=1;i<=4;i++)
+            li: img.animated.none(src="../img/02/c1-#{i}.png")
+      .arr-up.animated: img(src="../img/up.png")
+
+    //- page3
+    .page#p3
+      .bg.animated
+      .title.animated
+        h1: img(src="../img/03/title.png")
+        small: img(src="../img/03/title-sub.png")
+      .con.hide.animated
+        #p3slider
+          - for(var i=1;i<=4;i++)
+            if i == 4
+              - var max = 4;
+            else
+              - var max = 6;
+            ul.item
+              - for(var j=1;j<=max;j++)
+                li: img(src="../img/03/l#{i}-#{j}.png")
+
   script(src="../bower_components/jquery/dist/jquery.min.js")
   script(src="../bower_components/pageSwitch/src/pageSwitch.js")
   script(src="../bower_components/OwlCarousel/owl-carousel/owl.carousel.min.js")
