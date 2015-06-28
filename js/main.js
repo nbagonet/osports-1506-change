@@ -2,6 +2,16 @@ var as = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animat
 
 $(function() {
 
+  // 判断浏览器内核
+  var ua = navigator.userAgent;
+  if (ua.indexOf('MQQBrowser') > -1) {
+    // 处理微信X5内核的兼容性
+    // 1.遍历所有元素，对vw,vh单位进行计算
+    $('*').each(function(index, el) {
+
+    });
+  }
+
   var pw = new pageSwitch('wrap', {
     duration: 600, //int 页面过渡时间
     direction: 1, //int 页面切换方向，0横向，1纵向

@@ -11,12 +11,15 @@ html
     meta(name='description', content='')
     title 2015 Osports全新升级
     script(src="../bower_components/PACE/pace.min.js")
+    script(src="../bower_components/viewport-units-buggyfill/viewport-units-buggyfill.js")
+    script.
+      window.viewportUnitsBuggyfill.init();
     link(rel='stylesheet', type='text/css', href='../css/main.css')
   body
 
     .cover: img(src="../img/cover.jpg")
 
-    .hide
+    .none
       audio#bgmusic(src="../media/SomeMightSay.mp3" autoload)
     #audio-control
 
