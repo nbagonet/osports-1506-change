@@ -165,7 +165,7 @@ $(function() {
     pw.slide(0);
   });
 
-  // 合作伙伴轮播
+  // 合作伙伴轮播.
   $('#p3slider').owlCarousel({
     navigation: false,
     slideSpeed: 300,

@@ -50,8 +50,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/animate.css\/min\/Gruntfile-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/animate.css\/package.json": {
 		"fileType": 524288,
@@ -831,7 +831,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/css\/effects.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
@@ -860,7 +860,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/css\/example.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
@@ -876,8 +876,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/example\/min\/less-1.3.3.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/estk\/example\/less-1.4.1.min.js": {
 		"fileType": 64,
@@ -887,8 +887,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/example\/min\/less-1.4.1.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/estk\/example\/prettify\/lang-apollo.js": {
 		"fileType": 64,
@@ -898,8 +898,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/example\/prettify\/min\/lang-apollo-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/estk\/example\/prettify\/lang-basic.js": {
 		"fileType": 64,
@@ -909,8 +909,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/example\/prettify\/min\/lang-basic-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/estk\/example\/prettify\/lang-clj.js": {
 		"fileType": 64,
@@ -920,8 +920,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/example\/prettify\/min\/lang-clj-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/estk\/example\/prettify\/lang-css.js": {
 		"fileType": 64,
@@ -931,8 +931,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/example\/prettify\/min\/lang-css-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/estk\/example\/prettify\/lang-dart.js": {
 		"fileType": 64,
@@ -942,8 +942,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/example\/prettify\/min\/lang-dart-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/estk\/example\/prettify\/lang-erlang.js": {
 		"fileType": 64,
@@ -953,8 +953,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/example\/prettify\/min\/lang-erlang-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/estk\/example\/prettify\/lang-go.js": {
 		"fileType": 64,
@@ -964,8 +964,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/example\/prettify\/min\/lang-go-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/estk\/example\/prettify\/lang-hs.js": {
 		"fileType": 64,
@@ -975,8 +975,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/example\/prettify\/min\/lang-hs-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/estk\/example\/prettify\/lang-lisp.js": {
 		"fileType": 64,
@@ -986,8 +986,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/example\/prettify\/min\/lang-lisp-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/estk\/example\/prettify\/lang-llvm.js": {
 		"fileType": 64,
@@ -997,8 +997,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/example\/prettify\/min\/lang-llvm-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/estk\/example\/prettify\/lang-lua.js": {
 		"fileType": 64,
@@ -1008,8 +1008,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/example\/prettify\/min\/lang-lua-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/estk\/example\/prettify\/lang-matlab.js": {
 		"fileType": 64,
@@ -1019,8 +1019,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/example\/prettify\/min\/lang-matlab-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/estk\/example\/prettify\/lang-ml.js": {
 		"fileType": 64,
@@ -1030,8 +1030,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/example\/prettify\/min\/lang-ml-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/estk\/example\/prettify\/lang-mumps.js": {
 		"fileType": 64,
@@ -1041,8 +1041,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/example\/prettify\/min\/lang-mumps-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/estk\/example\/prettify\/lang-n.js": {
 		"fileType": 64,
@@ -1052,8 +1052,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/example\/prettify\/min\/lang-n-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/estk\/example\/prettify\/lang-pascal.js": {
 		"fileType": 64,
@@ -1063,8 +1063,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/example\/prettify\/min\/lang-pascal-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/estk\/example\/prettify\/lang-proto.js": {
 		"fileType": 64,
@@ -1074,8 +1074,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/example\/prettify\/min\/lang-proto-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/estk\/example\/prettify\/lang-r.js": {
 		"fileType": 64,
@@ -1085,8 +1085,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/example\/prettify\/min\/lang-r-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/estk\/example\/prettify\/lang-rd.js": {
 		"fileType": 64,
@@ -1096,8 +1096,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/example\/prettify\/min\/lang-rd-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/estk\/example\/prettify\/lang-scala.js": {
 		"fileType": 64,
@@ -1107,8 +1107,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/example\/prettify\/min\/lang-scala-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/estk\/example\/prettify\/lang-sql.js": {
 		"fileType": 64,
@@ -1118,8 +1118,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/example\/prettify\/min\/lang-sql-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/estk\/example\/prettify\/lang-tcl.js": {
 		"fileType": 64,
@@ -1129,8 +1129,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/example\/prettify\/min\/lang-tcl-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/estk\/example\/prettify\/lang-tex.js": {
 		"fileType": 64,
@@ -1140,8 +1140,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/example\/prettify\/min\/lang-tex-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/estk\/example\/prettify\/lang-vb.js": {
 		"fileType": 64,
@@ -1151,8 +1151,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/example\/prettify\/min\/lang-vb-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/estk\/example\/prettify\/lang-vhdl.js": {
 		"fileType": 64,
@@ -1162,8 +1162,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/example\/prettify\/min\/lang-vhdl-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/estk\/example\/prettify\/lang-wiki.js": {
 		"fileType": 64,
@@ -1173,8 +1173,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/example\/prettify\/min\/lang-wiki-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/estk\/example\/prettify\/lang-xq.js": {
 		"fileType": 64,
@@ -1184,8 +1184,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/example\/prettify\/min\/lang-xq-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/estk\/example\/prettify\/lang-yaml.js": {
 		"fileType": 64,
@@ -1195,8 +1195,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/example\/prettify\/min\/lang-yaml-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/estk\/example\/prettify\/prettify.css": {
 		"fileType": 16,
@@ -1215,8 +1215,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/example\/prettify\/min\/prettify-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/estk\/example\/prettify\/run_prettify.js": {
 		"fileType": 64,
@@ -1226,8 +1226,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/example\/prettify\/min\/run_prettify-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/estk\/example\/typography.css": {
 		"fileType": 16,
@@ -1259,7 +1259,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/css\/typography.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
@@ -1275,8 +1275,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/lib\/min\/custom-functions-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/estk\/lib\/index.js": {
 		"fileType": 64,
@@ -1286,8 +1286,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/lib\/min\/index-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/estk\/lib\/injector.js": {
 		"fileType": 64,
@@ -1297,8 +1297,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/lib\/min\/injector-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/estk\/lib\/unique-directives.js": {
 		"fileType": 64,
@@ -1308,8 +1308,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/lib\/min\/unique-directives-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/estk\/package.json": {
 		"fileType": 524288,
@@ -1376,7 +1376,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/css\/all.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
@@ -1396,7 +1396,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/css\/clockhand.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
@@ -1416,7 +1416,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/css\/compatibility.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
@@ -1436,7 +1436,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/css\/effects.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
@@ -1456,7 +1456,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/css\/grid.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
@@ -1476,7 +1476,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/css\/layout.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
@@ -1496,7 +1496,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/css\/normalize.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
@@ -1516,7 +1516,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/css\/reset.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
@@ -1536,7 +1536,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/css\/shapes.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
@@ -1556,7 +1556,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/css\/typography.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
@@ -1576,7 +1576,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/css\/util.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
@@ -1596,7 +1596,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/css\/variables.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
@@ -1625,7 +1625,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/test\/specs\/css\/clockhand.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
@@ -1654,7 +1654,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/test\/specs\/css\/animation.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
@@ -1683,7 +1683,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/test\/specs\/css\/background.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
@@ -1712,7 +1712,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/test\/specs\/css\/flex.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
@@ -1741,7 +1741,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/test\/specs\/css\/misc.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
@@ -1770,7 +1770,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/test\/specs\/css\/transform.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
@@ -1799,7 +1799,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/test\/specs\/css\/transition.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
@@ -1828,7 +1828,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/test\/specs\/css\/layout.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
@@ -1857,7 +1857,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/test\/specs\/css\/typography.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
@@ -1886,7 +1886,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/test\/specs\/css\/em.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
@@ -1915,7 +1915,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/test\/specs\/css\/rem.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
@@ -1944,7 +1944,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/test\/specs\/css\/util.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
@@ -1973,7 +1973,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/test\/specs\/css\/variables.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
@@ -1989,8 +1989,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/estk\/test\/min\/test-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/bower.json": {
 		"fileType": 524288,
@@ -2011,8 +2011,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/dist\/min\/jquery-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/dist\/jquery.min.js": {
 		"fileType": 64,
@@ -2022,8 +2022,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/dist\/min\/jquery.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/ajax.js": {
 		"fileType": 64,
@@ -2033,8 +2033,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/ajax-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/ajax\/jsonp.js": {
 		"fileType": 64,
@@ -2044,8 +2044,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/min\/jsonp-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/ajax\/load.js": {
 		"fileType": 64,
@@ -2055,8 +2055,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/min\/load-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/ajax\/parseJSON.js": {
 		"fileType": 64,
@@ -2066,8 +2066,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/min\/parseJSON-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/ajax\/parseXML.js": {
 		"fileType": 64,
@@ -2077,8 +2077,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/min\/parseXML-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/ajax\/script.js": {
 		"fileType": 64,
@@ -2088,8 +2088,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/min\/script-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/ajax\/var\/nonce.js": {
 		"fileType": 64,
@@ -2099,8 +2099,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/var\/min\/nonce-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/ajax\/var\/rquery.js": {
 		"fileType": 64,
@@ -2110,8 +2110,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/var\/min\/rquery-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/ajax\/xhr.js": {
 		"fileType": 64,
@@ -2121,8 +2121,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/min\/xhr-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/attributes.js": {
 		"fileType": 64,
@@ -2132,8 +2132,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/attributes-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/attributes\/attr.js": {
 		"fileType": 64,
@@ -2143,8 +2143,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/attributes\/min\/attr-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/attributes\/classes.js": {
 		"fileType": 64,
@@ -2154,8 +2154,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/attributes\/min\/classes-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/attributes\/prop.js": {
 		"fileType": 64,
@@ -2165,8 +2165,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/attributes\/min\/prop-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/attributes\/support.js": {
 		"fileType": 64,
@@ -2176,8 +2176,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/attributes\/min\/support-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/attributes\/val.js": {
 		"fileType": 64,
@@ -2187,8 +2187,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/attributes\/min\/val-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/callbacks.js": {
 		"fileType": 64,
@@ -2198,8 +2198,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/callbacks-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/core.js": {
 		"fileType": 64,
@@ -2209,8 +2209,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/core-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/core\/access.js": {
 		"fileType": 64,
@@ -2220,8 +2220,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/core\/min\/access-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/core\/init.js": {
 		"fileType": 64,
@@ -2231,8 +2231,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/core\/min\/init-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/core\/parseHTML.js": {
 		"fileType": 64,
@@ -2242,8 +2242,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/core\/min\/parseHTML-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/core\/ready.js": {
 		"fileType": 64,
@@ -2253,8 +2253,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/core\/min\/ready-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/core\/var\/rsingleTag.js": {
 		"fileType": 64,
@@ -2264,8 +2264,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/core\/var\/min\/rsingleTag-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/css.js": {
 		"fileType": 64,
@@ -2275,8 +2275,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/css-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/css\/addGetHookIf.js": {
 		"fileType": 64,
@@ -2286,8 +2286,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/min\/addGetHookIf-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/css\/curCSS.js": {
 		"fileType": 64,
@@ -2297,8 +2297,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/min\/curCSS-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/css\/defaultDisplay.js": {
 		"fileType": 64,
@@ -2308,8 +2308,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/min\/defaultDisplay-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/css\/hiddenVisibleSelectors.js": {
 		"fileType": 64,
@@ -2319,8 +2319,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/min\/hiddenVisibleSelectors-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/css\/support.js": {
 		"fileType": 64,
@@ -2330,8 +2330,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/min\/support-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/css\/swap.js": {
 		"fileType": 64,
@@ -2341,8 +2341,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/min\/swap-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/css\/var\/cssExpand.js": {
 		"fileType": 64,
@@ -2352,8 +2352,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/var\/min\/cssExpand-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/css\/var\/getStyles.js": {
 		"fileType": 64,
@@ -2363,8 +2363,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/var\/min\/getStyles-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/css\/var\/isHidden.js": {
 		"fileType": 64,
@@ -2374,8 +2374,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/var\/min\/isHidden-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/css\/var\/rmargin.js": {
 		"fileType": 64,
@@ -2385,8 +2385,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/var\/min\/rmargin-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/css\/var\/rnumnonpx.js": {
 		"fileType": 64,
@@ -2396,8 +2396,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/var\/min\/rnumnonpx-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/data.js": {
 		"fileType": 64,
@@ -2407,8 +2407,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/data-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/data\/accepts.js": {
 		"fileType": 64,
@@ -2418,8 +2418,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/data\/min\/accepts-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/data\/Data.js": {
 		"fileType": 64,
@@ -2429,8 +2429,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/data\/min\/Data-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/data\/var\/data_priv.js": {
 		"fileType": 64,
@@ -2440,8 +2440,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/data\/var\/min\/data_priv-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/data\/var\/data_user.js": {
 		"fileType": 64,
@@ -2451,8 +2451,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/data\/var\/min\/data_user-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/deferred.js": {
 		"fileType": 64,
@@ -2462,8 +2462,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/deferred-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/deprecated.js": {
 		"fileType": 64,
@@ -2473,8 +2473,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/deprecated-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/dimensions.js": {
 		"fileType": 64,
@@ -2484,8 +2484,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/dimensions-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/effects.js": {
 		"fileType": 64,
@@ -2495,8 +2495,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/effects-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/effects\/animatedSelector.js": {
 		"fileType": 64,
@@ -2506,8 +2506,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/effects\/min\/animatedSelector-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/effects\/Tween.js": {
 		"fileType": 64,
@@ -2517,8 +2517,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/effects\/min\/Tween-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/event.js": {
 		"fileType": 64,
@@ -2528,8 +2528,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/event-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/event\/ajax.js": {
 		"fileType": 64,
@@ -2539,8 +2539,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/event\/min\/ajax-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/event\/alias.js": {
 		"fileType": 64,
@@ -2550,8 +2550,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/event\/min\/alias-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/event\/support.js": {
 		"fileType": 64,
@@ -2561,8 +2561,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/event\/min\/support-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/exports\/amd.js": {
 		"fileType": 64,
@@ -2572,8 +2572,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/exports\/min\/amd-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/exports\/global.js": {
 		"fileType": 64,
@@ -2583,8 +2583,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/exports\/min\/global-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/intro.js": {
 		"fileType": 64,
@@ -2594,8 +2594,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/intro-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/jquery.js": {
 		"fileType": 64,
@@ -2605,8 +2605,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/jquery-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/manipulation.js": {
 		"fileType": 64,
@@ -2616,8 +2616,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/manipulation-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/manipulation\/_evalUrl.js": {
 		"fileType": 64,
@@ -2627,8 +2627,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/manipulation\/min\/_evalUrl-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/manipulation\/support.js": {
 		"fileType": 64,
@@ -2638,8 +2638,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/manipulation\/min\/support-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/manipulation\/var\/rcheckableType.js": {
 		"fileType": 64,
@@ -2649,8 +2649,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/manipulation\/var\/min\/rcheckableType-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/offset.js": {
 		"fileType": 64,
@@ -2660,8 +2660,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/offset-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/outro.js": {
 		"fileType": 64,
@@ -2671,8 +2671,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/outro-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/queue.js": {
 		"fileType": 64,
@@ -2682,8 +2682,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/queue-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/queue\/delay.js": {
 		"fileType": 64,
@@ -2693,8 +2693,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/queue\/min\/delay-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/selector-native.js": {
 		"fileType": 64,
@@ -2704,8 +2704,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/selector-native-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/selector-sizzle.js": {
 		"fileType": 64,
@@ -2715,8 +2715,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/selector-sizzle-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/selector.js": {
 		"fileType": 64,
@@ -2726,8 +2726,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/selector-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/serialize.js": {
 		"fileType": 64,
@@ -2737,8 +2737,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/serialize-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/sizzle\/dist\/sizzle.js": {
 		"fileType": 64,
@@ -2748,8 +2748,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/sizzle\/dist\/min\/sizzle-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/sizzle\/dist\/sizzle.min.js": {
 		"fileType": 64,
@@ -2759,8 +2759,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/sizzle\/dist\/min\/sizzle.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/traversing.js": {
 		"fileType": 64,
@@ -2770,8 +2770,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/traversing-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/traversing\/findFilter.js": {
 		"fileType": 64,
@@ -2781,8 +2781,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/traversing\/min\/findFilter-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/traversing\/var\/rneedsContext.js": {
 		"fileType": 64,
@@ -2792,8 +2792,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/traversing\/var\/min\/rneedsContext-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/var\/arr.js": {
 		"fileType": 64,
@@ -2803,8 +2803,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/arr-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/var\/class2type.js": {
 		"fileType": 64,
@@ -2814,8 +2814,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/class2type-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/var\/concat.js": {
 		"fileType": 64,
@@ -2825,8 +2825,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/concat-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/var\/hasOwn.js": {
 		"fileType": 64,
@@ -2836,8 +2836,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/hasOwn-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/var\/indexOf.js": {
 		"fileType": 64,
@@ -2847,8 +2847,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/indexOf-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/var\/pnum.js": {
 		"fileType": 64,
@@ -2858,8 +2858,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/pnum-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/var\/push.js": {
 		"fileType": 64,
@@ -2869,8 +2869,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/push-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/var\/rnotwhite.js": {
 		"fileType": 64,
@@ -2880,8 +2880,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/rnotwhite-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/var\/slice.js": {
 		"fileType": 64,
@@ -2891,8 +2891,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/slice-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/var\/strundefined.js": {
 		"fileType": 64,
@@ -2902,8 +2902,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/strundefined-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/var\/support.js": {
 		"fileType": 64,
@@ -2913,8 +2913,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/support-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/var\/toString.js": {
 		"fileType": 64,
@@ -2924,8 +2924,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/toString-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery\/src\/wrap.js": {
 		"fileType": 64,
@@ -2935,8 +2935,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/wrap-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/OwlCarousel\/assets\/css\/bootstrapTheme.css": {
 		"fileType": 16,
@@ -3182,8 +3182,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/OwlCarousel\/assets\/js\/min\/application-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/OwlCarousel\/assets\/js\/bootstrap-collapse.js": {
 		"fileType": 64,
@@ -3193,8 +3193,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/OwlCarousel\/assets\/js\/min\/bootstrap-collapse-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/OwlCarousel\/assets\/js\/bootstrap-tab.js": {
 		"fileType": 64,
@@ -3204,8 +3204,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/OwlCarousel\/assets\/js\/min\/bootstrap-tab-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/OwlCarousel\/assets\/js\/bootstrap-transition.js": {
 		"fileType": 64,
@@ -3215,8 +3215,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/OwlCarousel\/assets\/js\/min\/bootstrap-transition-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/OwlCarousel\/assets\/js\/google-code-prettify\/prettify.css": {
 		"fileType": 16,
@@ -3235,8 +3235,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/OwlCarousel\/assets\/js\/google-code-prettify\/min\/prettify-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/OwlCarousel\/assets\/js\/google-code-prettify\/run_prettify.js": {
 		"fileType": 64,
@@ -3246,8 +3246,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/OwlCarousel\/assets\/js\/google-code-prettify\/min\/run_prettify-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/OwlCarousel\/assets\/js\/jquery-1.9.1.min.js": {
 		"fileType": 64,
@@ -3257,8 +3257,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/OwlCarousel\/assets\/js\/min\/jquery-1.9.1.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/OwlCarousel\/changelog.html": {
 		"fileType": 8192,
@@ -3664,8 +3664,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/OwlCarousel\/owl-carousel\/min\/owl.carousel-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/OwlCarousel\/owl-carousel\/owl.carousel.min.js": {
 		"fileType": 64,
@@ -3675,8 +3675,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/OwlCarousel\/owl-carousel\/min\/owl.carousel.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/OwlCarousel\/owl-carousel\/owl.theme.css": {
 		"fileType": 16,
@@ -3760,8 +3760,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/PACE\/min\/pace-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/PACE\/pace.min.js": {
 		"fileType": 64,
@@ -3771,8 +3771,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/PACE\/min\/pace.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/PACE\/README.md": {
 		"criticStyle": 0,
@@ -5105,14 +5105,25 @@
 		},
 	"\/bower_components\/pageSwitch\/src\/pageSwitch.js": {
 		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/bower_components\/pageSwitch\/src\/pageSwitch.js",
+		"outputAbbreviatedPath": "\/bower_components\/pageSwitch\/src\/pageSwitch.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/pageSwitch\/src\/pageSwitch.min.js": {
+		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/pageSwitch\/src\/pageSwitch.js",
-		"outputAbbreviatedPath": "\/bower_components\/pageSwitch\/src\/min\/pageSwitch-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/pageSwitch\/src\/pageSwitch.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/pageSwitch\/src\/pageSwitch.min.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/css\/main.css": {
 		"fileType": 16,
@@ -5141,7 +5152,7 @@
 		"outputAbbreviatedPath": "\/img\/+.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/00\/bg.jpg": {
 		"fileType": 16384,
@@ -5152,7 +5163,7 @@
 		"outputAbbreviatedPath": "\/img\/00\/bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/00\/logo.png": {
 		"fileType": 32768,
@@ -5163,7 +5174,7 @@
 		"outputAbbreviatedPath": "\/img\/00\/logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/00\/txt0.png": {
 		"fileType": 32768,
@@ -5174,7 +5185,7 @@
 		"outputAbbreviatedPath": "\/img\/00\/txt0.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/01\/bg.jpg": {
 		"fileType": 16384,
@@ -5185,7 +5196,7 @@
 		"outputAbbreviatedPath": "\/img\/01\/bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/01\/c1-1.png": {
 		"fileType": 32768,
@@ -5196,7 +5207,7 @@
 		"outputAbbreviatedPath": "\/img\/01\/c1-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/01\/c1-2.png": {
 		"fileType": 32768,
@@ -5207,7 +5218,7 @@
 		"outputAbbreviatedPath": "\/img\/01\/c1-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/01\/c10-1.png": {
 		"fileType": 32768,
@@ -5218,7 +5229,7 @@
 		"outputAbbreviatedPath": "\/img\/01\/c10-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/01\/c10-2.png": {
 		"fileType": 32768,
@@ -5229,7 +5240,7 @@
 		"outputAbbreviatedPath": "\/img\/01\/c10-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/01\/c2-1.png": {
 		"fileType": 32768,
@@ -5240,7 +5251,7 @@
 		"outputAbbreviatedPath": "\/img\/01\/c2-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/01\/c2-2.png": {
 		"fileType": 32768,
@@ -5251,7 +5262,7 @@
 		"outputAbbreviatedPath": "\/img\/01\/c2-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/01\/c3-1.png": {
 		"fileType": 32768,
@@ -5262,7 +5273,7 @@
 		"outputAbbreviatedPath": "\/img\/01\/c3-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/01\/c3-2.png": {
 		"fileType": 32768,
@@ -5273,7 +5284,7 @@
 		"outputAbbreviatedPath": "\/img\/01\/c3-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/01\/c4-1.png": {
 		"fileType": 32768,
@@ -5284,7 +5295,7 @@
 		"outputAbbreviatedPath": "\/img\/01\/c4-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/01\/c4-2.png": {
 		"fileType": 32768,
@@ -5295,7 +5306,7 @@
 		"outputAbbreviatedPath": "\/img\/01\/c4-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/01\/c5-1.png": {
 		"fileType": 32768,
@@ -5306,7 +5317,7 @@
 		"outputAbbreviatedPath": "\/img\/01\/c5-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/01\/c5-2.png": {
 		"fileType": 32768,
@@ -5317,7 +5328,7 @@
 		"outputAbbreviatedPath": "\/img\/01\/c5-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/01\/c6-1.png": {
 		"fileType": 32768,
@@ -5328,7 +5339,7 @@
 		"outputAbbreviatedPath": "\/img\/01\/c6-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/01\/c6-2.png": {
 		"fileType": 32768,
@@ -5339,7 +5350,7 @@
 		"outputAbbreviatedPath": "\/img\/01\/c6-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/01\/c7-1.png": {
 		"fileType": 32768,
@@ -5350,7 +5361,7 @@
 		"outputAbbreviatedPath": "\/img\/01\/c7-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/01\/c7-2.png": {
 		"fileType": 32768,
@@ -5361,7 +5372,7 @@
 		"outputAbbreviatedPath": "\/img\/01\/c7-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/01\/c8-1.png": {
 		"fileType": 32768,
@@ -5372,7 +5383,7 @@
 		"outputAbbreviatedPath": "\/img\/01\/c8-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/01\/c8-2.png": {
 		"fileType": 32768,
@@ -5383,7 +5394,7 @@
 		"outputAbbreviatedPath": "\/img\/01\/c8-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/01\/c9-1.png": {
 		"fileType": 32768,
@@ -5394,7 +5405,7 @@
 		"outputAbbreviatedPath": "\/img\/01\/c9-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/01\/c9-2.png": {
 		"fileType": 32768,
@@ -5405,7 +5416,7 @@
 		"outputAbbreviatedPath": "\/img\/01\/c9-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/01\/title-sub.png": {
 		"fileType": 32768,
@@ -5416,7 +5427,7 @@
 		"outputAbbreviatedPath": "\/img\/01\/title-sub.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/01\/title.png": {
 		"fileType": 32768,
@@ -5427,7 +5438,7 @@
 		"outputAbbreviatedPath": "\/img\/01\/title.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/02\/bg.jpg": {
 		"fileType": 16384,
@@ -5438,7 +5449,7 @@
 		"outputAbbreviatedPath": "\/img\/02\/bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/02\/c1-1.png": {
 		"fileType": 32768,
@@ -5449,7 +5460,7 @@
 		"outputAbbreviatedPath": "\/img\/02\/c1-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/02\/c1-2.png": {
 		"fileType": 32768,
@@ -5460,7 +5471,7 @@
 		"outputAbbreviatedPath": "\/img\/02\/c1-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/02\/c1-3.png": {
 		"fileType": 32768,
@@ -5471,7 +5482,7 @@
 		"outputAbbreviatedPath": "\/img\/02\/c1-3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/02\/c1-4.png": {
 		"fileType": 32768,
@@ -5482,7 +5493,7 @@
 		"outputAbbreviatedPath": "\/img\/02\/c1-4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/02\/title-sub.png": {
 		"fileType": 32768,
@@ -5493,7 +5504,7 @@
 		"outputAbbreviatedPath": "\/img\/02\/title-sub.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/02\/title.png": {
 		"fileType": 32768,
@@ -5504,7 +5515,7 @@
 		"outputAbbreviatedPath": "\/img\/02\/title.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/03\/bg.jpg": {
 		"fileType": 16384,
@@ -5515,7 +5526,7 @@
 		"outputAbbreviatedPath": "\/img\/03\/bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/03\/l1-1.png": {
 		"fileType": 32768,
@@ -5526,7 +5537,7 @@
 		"outputAbbreviatedPath": "\/img\/03\/l1-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/03\/l1-2.png": {
 		"fileType": 32768,
@@ -5537,7 +5548,7 @@
 		"outputAbbreviatedPath": "\/img\/03\/l1-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/03\/l1-3.png": {
 		"fileType": 32768,
@@ -5548,7 +5559,7 @@
 		"outputAbbreviatedPath": "\/img\/03\/l1-3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/03\/l1-4.png": {
 		"fileType": 32768,
@@ -5559,7 +5570,7 @@
 		"outputAbbreviatedPath": "\/img\/03\/l1-4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/03\/l1-5.png": {
 		"fileType": 32768,
@@ -5570,7 +5581,7 @@
 		"outputAbbreviatedPath": "\/img\/03\/l1-5.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/03\/l1-6.png": {
 		"fileType": 32768,
@@ -5581,7 +5592,7 @@
 		"outputAbbreviatedPath": "\/img\/03\/l1-6.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/03\/l2-1.png": {
 		"fileType": 32768,
@@ -5592,7 +5603,7 @@
 		"outputAbbreviatedPath": "\/img\/03\/l2-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/03\/l2-2.png": {
 		"fileType": 32768,
@@ -5603,7 +5614,7 @@
 		"outputAbbreviatedPath": "\/img\/03\/l2-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/03\/l2-3.png": {
 		"fileType": 32768,
@@ -5614,7 +5625,7 @@
 		"outputAbbreviatedPath": "\/img\/03\/l2-3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/03\/l2-4.png": {
 		"fileType": 32768,
@@ -5625,7 +5636,7 @@
 		"outputAbbreviatedPath": "\/img\/03\/l2-4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/03\/l2-5.png": {
 		"fileType": 32768,
@@ -5636,7 +5647,7 @@
 		"outputAbbreviatedPath": "\/img\/03\/l2-5.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/03\/l2-6.png": {
 		"fileType": 32768,
@@ -5647,7 +5658,7 @@
 		"outputAbbreviatedPath": "\/img\/03\/l2-6.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/03\/l3-1.png": {
 		"fileType": 32768,
@@ -5658,7 +5669,7 @@
 		"outputAbbreviatedPath": "\/img\/03\/l3-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/03\/l3-2.png": {
 		"fileType": 32768,
@@ -5669,7 +5680,7 @@
 		"outputAbbreviatedPath": "\/img\/03\/l3-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/03\/l3-3.png": {
 		"fileType": 32768,
@@ -5680,7 +5691,7 @@
 		"outputAbbreviatedPath": "\/img\/03\/l3-3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/03\/l3-4.png": {
 		"fileType": 32768,
@@ -5691,7 +5702,7 @@
 		"outputAbbreviatedPath": "\/img\/03\/l3-4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/03\/l3-5.png": {
 		"fileType": 32768,
@@ -5702,7 +5713,7 @@
 		"outputAbbreviatedPath": "\/img\/03\/l3-5.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/03\/l3-6.png": {
 		"fileType": 32768,
@@ -5713,7 +5724,7 @@
 		"outputAbbreviatedPath": "\/img\/03\/l3-6.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/03\/l4-1.png": {
 		"fileType": 32768,
@@ -5724,7 +5735,7 @@
 		"outputAbbreviatedPath": "\/img\/03\/l4-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/03\/l4-2.png": {
 		"fileType": 32768,
@@ -5735,7 +5746,7 @@
 		"outputAbbreviatedPath": "\/img\/03\/l4-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/03\/l4-3.png": {
 		"fileType": 32768,
@@ -5746,7 +5757,7 @@
 		"outputAbbreviatedPath": "\/img\/03\/l4-3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/03\/l4-4.png": {
 		"fileType": 32768,
@@ -5757,7 +5768,7 @@
 		"outputAbbreviatedPath": "\/img\/03\/l4-4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/03\/title-sub.png": {
 		"fileType": 32768,
@@ -5768,7 +5779,7 @@
 		"outputAbbreviatedPath": "\/img\/03\/title-sub.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/03\/title.png": {
 		"fileType": 32768,
@@ -5779,7 +5790,7 @@
 		"outputAbbreviatedPath": "\/img\/03\/title.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/04\/bg.jpg": {
 		"fileType": 16384,
@@ -5790,7 +5801,7 @@
 		"outputAbbreviatedPath": "\/img\/04\/bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/04\/c1-1.png": {
 		"fileType": 32768,
@@ -5801,7 +5812,7 @@
 		"outputAbbreviatedPath": "\/img\/04\/c1-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/04\/c1-2.png": {
 		"fileType": 32768,
@@ -5812,7 +5823,7 @@
 		"outputAbbreviatedPath": "\/img\/04\/c1-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/04\/c1-3.png": {
 		"fileType": 32768,
@@ -5823,7 +5834,7 @@
 		"outputAbbreviatedPath": "\/img\/04\/c1-3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/04\/c1-4.png": {
 		"fileType": 32768,
@@ -5834,7 +5845,7 @@
 		"outputAbbreviatedPath": "\/img\/04\/c1-4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/04\/c1-5.png": {
 		"fileType": 32768,
@@ -5845,7 +5856,7 @@
 		"outputAbbreviatedPath": "\/img\/04\/c1-5.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/04\/c1-6.png": {
 		"fileType": 32768,
@@ -5856,7 +5867,7 @@
 		"outputAbbreviatedPath": "\/img\/04\/c1-6.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/04\/title-sub.png": {
 		"fileType": 32768,
@@ -5867,7 +5878,7 @@
 		"outputAbbreviatedPath": "\/img\/04\/title-sub.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/04\/title.png": {
 		"fileType": 32768,
@@ -5878,7 +5889,7 @@
 		"outputAbbreviatedPath": "\/img\/04\/title.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/bg.jpg": {
 		"fileType": 16384,
@@ -5889,7 +5900,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l1-1.png": {
 		"fileType": 32768,
@@ -5900,7 +5911,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l1-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l1-2.png": {
 		"fileType": 32768,
@@ -5911,7 +5922,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l1-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l1-3.png": {
 		"fileType": 32768,
@@ -5922,7 +5933,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l1-3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l1-4.png": {
 		"fileType": 32768,
@@ -5933,7 +5944,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l1-4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l1-5.png": {
 		"fileType": 32768,
@@ -5944,7 +5955,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l1-5.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l1-6.png": {
 		"fileType": 32768,
@@ -5955,7 +5966,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l1-6.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l2-1.png": {
 		"fileType": 32768,
@@ -5966,7 +5977,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l2-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l2-2.png": {
 		"fileType": 32768,
@@ -5977,7 +5988,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l2-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l2-3.png": {
 		"fileType": 32768,
@@ -5988,7 +5999,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l2-3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l2-4.png": {
 		"fileType": 32768,
@@ -5999,7 +6010,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l2-4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l2-5.png": {
 		"fileType": 32768,
@@ -6010,7 +6021,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l2-5.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l2-6.png": {
 		"fileType": 32768,
@@ -6021,7 +6032,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l2-6.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l3-1.png": {
 		"fileType": 32768,
@@ -6032,7 +6043,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l3-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l3-2.png": {
 		"fileType": 32768,
@@ -6043,7 +6054,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l3-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l3-3.png": {
 		"fileType": 32768,
@@ -6054,7 +6065,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l3-3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l3-4.png": {
 		"fileType": 32768,
@@ -6065,7 +6076,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l3-4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l3-5.png": {
 		"fileType": 32768,
@@ -6076,7 +6087,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l3-5.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l3-6.png": {
 		"fileType": 32768,
@@ -6087,7 +6098,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l3-6.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l4-1.png": {
 		"fileType": 32768,
@@ -6098,7 +6109,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l4-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l4-2.png": {
 		"fileType": 32768,
@@ -6109,7 +6120,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l4-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l4-3.png": {
 		"fileType": 32768,
@@ -6120,7 +6131,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l4-3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l4-4.png": {
 		"fileType": 32768,
@@ -6131,7 +6142,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l4-4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l4-5.png": {
 		"fileType": 32768,
@@ -6142,7 +6153,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l4-5.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l4-6.png": {
 		"fileType": 32768,
@@ -6153,7 +6164,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l4-6.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l5-1.png": {
 		"fileType": 32768,
@@ -6164,7 +6175,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l5-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l5-2.png": {
 		"fileType": 32768,
@@ -6175,7 +6186,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l5-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l5-3.png": {
 		"fileType": 32768,
@@ -6186,7 +6197,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l5-3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l5-4.png": {
 		"fileType": 32768,
@@ -6197,7 +6208,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l5-4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l5-5.png": {
 		"fileType": 32768,
@@ -6208,7 +6219,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l5-5.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l5-6.png": {
 		"fileType": 32768,
@@ -6219,7 +6230,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l5-6.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l6-1.png": {
 		"fileType": 32768,
@@ -6230,7 +6241,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l6-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l6-2.png": {
 		"fileType": 32768,
@@ -6241,7 +6252,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l6-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l6-3.png": {
 		"fileType": 32768,
@@ -6252,7 +6263,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l6-3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l6-4.png": {
 		"fileType": 32768,
@@ -6263,7 +6274,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l6-4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l6-5.png": {
 		"fileType": 32768,
@@ -6274,7 +6285,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l6-5.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l6-6.png": {
 		"fileType": 32768,
@@ -6285,7 +6296,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l6-6.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l7-1.png": {
 		"fileType": 32768,
@@ -6296,7 +6307,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l7-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l7-2.png": {
 		"fileType": 32768,
@@ -6307,7 +6318,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l7-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l7-3.png": {
 		"fileType": 32768,
@@ -6318,7 +6329,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l7-3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l7-4.png": {
 		"fileType": 32768,
@@ -6329,7 +6340,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l7-4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l7-5.png": {
 		"fileType": 32768,
@@ -6340,7 +6351,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l7-5.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/l7-6.png": {
 		"fileType": 32768,
@@ -6351,7 +6362,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/l7-6.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/title-sub.png": {
 		"fileType": 32768,
@@ -6362,7 +6373,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/title-sub.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/05\/title.png": {
 		"fileType": 32768,
@@ -6373,7 +6384,7 @@
 		"outputAbbreviatedPath": "\/img\/05\/title.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/06\/bg.jpg": {
 		"fileType": 16384,
@@ -6384,7 +6395,7 @@
 		"outputAbbreviatedPath": "\/img\/06\/bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/06\/c1-1.png": {
 		"fileType": 32768,
@@ -6395,7 +6406,7 @@
 		"outputAbbreviatedPath": "\/img\/06\/c1-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/06\/title-sub.png": {
 		"fileType": 32768,
@@ -6406,7 +6417,7 @@
 		"outputAbbreviatedPath": "\/img\/06\/title-sub.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/06\/title.png": {
 		"fileType": 32768,
@@ -6417,7 +6428,7 @@
 		"outputAbbreviatedPath": "\/img\/06\/title.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/07\/bg.jpg": {
 		"fileType": 16384,
@@ -6428,7 +6439,7 @@
 		"outputAbbreviatedPath": "\/img\/07\/bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/07\/c1-1.png": {
 		"fileType": 32768,
@@ -6439,7 +6450,7 @@
 		"outputAbbreviatedPath": "\/img\/07\/c1-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/07\/c1-2.png": {
 		"fileType": 32768,
@@ -6450,7 +6461,7 @@
 		"outputAbbreviatedPath": "\/img\/07\/c1-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/07\/c1-3.png": {
 		"fileType": 32768,
@@ -6461,7 +6472,7 @@
 		"outputAbbreviatedPath": "\/img\/07\/c1-3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/07\/c1-4.png": {
 		"fileType": 32768,
@@ -6472,7 +6483,7 @@
 		"outputAbbreviatedPath": "\/img\/07\/c1-4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/07\/c1-5.png": {
 		"fileType": 32768,
@@ -6483,7 +6494,7 @@
 		"outputAbbreviatedPath": "\/img\/07\/c1-5.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/07\/c1-6.png": {
 		"fileType": 32768,
@@ -6494,7 +6505,7 @@
 		"outputAbbreviatedPath": "\/img\/07\/c1-6.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/07\/title.png": {
 		"fileType": 32768,
@@ -6505,7 +6516,7 @@
 		"outputAbbreviatedPath": "\/img\/07\/title.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/08\/bg.jpg": {
 		"fileType": 16384,
@@ -6516,7 +6527,7 @@
 		"outputAbbreviatedPath": "\/img\/08\/bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/08\/c1-1.jpg": {
 		"fileType": 16384,
@@ -6527,7 +6538,7 @@
 		"outputAbbreviatedPath": "\/img\/08\/c1-1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/08\/c1-2.jpg": {
 		"fileType": 16384,
@@ -6538,7 +6549,7 @@
 		"outputAbbreviatedPath": "\/img\/08\/c1-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/08\/c1-3.jpg": {
 		"fileType": 16384,
@@ -6549,7 +6560,7 @@
 		"outputAbbreviatedPath": "\/img\/08\/c1-3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/08\/c1-4.jpg": {
 		"fileType": 16384,
@@ -6560,7 +6571,7 @@
 		"outputAbbreviatedPath": "\/img\/08\/c1-4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/08\/c1-5.jpg": {
 		"fileType": 16384,
@@ -6571,7 +6582,7 @@
 		"outputAbbreviatedPath": "\/img\/08\/c1-5.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/08\/c2-1.png": {
 		"fileType": 32768,
@@ -6582,7 +6593,7 @@
 		"outputAbbreviatedPath": "\/img\/08\/c2-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/08\/title-sub.png": {
 		"fileType": 32768,
@@ -6593,7 +6604,7 @@
 		"outputAbbreviatedPath": "\/img\/08\/title-sub.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/08\/title.png": {
 		"fileType": 32768,
@@ -6604,7 +6615,7 @@
 		"outputAbbreviatedPath": "\/img\/08\/title.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/09\/bg.jpg": {
 		"fileType": 16384,
@@ -6615,7 +6626,7 @@
 		"outputAbbreviatedPath": "\/img\/09\/bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/09\/c1-1.png": {
 		"fileType": 32768,
@@ -6626,7 +6637,7 @@
 		"outputAbbreviatedPath": "\/img\/09\/c1-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/09\/title-sub.png": {
 		"fileType": 32768,
@@ -6637,7 +6648,7 @@
 		"outputAbbreviatedPath": "\/img\/09\/title-sub.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/09\/title.png": {
 		"fileType": 32768,
@@ -6648,7 +6659,7 @@
 		"outputAbbreviatedPath": "\/img\/09\/title.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/10\/bg.jpg": {
 		"fileType": 16384,
@@ -6659,7 +6670,7 @@
 		"outputAbbreviatedPath": "\/img\/10\/bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/10\/c1-1.png": {
 		"fileType": 32768,
@@ -6670,7 +6681,7 @@
 		"outputAbbreviatedPath": "\/img\/10\/c1-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/10\/title-sub.png": {
 		"fileType": 32768,
@@ -6681,7 +6692,7 @@
 		"outputAbbreviatedPath": "\/img\/10\/title-sub.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/10\/title.png": {
 		"fileType": 32768,
@@ -6692,7 +6703,7 @@
 		"outputAbbreviatedPath": "\/img\/10\/title.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/11\/bg.jpg": {
 		"fileType": 16384,
@@ -6703,7 +6714,7 @@
 		"outputAbbreviatedPath": "\/img\/11\/bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/11\/c1-1.png": {
 		"fileType": 32768,
@@ -6714,7 +6725,7 @@
 		"outputAbbreviatedPath": "\/img\/11\/c1-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/11\/c2-1.png": {
 		"fileType": 32768,
@@ -6725,7 +6736,7 @@
 		"outputAbbreviatedPath": "\/img\/11\/c2-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/11\/c2-2.png": {
 		"fileType": 32768,
@@ -6736,7 +6747,7 @@
 		"outputAbbreviatedPath": "\/img\/11\/c2-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/11\/c2-3.png": {
 		"fileType": 32768,
@@ -6747,7 +6758,7 @@
 		"outputAbbreviatedPath": "\/img\/11\/c2-3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/11\/c2-4.png": {
 		"fileType": 32768,
@@ -6758,7 +6769,7 @@
 		"outputAbbreviatedPath": "\/img\/11\/c2-4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/11\/c3-1.png": {
 		"fileType": 32768,
@@ -6769,7 +6780,7 @@
 		"outputAbbreviatedPath": "\/img\/11\/c3-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/11\/c3-2.png": {
 		"fileType": 32768,
@@ -6780,7 +6791,7 @@
 		"outputAbbreviatedPath": "\/img\/11\/c3-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/11\/c3-3.png": {
 		"fileType": 32768,
@@ -6791,7 +6802,7 @@
 		"outputAbbreviatedPath": "\/img\/11\/c3-3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/11\/c3-4.png": {
 		"fileType": 32768,
@@ -6802,7 +6813,7 @@
 		"outputAbbreviatedPath": "\/img\/11\/c3-4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/11\/title.png": {
 		"fileType": 32768,
@@ -6813,7 +6824,7 @@
 		"outputAbbreviatedPath": "\/img\/11\/title.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/12\/bg.jpg": {
 		"fileType": 16384,
@@ -6824,7 +6835,7 @@
 		"outputAbbreviatedPath": "\/img\/12\/bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/12\/c1-1.png": {
 		"fileType": 32768,
@@ -6835,7 +6846,7 @@
 		"outputAbbreviatedPath": "\/img\/12\/c1-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/12\/title-sub.png": {
 		"fileType": 32768,
@@ -6846,7 +6857,7 @@
 		"outputAbbreviatedPath": "\/img\/12\/title-sub.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/12\/title.png": {
 		"fileType": 32768,
@@ -6857,7 +6868,7 @@
 		"outputAbbreviatedPath": "\/img\/12\/title.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/13\/bg.jpg": {
 		"fileType": 16384,
@@ -6868,7 +6879,7 @@
 		"outputAbbreviatedPath": "\/img\/13\/bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/13\/c1-1.png": {
 		"fileType": 32768,
@@ -6879,7 +6890,7 @@
 		"outputAbbreviatedPath": "\/img\/13\/c1-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/13\/title-sub.png": {
 		"fileType": 32768,
@@ -6890,7 +6901,7 @@
 		"outputAbbreviatedPath": "\/img\/13\/title-sub.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/13\/title.png": {
 		"fileType": 32768,
@@ -6901,7 +6912,7 @@
 		"outputAbbreviatedPath": "\/img\/13\/title.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/14\/bg.jpg": {
 		"fileType": 16384,
@@ -6912,7 +6923,7 @@
 		"outputAbbreviatedPath": "\/img\/14\/bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/14\/c1-1.png": {
 		"fileType": 32768,
@@ -6923,7 +6934,7 @@
 		"outputAbbreviatedPath": "\/img\/14\/c1-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/14\/c1-2.png": {
 		"fileType": 32768,
@@ -6934,7 +6945,7 @@
 		"outputAbbreviatedPath": "\/img\/14\/c1-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/14\/title-sub.png": {
 		"fileType": 32768,
@@ -6945,7 +6956,7 @@
 		"outputAbbreviatedPath": "\/img\/14\/title-sub.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/14\/title.png": {
 		"fileType": 32768,
@@ -6956,7 +6967,7 @@
 		"outputAbbreviatedPath": "\/img\/14\/title.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/15\/bg.jpg": {
 		"fileType": 16384,
@@ -6967,7 +6978,7 @@
 		"outputAbbreviatedPath": "\/img\/15\/bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/15\/c1-1.png": {
 		"fileType": 32768,
@@ -6978,7 +6989,7 @@
 		"outputAbbreviatedPath": "\/img\/15\/c1-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/15\/c1-2.png": {
 		"fileType": 32768,
@@ -6989,7 +7000,18 @@
 		"outputAbbreviatedPath": "\/img\/15\/c1-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/img\/cover.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35944,
+		"inputAbbreviatedPath": "\/img\/cover.jpg",
+		"outputAbbreviatedPath": "\/img\/cover.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/img\/music.png": {
 		"fileType": 32768,
@@ -7000,7 +7022,7 @@
 		"outputAbbreviatedPath": "\/img\/music.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/up.png": {
 		"fileType": 32768,
@@ -7011,10 +7033,10 @@
 		"outputAbbreviatedPath": "\/img\/up.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/jade\/index.jade": {
-		"compileDebug": 1,
+		"compileDebug": 0,
 		"fileType": 512,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
@@ -7022,18 +7044,29 @@
 		"outputAbbreviatedPath": "\/html\/index.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0
+		"outputStyle": 1
 		},
 	"\/js\/main.js": {
 		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/js\/main.js",
+		"outputAbbreviatedPath": "\/js\/main.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/main.min.js": {
+		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/main.js",
-		"outputAbbreviatedPath": "\/js\/min\/main-min.js",
+		"inputAbbreviatedPath": "\/js\/main.min.js",
+		"outputAbbreviatedPath": "\/js\/main.min.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/less\/main.less": {
 		"allowInsecureImports": 0,
@@ -7047,7 +7080,7 @@
 		"outputAbbreviatedPath": "\/css\/main.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
@@ -7253,17 +7286,17 @@
 	"jadeAutoOutputPathReplace1": "",
 	"jadeAutoOutputPathReplace2": "",
 	"jadeAutoOutputPathStyle": 2,
-	"jadeCompileDebug": 1,
-	"jadeOutputStyle": 0,
-	"javascriptAutoOutputPathEnabled": 0,
-	"javascriptAutoOutputPathFilenamePattern": "*-min.js",
-	"javascriptAutoOutputPathRelativePath": "\/min",
+	"jadeCompileDebug": 0,
+	"jadeOutputStyle": 1,
+	"javascriptAutoOutputPathEnabled": 1,
+	"javascriptAutoOutputPathFilenamePattern": "*.min.js",
+	"javascriptAutoOutputPathRelativePath": ".\/",
 	"javascriptAutoOutputPathReplace1": "",
 	"javascriptAutoOutputPathReplace2": "",
-	"javascriptAutoOutputPathStyle": 2,
+	"javascriptAutoOutputPathStyle": 0,
 	"javascriptCreateSourceMap": 1,
-	"javascriptOutputStyle": 0,
-	"javascriptSyntaxCheckerStyle": 0,
+	"javascriptOutputStyle": 1,
+	"javascriptSyntaxCheckerStyle": 1,
 	"jsCheckerReservedNamesString": "",
 	"jsHintFlags2": {
 		"asi": {
@@ -7697,7 +7730,7 @@
 	"lessCreateSourceMap": 0,
 	"lessDisableJavascript": 0,
 	"lessIeCompatibility": 1,
-	"lessOutputStyle": 0,
+	"lessOutputStyle": 1,
 	"lessRelativeURLS": 0,
 	"lessStrictImports": 0,
 	"lessStrictMath": 0,

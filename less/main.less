@@ -320,6 +320,15 @@ a
     }
 }
 
+.cover
+{
+    z-index: -1;
+
+    opacity: 0;
+
+    .absolute(-9999px,-9999px,_,_);
+}
+
 
 /** page0 */
 #p0
@@ -1152,14 +1161,18 @@ a
 
         .absolute(0,0,0,0);
     }
-    >.con{
-        >img{
+    > .con
+    {
+        > img
+        {
             .margin(_,auto);
-            &:nth-child(1){
+            &:nth-child(1)
+            {
                 .margin(20%,_,10%);
                 .size(80%,auto);
             }
-            &:nth-child(2){
+            &:nth-child(2)
+            {
                 .margin(10%,_);
                 .size(90%,auto);
             }
