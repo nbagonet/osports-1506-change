@@ -6353,6 +6353,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/05\/title-sub.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3577,
+		"inputAbbreviatedPath": "\/img\/05\/title-sub.png",
+		"outputAbbreviatedPath": "\/img\/05\/title-sub.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/05\/title.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3630,
+		"inputAbbreviatedPath": "\/img\/05\/title.png",
+		"outputAbbreviatedPath": "\/img\/05\/title.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/06\/bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -6474,13 +6496,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/07\/title.jpg": {
-		"fileType": 16384,
+	"\/img\/07\/title.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 9027,
-		"inputAbbreviatedPath": "\/img\/07\/title.jpg",
-		"outputAbbreviatedPath": "\/img\/07\/title.jpg",
+		"initialSize": 6293,
+		"inputAbbreviatedPath": "\/img\/07\/title.png",
+		"outputAbbreviatedPath": "\/img\/07\/title.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6727,57 +6749,57 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/11\/c3-4.png": {
+	"\/img\/11\/c2-4.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 4851,
-		"inputAbbreviatedPath": "\/img\/11\/c3-4.png",
-		"outputAbbreviatedPath": "\/img\/11\/c3-4.png",
+		"inputAbbreviatedPath": "\/img\/11\/c2-4.png",
+		"outputAbbreviatedPath": "\/img\/11\/c2-4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/11\/c3-5.png": {
+	"\/img\/11\/c3-1.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 5784,
-		"inputAbbreviatedPath": "\/img\/11\/c3-5.png",
-		"outputAbbreviatedPath": "\/img\/11\/c3-5.png",
+		"inputAbbreviatedPath": "\/img\/11\/c3-1.png",
+		"outputAbbreviatedPath": "\/img\/11\/c3-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/11\/c3-6.png": {
+	"\/img\/11\/c3-2.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 4930,
-		"inputAbbreviatedPath": "\/img\/11\/c3-6.png",
-		"outputAbbreviatedPath": "\/img\/11\/c3-6.png",
+		"inputAbbreviatedPath": "\/img\/11\/c3-2.png",
+		"outputAbbreviatedPath": "\/img\/11\/c3-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/11\/c3-7.png": {
+	"\/img\/11\/c3-3.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 3251,
-		"inputAbbreviatedPath": "\/img\/11\/c3-7.png",
-		"outputAbbreviatedPath": "\/img\/11\/c3-7.png",
+		"inputAbbreviatedPath": "\/img\/11\/c3-3.png",
+		"outputAbbreviatedPath": "\/img\/11\/c3-3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/11\/c3-8.png": {
+	"\/img\/11\/c3-4.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 4538,
-		"inputAbbreviatedPath": "\/img\/11\/c3-8.png",
-		"outputAbbreviatedPath": "\/img\/11\/c3-8.png",
+		"inputAbbreviatedPath": "\/img\/11\/c3-4.png",
+		"outputAbbreviatedPath": "\/img\/11\/c3-4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6965,6 +6987,17 @@
 		"initialSize": 13375,
 		"inputAbbreviatedPath": "\/img\/15\/c1-2.png",
 		"outputAbbreviatedPath": "\/img\/15\/c1-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/music.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1644,
+		"inputAbbreviatedPath": "\/img\/music.png",
+		"outputAbbreviatedPath": "\/img\/music.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

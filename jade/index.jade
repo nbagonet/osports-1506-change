@@ -13,6 +13,10 @@ head
   link(rel='stylesheet', type='text/css', href='../css/main.css')
 body
 
+  .hide
+    audio#bgmusic(src="../media/SomeMightSay.mp3" autoload)
+  #audio-control
+
   #wrap.hide.animated
 
     //- page0
@@ -68,6 +72,140 @@ body
             ul.item
               - for(var j=1;j<=max;j++)
                 li: img(src="../img/03/l#{i}-#{j}.png")
+      .arr-up.animated: img(src="../img/up.png")
+
+    //- page4
+    .page#p4
+      .bg.animated
+      .title.animated
+        h1: img(src="../img/04/title.png")
+        small: img(src="../img/04/title-sub.png")
+      .con.animated
+        .tree.animated.none: img(src="../img/04/c1-1.png")
+        - for(var i=2;i<=6;i++)
+          div(class="item-#{i} animated none"): img(src="../img/04/c1-#{i}.png")
+      .arr-up.animated: img(src="../img/up.png")
+
+    //- page5
+    .page#p5
+      .bg.animated
+      .title.animated
+        h1: img(src="../img/05/title.png")
+        small: img(src="../img/05/title-sub.png")
+      .con.hide.animated
+        #p5slider
+          - for(var i=1;i<=7;i++)
+            ul.item
+              - for(var j=1;j<=6;j++)
+                li: img(src="../img/05/l#{i}-#{j}.png")
+      .arr-up.animated: img(src="../img/up.png")
+
+    //- page6
+    .page#p6
+      .bg.animated
+      .title.animated
+        h1: img(src="../img/06/title.png")
+        small: img(src="../img/06/title-sub.png")
+      .con.hide.animated
+        img(src="../img/06/c1-1.png")
+      .arr-up.animated: img(src="../img/up.png")
+
+    //- page7
+    .page#p7
+      .bg.animated
+      .title.animated
+        h1: img(src="../img/07/title.png")
+      .con.animated.none
+        ul
+          - for(var i=1;i<=6;i++)
+            li: img(src="../img/07/c1-#{i}.png")
+      .arr-up.animated: img(src="../img/up.png")
+
+    //- page8
+    .page#p8
+      .bg.animated
+      .title.animated
+        h1: img(src="../img/08/title.png")
+        small: img(src="../img/08/title-sub.png")
+      .con.animated.none
+        ul
+          - for(var i=1;i<=5;i++)
+            li: img(src="../img/08/c1-#{i}.jpg")
+        .txt: img(src="../img/08/c2-1.png")
+      .arr-up.animated: img(src="../img/up.png")
+
+    //- page9
+    .page#p9
+      .bg.animated
+      .title.animated
+        h1: img(src="../img/09/title.png")
+        small: img(src="../img/09/title-sub.png")
+      .con.animated
+        img.animated.none(src="../img/09/c1-1.png")
+      .arr-up.animated: img(src="../img/up.png")
+
+    //- page10
+    .page#p10
+      .bg.animated
+      .title.animated
+        h1: img(src="../img/10/title.png")
+        small: img(src="../img/10/title-sub.png")
+      .con.animated
+        img.animated.none(src="../img/10/c1-1.png")
+      .arr-up.animated: img(src="../img/up.png")
+
+    //- page11
+    .page#p11
+      .bg.animated
+      .title.animated
+        h1: img(src="../img/11/title.png")
+      .con.animated
+        .phone.animated.hide: img(src="../img/11/c1-1.png")
+        ul
+          - for(var i=1;i<=4;i++)
+            li: img.animated.hide(src="../img/11/c2-#{i}.png")
+        ul
+          - for(var i=1;i<=4;i++)
+            li: img.animated.hide(src="../img/11/c3-#{i}.png")
+      .arr-up.animated: img(src="../img/up.png")
+
+    //- page12
+    .page#p12
+      .bg.animated
+      .title.animated
+        h1: img(src="../img/12/title.png")
+        small: img(src="../img/12/title-sub.png")
+      .con.animated
+        img.animated.none(src="../img/12/c1-1.png")
+      .arr-up.animated: img(src="../img/up.png")
+
+    //- page13
+    .page#p13
+      .bg.animated
+      .title.animated
+        h1: img(src="../img/13/title.png")
+        small: img(src="../img/13/title-sub.png")
+      .con.animated
+        img.animated.none(src="../img/13/c1-1.png")
+      .arr-up.animated: img(src="../img/up.png")
+
+    //- page14
+    .page#p14
+      .bg.animated
+      .title.animated
+        h1: img(src="../img/14/title.png")
+        small: img(src="../img/14/title-sub.png")
+      .con.animated
+        img.animated.none(src="../img/14/c1-1.png")
+        img.animated.none(src="../img/14/c1-2.png")
+      .arr-up.animated: img(src="../img/up.png")
+
+    //- page15
+    .page#p15
+      .bg.animated
+      .con.animated
+        img.animated.none(src="../img/15/c1-1.png")
+        img.animated.none(src="../img/15/c1-2.png")
 
   script(src="../bower_components/jquery/dist/jquery.min.js")
   script(src="../bower_components/pageSwitch/src/pageSwitch.js")
