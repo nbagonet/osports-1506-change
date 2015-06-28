@@ -4,7 +4,7 @@
  * @author: Rodney Rehm - http://rodneyrehm.de/en/
  */
 
-(function (root, factory) {
+(function(root, factory) {
   'use strict';
   if (typeof define === 'function' && define.amd) {
     // AMD. Register as an anonymous module.
@@ -18,7 +18,7 @@
     // Browser globals (root is window)
     root.viewportUnitsBuggyfill = factory();
   }
-}(this, function () {
+}(this, function() {
   'use strict';
   /*global document, window, navigator, location, XMLHttpRequest, XDomainRequest*/
 
@@ -44,7 +44,7 @@
     // * Safari iOS7: "Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A4449d Safari/9537.53"
     var iOSversion = userAgent.match(/OS (\d)/);
     // viewport units work fine in mobile Safari and webView on iOS 8+
-    return iOSversion && iOSversion.length>1 && parseInt(iOSversion[1]) < 8;
+    return iOSversion && iOSversion.length > 1 && parseInt(iOSversion[1]) < 8;
   })();
 
   var isBadStockAndroid = (function() {
@@ -65,6 +65,15 @@
     // 4.4 has issues with viewport units within calc()
     return versionNumber <= 4.4;
   })();
+
+  // 150628 添加腾讯X5内核
+  var isTencentX5 = function() {
+    if (navigator.userAgent.indexOf('MQQBrowser') > -1) {
+      return true;
+    } else {
+      return false;
+    }
+  }();
 
   // Do not remove the following comment!
   // It is a conditional comment used to
@@ -87,6 +96,7 @@
   if (!isBuggyIE) {
     isBuggyIE = !!navigator.userAgent.match(/Trident.*rv[ :]*11\./);
   }
+
   function debounce(func, wait) {
     var timeout;
     return function() {
@@ -124,15 +134,16 @@
     options = initOptions || {};
     options.isMobileSafari = isMobileSafari;
     options.isBadStockAndroid = isBadStockAndroid;
+    options.isTencentX5 = isTencentX5;
 
-    if (isOldIE || (!options.force && !isMobileSafari && !isBuggyIE && !isBadStockAndroid && !isOperaMini && (!options.hacks || !options.hacks.required(options)))) {
+    if (isOldIE || (!options.force && !isTencentX5 && !isMobileSafari && !isBuggyIE && !isBadStockAndroid && !isOperaMini && (!options.hacks || !options.hacks.required(options)))) {
       // this buggyfill only applies to mobile safari, IE9-10 and the Stock Android Browser.
       if (window.console && isOldIE) {
         console.info('viewport-units-buggyfill requires a proper CSSOM and basic viewport unit support, which are not available in IE8 and below');
       }
 
       return {
-        init: function () {}
+        init: function() {}
       };
     }
 
@@ -214,7 +225,7 @@
       // see https://github.com/rodneyrehm/viewport-units-buggyfill/issues/21
       try {
         value = rule.cssText;
-      } catch(e) {
+      } catch (e) {
         return;
       }
 
