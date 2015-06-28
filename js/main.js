@@ -192,11 +192,22 @@ $(function() {
       $(this).addClass('playing');
     }
   });
+  $('#bgmusic')[0].play();
 
   // 模拟滚动条
   $('#p1 > .con, #p8 > .con').slimScroll({
     height: '69%',
     size: '0',
   });
+
+  setTimeout(function() {
+    $(window).scrollTop(1);
+  }, 0);
+
+  document.addEventListener("WeixinJSBridgeReady", function() {
+    WeixinJSBridge.invoke('getNetworkType', {}, function(e) {
+      document.getElementById('bgmusic').play();
+    });
+  }, false);
 
 });
