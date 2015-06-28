@@ -104,7 +104,7 @@ a
         z-index: 300;
 
         overflow: hidden;
-        overflow-y: scroll;
+        // overflow-y: scroll;
 
         .margin(_,5%);
         .margin(246vh/1074*100,_,_);
@@ -172,6 +172,16 @@ a
                 .margin(_,auto);
             }
         }
+    }
+}
+.slimScrollDiv
+{
+    z-index: 300;
+
+    .margin(_,5%);
+    .margin(246vh/1074*100,_,_);
+    >.con{
+        height:100%!important;
     }
 }
 #wrap
@@ -451,9 +461,9 @@ a
 
         .absolute(0,0,0,0);
     }
-    > .con
+    .con
     {
-        > .timeline
+        .timeline
         {
             > li
             {
@@ -971,9 +981,9 @@ a
 
         .absolute(0,0,0,0);
     }
-    > .con
+    .con
     {
-        overflow-y: scroll;
+        // overflow-y: scroll;
         > ul
         {
             > li
