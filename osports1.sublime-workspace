@@ -604,6 +604,10 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/wangshuo/works/personal/2015/tangchao1/osports-1506-change"
+	],
 	"file_history":
 	[
 		"/Users/wangshuo/works/personal/2015/tangchao1/page/jade/index.jade",
@@ -737,7 +741,7 @@
 	],
 	"find":
 	{
-		"height": 46.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{

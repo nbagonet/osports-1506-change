@@ -65,19 +65,19 @@ $(function() {
       p1.find('.con > .timeline > li').eq(0).removeClass('none').addClass('flipInX').one(as, function() {
         p1.find('.con > .timeline > li').eq(1).removeClass('none').addClass('flipInX').one(as, function() {
           p1.find('.con > .timeline > li').eq(2).removeClass('none').addClass('flipInX').one(as, function() {
-            p1.find('.con > .timeline > li').eq(3).removeClass('none').addClass('flipInX').one(as, function() {
-              p1.find('.con > .timeline > li').eq(4).removeClass('none').addClass('flipInX').one(as, function() {
-                p1.find('.con > .timeline > li').eq(5).removeClass('none').addClass('flipInX').one(as, function() {
-                  p1.find('.con > .timeline > li').eq(6).removeClass('none').addClass('flipInX').one(as, function() {
-                    p1.find('.con > .timeline > li').eq(7).removeClass('none').addClass('flipInX').one(as, function() {
-                      p1.find('.con > .timeline > li').eq(8).removeClass('none').addClass('flipInX').one(as, function() {
-                        p1.find('.con > .timeline > li').eq(9).removeClass('none').addClass('flipInX');
-                      });
-                    });
+            // p1.find('.con > .timeline > li').eq(3).removeClass('none').addClass('flipInX').one(as, function() {
+            p1.find('.con > .timeline > li').eq(4).removeClass('none').addClass('flipInX').one(as, function() {
+              p1.find('.con > .timeline > li').eq(5).removeClass('none').addClass('flipInX').one(as, function() {
+                p1.find('.con > .timeline > li').eq(6).removeClass('none').addClass('flipInX').one(as, function() {
+                  // p1.find('.con > .timeline > li').eq(7).removeClass('none').addClass('flipInX').one(as, function() {
+                  p1.find('.con > .timeline > li').eq(8).removeClass('none').addClass('flipInX').one(as, function() {
+                    p1.find('.con > .timeline > li').eq(9).removeClass('none').addClass('flipInX');
                   });
                 });
+                // });
               });
             });
+            // });
           });
         });
       });
@@ -192,12 +192,13 @@ $(function() {
       $(this).addClass('playing');
     }
   });
-  $('#bgmusic')[0].play();
+  // $('#bgmusic')[0].play();
 
   // 模拟滚动条
   $('#p1 > .con, #p8 > .con').slimScroll({
     height: '69%',
     size: '0',
+    wheelStep: 30
   });
 
   setTimeout(function() {
@@ -206,7 +207,7 @@ $(function() {
 
   document.addEventListener("WeixinJSBridgeReady", function() {
     WeixinJSBridge.invoke('getNetworkType', {}, function(e) {
-      document.getElementById('bgmusic').play();
+      // document.getElementById('bgmusic').play();
     });
   }, false);
 
