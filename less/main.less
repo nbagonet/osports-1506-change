@@ -245,9 +245,11 @@ a
         margin-left: -713vh/2/@h;
 
         .absolute(960vh/@h,_,_,50%);
+        .transition(all 1s ease);
         &.stu2
         {
-            .animation(txt1-stu2 1s ease forwards);
+            top: 1080vh/@h;
+            // .animation(txt1-stu2 1s ease forwards);
         }
     }
     .logo
@@ -305,9 +307,15 @@ a
             left: 200vw/@w;
 
             width: 274vw/@w;
+
+            .transition(all 1s ease);
             &.stu2
             {
-                .animation(logo-t1-stu2 1s ease forwards);
+                bottom: -132vw/@w;
+                left: 0;
+
+                width: 125vw/@w;
+                // .animation(logo-t1-stu2 1s ease forwards);
             }
         }
         .logo-t2
