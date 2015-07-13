@@ -180,6 +180,11 @@ a
 }
 
 /**
+ * 字体
+ */
+.font-face('langqian', '../font/langqian-r');
+
+/**
  * p1
  */
 #p1
@@ -388,14 +393,81 @@ a
         .size(791vh/@h,361vh/@h);
         .absolute(0,_,_,0);
     }
+    > .num1, > .num2
+    {
+        position: absolute;
+        z-index: 200;
+
+        color: #f29b30;
+        .num,
+        .plus
+        {
+            font-family: 'langqian';
+        }
+        .num
+        {
+            text-align: center;
+        }
+    }
+    > .num1
+    {
+        bottom: 500vh/@h;
+        left: 50vw/@w;
+
+        width: 246vw/@w;
+        .num
+        {
+            font-size: 186vw/@w;
+        }
+    }
+    > .num2
+    {
+        right: 50vw/@w;
+        bottom: 200vh/@h;
+
+        width: 400vw/@w;
+        .num,
+        .plus
+        {
+            .inline-block();
+        }
+        .plus
+        {
+            font-size: 40vw/@w;
+        }
+        .num
+        {
+            font-size: 100vw/@w;
+        }
+        .txt
+        {
+            width: 310vw/@w;
+        }
+    }
+    > .people
+    {
+        z-index: 30;
+
+        text-align: center;
+
+        .size(100%,100vh/@h);
+        .absolute(_,0,0,0);
+        > span
+        {
+            width: 80vw/@w;
+
+            vertical-align: bottom;
+
+            .inline-block();
+            .margin(_,15vw/@w);
+        }
+    }
     > .map
     {
         z-index: 100;
 
-        margin-left: -450vh/@h;
-
-        .size(900vh/@h,745vh/@h);
-        .absolute(340vh/@h,_,_,50%);
+        .size(100%,800vh/@h);
+        .absolute(200vh/@h,_,_,0);
     }
     .jvectormap-container
     {
@@ -414,6 +486,7 @@ a
         position: absolute;
 
         display: none;
+        display: none;
 
         padding: 3px;
 
@@ -421,17 +494,17 @@ a
         border: solid 1px #cdcdcd;
         border-radius: 3px;
         background: #292929;
-        display:none;
     }
     .jvectormap-zoomin,
     .jvectormap-zoomout,
     .jvectormap-goback
     {
-        display:none;
         line-height: 10px;
 
         position: absolute;
         left: 10px;
+
+        display: none;
 
         box-sizing: content-box;
         padding: 3px;

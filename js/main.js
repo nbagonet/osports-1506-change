@@ -54,6 +54,11 @@ $(function() {
   // p1初始化
   p1.init = function() {
     var _p1 = $('#p1');
+
+    // 冻结pw
+    pw.freeze(true);
+
+    // p1动画
     _p1.find('div').addClass('animated');
     _p1.find('.logo-ost1').removeClass('hide').addClass('zoomIn').one(as, function() {
       _p1.find('.txt1').removeClass('hide').addClass('fadeInUp').one(as, function() {
@@ -70,6 +75,8 @@ $(function() {
                     _p1.find('.btn').on('click', function() {
                       pw.next();
                     });
+                    // 解冻pw
+                    pw.freeze(false);
                   });
                 });
               });
@@ -104,7 +111,11 @@ $(function() {
   p2.init = function() {
     var p = $('#p2');
 
+    // 冻结pw
+    pw.freeze(true);
+
     // 初始化中国地图
+    p2MapData = ['BEJ', 'LIA', 'SHD', 'JSU', 'SHH', 'ZHJ', 'GUD', 'HKG', 'SCH', 'HUB', 'HEN', 'SHX'];
     $('#map-10-china').vectorMap({
       map: 'map_format_cn',
       backgroundColor: 'rgba(0,0,0,0)',
@@ -127,10 +138,76 @@ $(function() {
       }
     });
 
+    p.find('div,span').addClass('animated');
+
+    p.find('.tit').removeClass('hide').addClass('slideInLeft').one(as, function() {
+      p.find('.map').removeClass('hide').addClass('zoomInDown').one(as, function() {
+        p.find('.num1 > .num,.num1>.txt').removeClass('hide').addClass('fadeInDown').one(as, function() {
+          // 点亮分社所在省市
+          var mapObject = $('#map-10-china').vectorMap('get', 'mapObject');
+          p2MapQue = function(time, regions) {
+            $('body').oneTime(time + 's', function() {
+              mapObject.setSelectedRegions(regions);
+            });
+          };
+          p2PeopleQue = function(time, serial) {
+            $('body').oneTime(time + 's', function() {
+              $('#p2').find('.people > span').eq(serial).removeClass('hide').addClass('bounceInUp');
+            });
+          };
+          for (var i = 1; i <= p2MapData.length; i++) {
+            p2MapQue(i / 4, p2MapData[i - 1]);
+          }
+          // 分社数字自增
+          p.find('.num1>.num').countTo({
+            from: 0,
+            to: 12,
+            speed: 3000,
+            refreshInterval: 100
+          });
+        });
+        $('body').oneTime('4.5s', function() {
+          p.find('.num2 > .num, .num2 > .txt').removeClass('hide').addClass('fadeInUp').one(as, function() {
+            // 摄影师数字自增
+            p.find('.num2 > .num').countTo({
+              from: 0,
+              to: 1000,
+              speed: 2000,
+              refreshInterval: 100,
+              onComplete: function(value) {
+                p.find('.num2 > .plus').removeClass('hide').addClass('fadeInLeft');
+              }
+            });
+            // 摄影师icon动画
+            for (var i = 0; i < p.find('.people > span').length; i++) {
+              p2PeopleQue(i / 4, i);
+            }
+            // 解冻pw
+            pw.freeze(false);
+          });
+        });
+      });
+    });
+
   };
 
   // p2重置
-  p2.reset = function() {};
+  p2.reset = function() {
+    var p = $('#p2');
+
+    // 销毁中国地图
+    p.find('.map').empty();
+
+    // 清除动画
+    p.find('div,span').removeClass('animated');
+    p.find('.tit').addClass('hide').removeClass('slideInLeft');
+    p.find('.map').addClass('hide').removeClass('zoomInDown');
+    p.find('.num1 > .num,.num1>.txt').addClass('hide').removeClass('fadeInDown');
+    p.find('.num1>.num,.num2>.num').empty();
+    p.find('.num2 > .num, .num2 > .txt').addClass('hide').removeClass('fadeInUp');
+    p.find('.people > span').addClass('hide').removeClass('bounceInUp');
+    p.find('.num2 > .plus').addClass('hide').removeClass('fadeInLeft');
+  };
 
   // 初始化p1
   Pace.on('hide', function() {

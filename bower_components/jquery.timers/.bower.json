@@ -1,0 +1,14 @@
+{
+  "name": "jquery.timers",
+  "homepage": "https://github.com/nbagonet/jquery.timers",
+  "_release": "9e30282ffc",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "9e30282ffcd8eb3d9cc61317088b07e10a9f37ad"
+  },
+  "_source": "https://github.com/nbagonet/jquery.timers.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/nbagonet/jquery.timers.git",
+  "_direct": true
+}

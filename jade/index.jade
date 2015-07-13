@@ -38,8 +38,18 @@ html
       //- p2
       .page#p2
         .bg: img(src="../img/bg.jpg")
-        .tit: img(src="../img/txt2.png")
-        .map#map-10-china
+        .tit.hide: img(src="../img/txt2.png")
+        .map.hide#map-10-china
+        .num1
+          .num.hide: span.none 1234567890,+
+          .txt.hide: img(src="../img/txt3.png")
+        .num2
+          .num.hide: span.none 1234567890,+
+          .plus.hide +
+          .txt.hide: img(src="../img/txt4.png")
+        .people
+          - for(var i=1;i<=8;i++)
+            span.hide: img(src="../img/o1.png")
 
       //- p3
       .page#p3
