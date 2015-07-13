@@ -2,6 +2,11 @@ var as = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animat
 
 $(function() {
 
+  // 禁用默认touch事件
+  $('body').on('touchmove', function(e) {
+    e.preventDefault();
+  });
+
   /**
    * 页面切换效果
    */
