@@ -63,7 +63,7 @@ img
 {
     display: block;
 
-    max-width: 100%;
+    width: 100%;
 }
 
 a
@@ -106,6 +106,15 @@ a
         z-index: -1;
 
         .absolute(0,0,0,0);
+        .animation(bg 10s ease infinite);
+    }
+}
+@keyframes bg{
+    0%,100%{
+        .scale(1);
+    }
+    50%{
+        .scale(1.2);
     }
 }
 #wrap
