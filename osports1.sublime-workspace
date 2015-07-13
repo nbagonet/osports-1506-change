@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"vis",
+				"visible"
+			],
+			[
 				"tra",
 				"translateX"
 			],
@@ -510,10 +514,6 @@
 			[
 				"off",
 				"offset	.offset()"
-			],
-			[
-				"table-",
-				"table-row"
 			]
 		]
 	},
@@ -606,10 +606,19 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/wangshuo/works/personal/2015/tangchao1/osports-1506-change"
+		"/Users/wangshuo/works/personal/2015/tangchao1/osports-1506-change",
+		"/Users/wangshuo/works/personal/2015/tangchao1/osports-1506-change/bower_components",
+		"/Users/wangshuo/works/personal/2015/tangchao1/osports-1506-change/bower_components/pageSwitch/src",
+		"/Users/wangshuo/works/personal/2015/tangchao1/osports-1506-change/bower_components/viewport-units-buggyfill",
+		"/Users/wangshuo/works/personal/2015/tangchao1/osports-1506-change/jade",
+		"/Users/wangshuo/works/personal/2015/tangchao1/osports-1506-change/js",
+		"/Users/wangshuo/works/personal/2015/tangchao1/osports-1506-change/less"
 	],
 	"file_history":
 	[
+		"/Users/wangshuo/works/personal/2015/tangchao1/osports-1506-change/js/main.js",
+		"/Users/wangshuo/works/personal/2015/tangchao1/osports-1506-change/jade/index.jade",
+		"/Users/wangshuo/works/personal/2015/tangchao1/osports-1506-change/less/main.less",
 		"/Users/wangshuo/works/personal/2015/tangchao1/page/jade/index.jade",
 		"/Users/wangshuo/works/personal/2015/tangchao1/page/less/main.less",
 		"/Users/wangshuo/works/personal/2015/tangchao1/page/js/main.js",
@@ -734,14 +743,11 @@
 		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/高尔夫电视台APP-线上/trunk/html/golf-app/html/add-address.html",
 		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/高尔夫电视台APP-线上/trunk/html/golf-app/html/address.html",
 		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/高尔夫电视台APP-线上/trunk/html/golf-app/html/apply.html",
-		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/高尔夫电视台APP-线上/trunk/html/golf-app/html/baoming.html",
-		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/高尔夫电视台APP-线上/trunk/html/golf-app/html/basic_address.html",
-		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/高尔夫电视台APP-线上/trunk/html/golf-app/html/change.html",
-		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/高尔夫电视台APP-线上/trunk/html/golf-app/html/detail-news.html"
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/高尔夫电视台APP-线上/trunk/html/golf-app/html/baoming.html"
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 46.0
 	},
 	"find_in_files":
 	{
@@ -772,6 +778,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".bg",
+			"flip3d",
+			"#p5",
 			".food",
 			"ticketParam",
 			"fe.port.ticket",
@@ -896,10 +905,7 @@
 			"pace-activity",
 			"video-content",
 			"slider1_container",
-			"mainPic",
-			"detail_image",
-			"图片详情",
-			"alert"
+			"mainPic"
 		],
 		"highlight": true,
 		"in_selection": false,

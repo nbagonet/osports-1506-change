@@ -17,206 +17,37 @@ html
     link(rel='stylesheet', type='text/css', href='../css/main.css')
   body
 
-    .cover: img(src="../img/cover.jpg")
+    #wrap
 
-    //- .none
-    //-   audio#bgmusic(src="../media/WeAreTheChampions.mp3" autoplay loop preload controls)
-    //- #audio-control.playing
-
-    #wrap.hide.animated
-
-      //- page0
-      .page#p0
-        .bg.none.animated
-        .content
-          .bg.none.animated
-          .plus.none.animated: img(src="../img/+.png")
-          .logo.none.animated: img(src="../img/00/logo.png")
-          .txt.none.animated: img(src="../img/00/txt0.png")
-        .arr-up.none.animated: img(src="../img/up.png")
-
-      //- page1
+      //- p1
       .page#p1
-        .bg.animated
-        .title.animated
-          h1: img(src="../img/01/title.png")
-          small: img(src="../img/01/title-sub.png")
-        .con
-          ul.timeline
-            - for(var i=1;i<=10;i++)
-              li.animated.none
-                dl
-                  dt.animated: img(src="../img/01/c#{i}-1.png")
-                  dd.animated: img(src="../img/01/c#{i}-2.png")
-        .arr-up.animated: img(src="../img/up.png")
+        .bg: img(src="../img/bg.jpg")
+        .logo
+          .logo-ost1.hide
+            .logo-o: img(src="../img/logo-o.png")
+            .logo-s: img(src="../img/logo-s.png")
+            .logo-t1: img(src="../img/logo-t1.png")
+            .logo-t2: img(src="../img/logo-t2.png")
+          - for(var i=3;i<=6;i++)
+            div(class="logo-t#{i} hide"): img(src="../img/logo-t#{i}.png")
+          .line.hide
+        .txt1.hide: img(src="../img/txt1.png")
+        .ball: img(src="../img/ball1.png")
+        .btn.hide: img(src="../img/btn1.png")
 
-      //- page2
+      //- p2
       .page#p2
-        .bg.animated
-        .title.animated
-          h1: img(src="../img/02/title.png")
-          small: img(src="../img/02/title-sub.png")
-        .con
-          ul
-            - for(var i=1;i<=4;i++)
-              li: img.animated.none(src="../img/02/c1-#{i}.png")
-        .arr-up.animated: img(src="../img/up.png")
+        .bg: img(src="../img/bg.jpg")
+        .tit: img(src="../img/txt2.png")
+        .map#map-10-china
 
-      //- page3
+      //- p3
       .page#p3
-        .bg.animated
-        .title.animated
-          h1: img(src="../img/03/title.png")
-          small: img(src="../img/03/title-sub.png")
-        .con.hide.animated
-          #p3slider
-            - for(var i=1;i<=4;i++)
-              if i == 4
-                - var max = 4;
-              else
-                - var max = 6;
-              ul.item
-                - for(var j=1;j<=max;j++)
-                  li: img(src="../img/03/l#{i}-#{j}.png")
-        .arr-up.animated: img(src="../img/up.png")
+        .bg: img(src="../img/bg.jpg")
 
-      //- page4
-      .page#p4
-        .bg.animated
-        .title.animated
-          h1: img(src="../img/04/title.png")
-          small: img(src="../img/04/title-sub.png")
-        .con.animated
-          .tree.animated.none: img(src="../img/04/c1-1.png")
-          - for(var i=2;i<=6;i++)
-            div(class="item-#{i} animated none"): img(src="../img/04/c1-#{i}.png")
-        .arr-up.animated: img(src="../img/up.png")
 
-      //- page5
-      .page#p5
-        .bg.animated
-        .title.animated
-          h1: img(src="../img/05/title.png")
-          small: img(src="../img/05/title-sub.png")
-        .con.hide.animated
-          #p5slider
-            - for(var i=1;i<=7;i++)
-              ul.item
-                - for(var j=1;j<=6;j++)
-                  li: img(src="../img/05/l#{i}-#{j}.png")
-        .arr-up.animated: img(src="../img/up.png")
-
-      //- page6
-      .page#p6
-        .bg.animated
-        .title.animated
-          h1: img(src="../img/06/title.png")
-          small: img(src="../img/06/title-sub.png")
-        .con.hide.animated
-          img(src="../img/06/c1-1.png")
-        .arr-up.animated: img(src="../img/up.png")
-
-      //- page7
-      .page#p7
-        .bg.animated
-        .title.animated
-          h1: img(src="../img/07/title.png")
-        .con.animated.none
-          ul
-            - for(var i=1;i<=6;i++)
-              li: img(src="../img/07/c1-#{i}.png")
-        .arr-up.animated: img(src="../img/up.png")
-
-      //- page8
-      .page#p8
-        .bg.animated
-        .title.animated
-          h1: img(src="../img/08/title.png")
-          small: img(src="../img/08/title-sub.png")
-        .con.animated.none
-          ul
-            - for(var i=1;i<=5;i++)
-              li: img(src="../img/08/c1-#{i}.jpg")
-          .txt: img(src="../img/08/c2-1.png")
-        .arr-up.animated: img(src="../img/up.png")
-
-      //- page9
-      .page#p9
-        .bg.animated
-        .title.animated
-          h1: img(src="../img/09/title.png")
-          small: img(src="../img/09/title-sub.png")
-        .con.animated
-          img.animated.none(src="../img/09/c1-1.png")
-        .arr-up.animated: img(src="../img/up.png")
-
-      //- page10
-      .page#p10
-        .bg.animated
-        .title.animated
-          h1: img(src="../img/10/title.png")
-          small: img(src="../img/10/title-sub.png")
-        .con.animated
-          img.animated.none(src="../img/10/c1-1.png")
-        .arr-up.animated: img(src="../img/up.png")
-
-      //- page11
-      .page#p11
-        .bg.animated
-        .title.animated
-          h1: img(src="../img/11/title.png")
-        .con.animated
-          .phone.animated.hide: img(src="../img/11/c1-1.png")
-          ul
-            - for(var i=1;i<=4;i++)
-              li: img.animated.hide(src="../img/11/c2-#{i}.png")
-          ul
-            - for(var i=1;i<=4;i++)
-              li: img.animated.hide(src="../img/11/c3-#{i}.png")
-        .arr-up.animated: img(src="../img/up.png")
-
-      //- page12
-      .page#p12
-        .bg.animated
-        .title.animated
-          h1: img(src="../img/12/title.png")
-          small: img(src="../img/12/title-sub.png")
-        .con.animated
-          img.animated.none(src="../img/12/c1-1.png")
-        .arr-up.animated: img(src="../img/up.png")
-
-      //- page13
-      .page#p13
-        .bg.animated
-        .title.animated
-          h1: img(src="../img/13/title.png")
-          small: img(src="../img/13/title-sub.png")
-        .con.animated
-          img.animated.none(src="../img/13/c1-1.png")
-        .arr-up.animated: img(src="../img/up.png")
-
-      //- page14
-      .page#p14
-        .bg.animated
-        .title.animated
-          h1: img(src="../img/14/title.png")
-          small: img(src="../img/14/title-sub.png")
-        .con.animated
-          img.animated.none(src="../img/14/c1-1.png")
-          img.animated.none(src="../img/14/c1-2.png")
-        .arr-up.animated: img(src="../img/up.png")
-
-      //- page15
-      .page#p15
-        .bg.animated
-        .con.animated
-          img.animated.none(src="../img/15/c1-1.png")
-          img.animated.none(src="../img/15/c1-2.png")
 
     script(src="../bower_components/jquery/dist/jquery.min.js")
-    script(src="../bower_components/pageSwitch/src/pageSwitch.min.js")
-    script(src="../bower_components/OwlCarousel/owl-carousel/owl.carousel.min.js")
-    script(src="../bower_components/jquery.slimscroll/jquery.slimscroll.min.js")
     script(src="../js/main.min.js")
     script.
       var _hmt = _hmt || [];
