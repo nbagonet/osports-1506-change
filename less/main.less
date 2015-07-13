@@ -109,11 +109,15 @@ a
         .animation(bg 10s ease infinite);
     }
 }
-@keyframes bg{
-    0%,100%{
+@keyframes bg
+{
+    0%,
+    100%
+    {
         .scale(1);
     }
-    50%{
+    50%
+    {
         .scale(1.2);
     }
 }
@@ -186,6 +190,15 @@ a
     color: rgba(255,255,255,.8);
 
     .translateY(-50%);
+}
+
+.cover
+{
+    z-index: -1;
+
+    opacity: 0;
+
+    .absolute(-9999px,-9999px,_,_);
 }
 
 /**
@@ -338,11 +351,13 @@ a
 {
     form
     {
-        top: 922vh/@h;
+        // top: 922vh/@h;
+        top: 922%/@h;
     }
     to
     {
-        top: 1080vh/@h;
+        // top: 1080vh/@h;
+        top: 1080%/@h;
     }
 }
 @keyframes logo-t1-stu2
