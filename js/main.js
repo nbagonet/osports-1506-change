@@ -61,7 +61,7 @@ $(function() {
     var _p1 = $('#p1');
 
     // 冻结pw
-    pw.freeze(true);
+    // pw.freeze(true);
 
     // p1动画
     _p1.find('div').addClass('animated');
@@ -81,7 +81,7 @@ $(function() {
                       pw.next();
                     });
                     // 解冻pw
-                    pw.freeze(false);
+                    // pw.freeze(false);
                   });
                 });
               });
@@ -117,7 +117,7 @@ $(function() {
     var p = $('#p2');
 
     // 冻结pw
-    pw.freeze(true);
+    // pw.freeze(true);
 
     // 初始化中国地图
     p2MapData = ['BEJ', 'LIA', 'SHD', 'JSU', 'SHH', 'ZHJ', 'GUD', 'HKG', 'SCH', 'HUB', 'HEN', 'SHX'];
@@ -188,7 +188,7 @@ $(function() {
               p2PeopleQue(i / 4, i);
             }
             // 解冻pw
-            pw.freeze(false);
+            // pw.freeze(false);
           });
         });
       });
