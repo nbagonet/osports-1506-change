@@ -117,46 +117,53 @@ $(function() {
 
   // p1初始化
   p2.init = function() {
-    var p = $('#p2');
+    var p = $('#p2'),
+      map = $('#map-10-china');
 
     // 冻结pw
     // pw.freeze(true);
 
-    // 初始化中国地图
+    // 需要选中的省市数据
     p2MapData = ['BEJ', 'LIA', 'SHD', 'JSU', 'SHH', 'ZHJ', 'GUD', 'HKG', 'SCH', 'HUB', 'HEN', 'SHX'];
-    $('#map-10-china').vectorMap({
-      map: 'map_format_cn',
-      backgroundColor: 'rgba(0,0,0,0)',
-      zoomOnScroll: false,
-      panOnDrag: false,
-      regionsSelectable: false,
-      regionStyle: {
-        initial: {
-          fill: '#88b8ad',
-          "fill-opacity": 1,
-          stroke: 'none',
-          "stroke-width": 0,
-          "stroke-opacity": 1
-        },
-        hover: {},
-        selected: {
-          fill: '#e35e5d'
-        },
-        selectedHover: {}
-      }
-    });
-    // var mapObject = $('#map-10-china').vectorMap('get', 'mapObject');
-    // mapObject.setSelectedRegions(p2MapData);
 
-    // p.find('div,span').addClass('animated');
+    // 如果已经存在中国地图，则需要先取消选中，但不需要重新初始化地图
+    if (map.html() != '') {
+      var mapObject = map.vectorMap('get', 'mapObject');
+      for (var i = 0; i < p2MapData.length; i++) {
+        mapObject.setSelectedRegions(p2MapData[i], false);
+      }
+    } else {
+      // 初始化中国地图
+      map.vectorMap({
+        map: 'map_format_cn',
+        backgroundColor: 'rgba(0,0,0,0)',
+        zoomOnScroll: false,
+        panOnDrag: false,
+        regionsSelectable: false,
+        regionStyle: {
+          initial: {
+            fill: '#88b8ad',
+            "fill-opacity": 1,
+            stroke: 'none',
+            "stroke-width": 0,
+            "stroke-opacity": 1
+          },
+          hover: {},
+          selected: {
+            fill: '#e35e5d'
+          },
+          selectedHover: {}
+        }
+      });
+    }
 
     p.find('.tit').removeClass('hide').addClass('slideInLeft').one(as, function() {
       p.find('.map').removeClass('hide').addClass('zoomInDown').one(as, function() {
         p.find('.num1 > .num,.num1>.txt').removeClass('hide').addClass('fadeInDown').one(as, function() {
           // 点亮分社所在省市
-          var mapObject = $('#map-10-china').vectorMap('get', 'mapObject'),
+          var mapObject = map.vectorMap('get', 'mapObject'),
             p2MapQue = function(time, regions) {
-              $('#map-10-china').oneTime(time + 's', regions, function() {
+              map.oneTime(time + 's', regions, function() {
                 mapObject.setSelectedRegions(regions);
               });
             };
