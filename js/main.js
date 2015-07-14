@@ -64,7 +64,7 @@ $(function() {
     // pw.freeze(true);
 
     // p1动画
-    _p1.find('div').addClass('animated');
+    // _p1.find('div').addClass('animated');
     _p1.find('.logo-ost1').removeClass('hide').addClass('zoomIn').one(as, function() {
       _p1.find('.txt1').removeClass('hide').addClass('fadeInUp').one(as, function() {
         _p1.find('.line').removeClass('hide').addClass('zoomIn').one(as, function() {
@@ -80,7 +80,7 @@ $(function() {
                   _p1.find('.btn').removeClass('hide').addClass('fadeInDown').one(as, function() {
                     _p1.find('.btn').addClass('animate');
                     _p1.find('.btn').on('click', function() {
-                      pw.next();
+                      pw.pw.slide(1);
                     });
                     // 解冻pw
                     // pw.freeze(false);
@@ -99,7 +99,7 @@ $(function() {
   // p1重置
   p1.reset = function() {
     var _p1 = $('#p1');
-    _p1.find('div').removeClass('animated');
+    // _p1.find('div').removeClass('animated');
     _p1.find('.logo-ost1,.line').addClass('hide').removeClass('zoomIn');
     _p1.find('.txt1,.logo-t5').addClass('hide').removeClass('fadeInUp');
     _p1.find('.logo-t2').removeClass('fadeOut');
@@ -148,7 +148,7 @@ $(function() {
     var mapObject = $('#map-10-china').vectorMap('get', 'mapObject');
     mapObject.setSelectedRegions(p2MapData);
 
-    p.find('div,span').addClass('animated');
+    // p.find('div,span').addClass('animated');
 
     p.find('.tit').removeClass('hide').addClass('slideInLeft').one(as, function() {
       p.find('.map').removeClass('hide').addClass('zoomInDown').one(as, function() {
@@ -200,7 +200,7 @@ $(function() {
     p.find('.map').empty();
 
     // 清除动画
-    p.find('div,span').removeClass('animated');
+    // p.find('div,span').removeClass('animated');
     p.find('.tit').addClass('hide').removeClass('slideInLeft');
     p.find('.map').addClass('hide').removeClass('zoomInDown');
     p.find('.num1 > .num,.num1>.txt').addClass('hide').removeClass('fadeInDown');

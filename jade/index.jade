@@ -23,39 +23,39 @@ html
 
       //- p1
       .page#p1
-        .bg: img(src="../img/bg.jpg")
-        .logo
-          .logo-ost1.hide
-            .logo-o: img(src="../img/logo-o.png")
-            .logo-s: img(src="../img/logo-s.png")
-            .logo-t1: img(src="../img/logo-t1.png")
-            .logo-t2: img(src="../img/logo-t2.png")
+        .bg.animated: img(src="../img/bg.jpg")
+        .logo.animated
+          .logo-ost1.animated.hide
+            .logo-o.animated: img(src="../img/logo-o.png")
+            .logo-s.animated: img(src="../img/logo-s.png")
+            .logo-t1.animated: img(src="../img/logo-t1.png")
+            .logo-t2.animated: img(src="../img/logo-t2.png")
           - for(var i=3;i<=6;i++)
-            div(class="logo-t#{i} hide"): img(src="../img/logo-t#{i}.png")
-          .line.hide
-        .txt1.hide: img(src="../img/txt1.png")
-        .ball: img(src="../img/ball1.png")
-        .btn.hide: img(src="../img/btn1.png")
+            div(class="logo-t#{i} animated hide"): img(src="../img/logo-t#{i}.png")
+          .line.animated.hide
+        .txt1.animated.hide: img(src="../img/txt1.png")
+        .ball.animated: img(src="../img/ball1.png")
+        .btn.animated.hide: img(src="../img/btn1.png")
 
       //- p2
       .page#p2
-        .bg: img(src="../img/bg.jpg")
-        .tit.hide: img(src="../img/txt2.png")
-        .map.hide#map-10-china
-        .num1
-          .num.hide: span.none 1234567890,+
-          .txt.hide: img(src="../img/txt3.png")
-        .num2
-          .num.hide: span.none 1234567890,+
-          .plus.hide +
-          .txt.hide: img(src="../img/txt4.png")
-        .people
+        .bg.animated: img(src="../img/bg.jpg")
+        .tit.animated.hide: img(src="../img/txt2.png")
+        .map.animated.hide#map-10-china
+        .num1.animated
+          .num.animated.hide: span.none 1234567890,+
+          .txt.animated.hide: img(src="../img/txt3.png")
+        .num2.animated
+          .num.animated.hide: span.none 1234567890,+
+          .plus.animated.hide +
+          .txt.animated.hide: img(src="../img/txt4.png")
+        .people.animated
           - for(var i=1;i<=8;i++)
-            span.hide: img(src="../img/o1.png")
+            span.animated.hide: img(src="../img/o1.png")
 
       //- p3
       .page#p3
-        .bg: img(src="../img/bg.jpg")
+        .bg.animated: img(src="../img/bg.jpg")
 
 
 
