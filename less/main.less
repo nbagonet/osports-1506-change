@@ -207,6 +207,23 @@ a
 .font-face('langqian', '../font/langqian-r');
 
 /**
+ * 背景
+ */
+#p2,
+#p4,
+#p6,
+#p8,
+#p10,
+#p12,
+#p14
+{
+    > .bg > img
+    {
+        .scale(1,-1);
+    }
+}
+
+/**
  * p1
  */
 #p1
@@ -456,8 +473,7 @@ a
     {
         right: 50vw/@w;
         bottom: 200vh/@h;
-
-        width: 400vw/@w;
+        // width: 400vw/@w;
         .num,
         .plus
         {
@@ -492,29 +508,37 @@ a
 
             .inline-block();
             .margin(_,15vw/@w);
-            &:nth-child(1){
-                animation-delay:0ms!important;
+            &:nth-child(1)
+            {
+                animation-delay: 0ms!important;
             }
-            &:nth-child(2){
-                animation-delay:250ms!important;
+            &:nth-child(2)
+            {
+                animation-delay: 250ms!important;
             }
-            &:nth-child(3){
-                animation-delay:500ms!important;
+            &:nth-child(3)
+            {
+                animation-delay: 500ms!important;
             }
-            &:nth-child(4){
-                animation-delay:750ms!important;
+            &:nth-child(4)
+            {
+                animation-delay: 750ms!important;
             }
-            &:nth-child(5){
-                animation-delay:1000ms!important;
+            &:nth-child(5)
+            {
+                animation-delay: 1000ms!important;
             }
-            &:nth-child(6){
-                animation-delay:1250ms!important;
+            &:nth-child(6)
+            {
+                animation-delay: 1250ms!important;
             }
-            &:nth-child(7){
-                animation-delay:1500ms!important;
+            &:nth-child(7)
+            {
+                animation-delay: 1500ms!important;
             }
-            &:nth-child(8){
-                animation-delay:1750ms!important;
+            &:nth-child(8)
+            {
+                animation-delay: 1750ms!important;
             }
         }
     }

@@ -7164,6 +7164,26 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/html\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/html\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/img\/arrow1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2932,
+		"inputAbbreviatedPath": "\/img\/arrow1.png",
+		"outputAbbreviatedPath": "\/img\/arrow1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/ball1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -7358,6 +7378,17 @@
 		"initialSize": 6279,
 		"inputAbbreviatedPath": "\/img\/txt4.png",
 		"outputAbbreviatedPath": "\/img\/txt4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/txt5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5334,
+		"inputAbbreviatedPath": "\/img\/txt5.png",
+		"outputAbbreviatedPath": "\/img\/txt5.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
