@@ -14,7 +14,7 @@ $(function() {
   var pw = new pageSwitch('wrap', {
     duration: 1000, //int 页面过渡时间
     direction: 1, //int 页面切换方向，0横向，1纵向
-    start: 2, //int 默认显示页面
+    start: 0, //int 默认显示页面
     loop: false, //bool 是否循环切换
     ease: 'ease', //string|function 过渡曲线动画，详见下方说明
     transition: 'scroll', //string|function转场方式，详见下方说明
@@ -352,7 +352,7 @@ $(function() {
 
   // 初始化p1
   Pace.on('hide', function() {
-    p3.init();
+    p1.init();
   });
 
 });
