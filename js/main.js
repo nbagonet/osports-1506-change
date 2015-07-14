@@ -138,6 +138,8 @@ $(function() {
         backgroundColor: 'rgba(0,0,0,0)',
         zoomOnScroll: false,
         panOnDrag: false,
+        zoomMin: 1,
+        zoomMax: 1,
         regionsSelectable: false,
         regionStyle: {
           initial: {
@@ -247,6 +249,8 @@ $(function() {
         backgroundColor: 'rgba(0,0,0,0)',
         zoomOnScroll: false,
         panOnDrag: false,
+        zoomMin: 1,
+        zoomMax: 1,
         regionsSelectable: false,
         regionStyle: {
           initial: {
