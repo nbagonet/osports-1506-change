@@ -69,6 +69,7 @@ $(function() {
     var _p1 = $('#p1');
 
     // p1动画
+    _p1.find('.ball').removeClass('hide').addClass('fadeIn');
     _p1.find('.logo-ost1').removeClass('hide').addClass('zoomIn').one(as, function() {
       _p1.find('.txt1').removeClass('hide').addClass('fadeInUp').one(as, function() {
         _p1.find('.line').removeClass('hide').addClass('zoomIn').one(as, function() {
@@ -102,6 +103,7 @@ $(function() {
     // 清除计时器
     $('body').stopTime();
     // 清除动画
+    _p1.find('.ball').addClass('hide').removeClass('fadeIn');
     _p1.find('.logo-ost1,.line').addClass('hide').removeClass('zoomIn');
     _p1.find('.txt1,.logo-t5').addClass('hide').removeClass('fadeInUp');
     _p1.find('.logo-t2').removeClass('fadeOut');
