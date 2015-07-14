@@ -205,6 +205,7 @@ a
  * 字体
  */
 .font-face('langqian', '../font/langqian-r');
+.font-face('yuehei', '../font/yuehei-x');
 
 /**
  * 背景
@@ -452,10 +453,18 @@ a
         .plus
         {
             font-family: 'langqian';
+            line-height: 1;
         }
         .num
         {
+            padding-bottom: 5px;
+
             text-align: center;
+        }
+        .txt
+        {
+            font-family: 'yuehei';
+            line-height: 1;
         }
     }
     > .num1
@@ -468,12 +477,17 @@ a
         {
             font-size: 186vw/@w;
         }
+        .txt
+        {
+            font-size: 12.7vw;
+        }
     }
     > .num2
     {
         right: 50vw/@w;
         bottom: 200vh/@h;
-        // width: 400vw/@w;
+
+        width: 450vw/@w;
         .num,
         .plus
         {
@@ -489,7 +503,7 @@ a
         }
         .txt
         {
-            width: 310vw/@w;
+            font-size: 11vw;
         }
     }
     > .people
