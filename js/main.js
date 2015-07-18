@@ -492,7 +492,7 @@ $(function() {
       p.find('.gallery-item').removeClass('none').addClass('flipInX');
       // 点击缩略图查看大图
       tobj.oneTime('2.2s', function() {
-        $(this).find('a').unbind('click').on('click', function(e) {
+        p.find('.gallery-item > a').unbind('click').on('click', function(e) {
           e.preventDefault();
           galleryShow($(this).data('pic'));
         });
