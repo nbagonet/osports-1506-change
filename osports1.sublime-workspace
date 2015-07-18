@@ -4,16 +4,76 @@
 		"selected_items":
 		[
 			[
-				"vis",
-				"visible"
+				"in",
+				"initial	(main.js)"
 			],
 			[
-				"tra",
-				"translateX"
+				"Ma",
+				"Malaysia	(jquery-jvectormap-world-mill-en.js)"
+			],
+			[
+				"arr",
+				"arrow1.png	w:351 h:102"
+			],
+			[
+				"trans",
+				"transition	(main.js)"
+			],
+			[
+				"cov",
+				"cover.jpg	w:300 h:300"
+			],
+			[
+				"ser",
+				"serial"
+			],
+			[
+				"fon",
+				"font/"
+			],
+			[
+				"j",
+				"jqvmap/"
+			],
+			[
+				"txt",
+				"txt2.png	w:791 h:361"
+			],
+			[
+				"call",
+				"callBack"
 			],
 			[
 				"tran",
-				"translateX"
+				"translateY"
+			],
+			[
+				"tra",
+				"translateY"
+			],
+			[
+				"remo",
+				"removeClass	.removeClass()"
+			],
+			[
+				"for",
+				"forwards"
+			],
+			[
+				"btn",
+				"btn1.png	w:212 h:113"
+			],
+			[
+				"logo-",
+				"logo-o.png	w:199 h:213"
+			],
+			[
+				"logo",
+				"logo-o.png	w:199 h:213"
+			],
+			[
+				"vis",
+				"visible"
 			],
 			[
 				"tx",
@@ -120,10 +180,6 @@
 				"progress-tit50.png	w:89 h:62"
 			],
 			[
-				"j",
-				"jquery.timers.min.js"
-			],
-			[
 				"jqr",
 				"jquery.timers"
 			],
@@ -150,10 +206,6 @@
 			[
 				"stage",
 				"stage01	(main.js)"
-			],
-			[
-				"txt",
-				"txt04.png	w:454 h:124"
 			],
 			[
 				"poin",
@@ -248,10 +300,6 @@
 				"max-height"
 			],
 			[
-				"logo-",
-				"logo-t2.png	w:603 h:283"
-			],
-			[
 				"head",
 				"head04.png	w:167 h:231"
 			],
@@ -336,10 +384,6 @@
 				"percentage"
 			],
 			[
-				"in",
-				"inherit"
-			],
-			[
 				"awar",
 				"award-1"
 			],
@@ -350,10 +394,6 @@
 			[
 				"index",
 				"index.html"
-			],
-			[
-				"for",
-				"form	form"
 			],
 			[
 				"awa",
@@ -474,51 +514,35 @@
 			[
 				"ba",
 				"banner-1.1.jpg	w:408 h:525"
-			],
-			[
-				"ima",
-				"images/"
-			],
-			[
-				"jquery",
-				"jquery.browser"
-			],
-			[
-				"ea",
-				"easytabs/"
-			],
-			[
-				"ma",
-				"main.js"
-			],
-			[
-				"tabl-c",
-				"table-cell"
-			],
-			[
-				"whi",
-				"white-space"
-			],
-			[
-				"togg",
-				"toggleClass	.toggleClass()"
-			],
-			[
-				"check",
-				"check_order"
-			],
-			[
-				"f_",
-				"f_img"
-			],
-			[
-				"off",
-				"offset	.offset()"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "js/main.js",
+			"settings":
+			{
+				"buffer_size": 10171,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "jade/index.jade",
+			"settings":
+			{
+				"buffer_size": 3156,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "less/main.less",
+			"settings":
+			{
+				"buffer_size": 17165,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -608,14 +632,17 @@
 	[
 		"/Users/wangshuo/works/personal/2015/tangchao1/osports-1506-change",
 		"/Users/wangshuo/works/personal/2015/tangchao1/osports-1506-change/bower_components",
-		"/Users/wangshuo/works/personal/2015/tangchao1/osports-1506-change/bower_components/pageSwitch/src",
-		"/Users/wangshuo/works/personal/2015/tangchao1/osports-1506-change/bower_components/viewport-units-buggyfill",
+		"/Users/wangshuo/works/personal/2015/tangchao1/osports-1506-change/bower_components/jvectormap",
+		"/Users/wangshuo/works/personal/2015/tangchao1/osports-1506-change/bower_components/jvectormap/tests",
+		"/Users/wangshuo/works/personal/2015/tangchao1/osports-1506-change/bower_components/jvectormap/tests/assets",
 		"/Users/wangshuo/works/personal/2015/tangchao1/osports-1506-change/jade",
-		"/Users/wangshuo/works/personal/2015/tangchao1/osports-1506-change/js",
-		"/Users/wangshuo/works/personal/2015/tangchao1/osports-1506-change/less"
+		"/Users/wangshuo/works/personal/2015/tangchao1/osports-1506-change/js"
 	],
 	"file_history":
 	[
+		"/Users/wangshuo/works/personal/2015/tangchao1/osports-1506-change/js/jquery-jvectormap-world-mill-en.js",
+		"/Users/wangshuo/works/personal/2015/tangchao1/osports-1506-change/js/china.js",
+		"/Users/wangshuo/works/personal/2015/tangchao1/osports-1506-change/bower_components/jvectormap/jquery-jvectormap.js",
 		"/Users/wangshuo/works/personal/2015/tangchao1/osports-1506-change/js/main.js",
 		"/Users/wangshuo/works/personal/2015/tangchao1/osports-1506-change/jade/index.jade",
 		"/Users/wangshuo/works/personal/2015/tangchao1/osports-1506-change/less/main.less",
@@ -740,14 +767,11 @@
 		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/高尔夫电视台APP-线上/trunk/html/golf-app/html/basic.html",
 		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/高尔夫电视台APP-线上/trunk/html/golf-app/html/homePage.html",
 		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/高尔夫电视台APP-线上/trunk/html/golf-app/html/my-act-detail.html",
-		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/高尔夫电视台APP-线上/trunk/html/golf-app/html/add-address.html",
-		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/高尔夫电视台APP-线上/trunk/html/golf-app/html/address.html",
-		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/高尔夫电视台APP-线上/trunk/html/golf-app/html/apply.html",
-		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/高尔夫电视台APP-线上/trunk/html/golf-app/html/baoming.html"
+		"/Applications/XAMPP/xamppfiles/htdocs/alltosun/高尔夫电视台APP-线上/trunk/html/golf-app/html/add-address.html"
 	],
 	"find":
 	{
-		"height": 46.0
+		"height": 47.0
 	},
 	"find_in_files":
 	{
@@ -778,6 +802,31 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".ball",
+			".reset",
+			"。reset",
+			"tobj",
+			"oneTime",
+			"Aus",
+			"Austria",
+			"Ge",
+			"united",
+			"uk",
+			"koe",
+			"koea",
+			"$('#map-10-china')",
+			".num2",
+			"logo-t1-stu2",
+			"txt1-stu2",
+			"解冻",
+			"冻结",
+			"p2MapQue",
+			": 1",
+			"沈阳",
+			"北京",
+			".page",
+			"alpha",
+			"html5logo",
 			".bg",
 			"flip3d",
 			"#p5",
@@ -880,32 +929,7 @@
 			"ggoB",
 			"bm",
 			"b'm",
-			"报名",
-			"服务详情",
-			"报名",
-			"$http",
-			"$(\".checkout-float\").show();",
-			"isError = true",
-			"isError",
-			"rootScope.title",
-			"rootScope.Title",
-			"isError",
-			"服务详情",
-			"www.cngolf.tv",
-			"user.phone",
-			"myAct",
-			"我的活动详情",
-			"myAct",
-			".my-detail-head p",
-			".act-time",
-			"14p'x",
-			"changePhone",
-			".phone-info",
-			".pic-subject",
-			"pace-activity",
-			"video-content",
-			"slider1_container",
-			"mainPic"
+			"报名"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -913,6 +937,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
 			"/640)",
 			"http://lexus.alltosun.net/html/mag/",
 			"http://lexus.alltosun.net",
@@ -977,14 +1002,282 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "js/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10171,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2293,
+								2293
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 10733.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "jade/index.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3156,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								578,
+								724
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "less/main.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17165,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								323,
+								323
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 221.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 38.0
+		"height": 39.0
 	},
 	"input":
 	{
@@ -1033,7 +1326,7 @@
 	"project": "osports1.sublime-project",
 	"replace":
 	{
-		"height": 72.0
+		"height": 90.0
 	},
 	"save_all_on_build": true,
 	"select_file":

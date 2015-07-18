@@ -1,5 +1,8 @@
 var as = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
-  tobj = $('body');
+  tobj = $('body'),
+  rndN = function(min, max) {
+    return Math.floor(min + Math.random() * (max - min));
+  };
 
 $(function() {
 
@@ -14,7 +17,7 @@ $(function() {
   var pw = new pageSwitch('wrap', {
     duration: 1000, //int 页面过渡时间
     direction: 1, //int 页面切换方向，0横向，1纵向
-    start: 0, //int 默认显示页面
+    start: 4, //int 默认显示页面
     loop: false, //bool 是否循环切换
     ease: 'ease', //string|function 过渡曲线动画，详见下方说明
     transition: 'scroll', //string|function转场方式，详见下方说明
@@ -56,6 +59,20 @@ $(function() {
     } else {
       p3.reset();
     }
+
+    // p4
+    if (cur == 4) {
+      p4.init();
+    } else {
+      p4.reset();
+    }
+
+    // p5
+    if (cur == 5) {
+      p5.init();
+    } else {
+      p5.reset();
+    }
   });
 
 
@@ -83,9 +100,6 @@ $(function() {
                 _p1.find('.logo-t6').removeClass('hide').addClass('fadeInRight').one(as, function() {
                   _p1.find('.btn').removeClass('hide').addClass('fadeInDown').one(as, function() {
                     _p1.find('.btn').addClass('animate');
-                    _p1.find('.btn').unbind('click').on('click', function() {
-                      pw.pw.slide(1);
-                    });
                   });
                 });
               });
@@ -125,7 +139,8 @@ $(function() {
       map = $('#map-10-china');
 
     // 需要选中的省市数据
-    p2MapData = ['BEJ', 'LIA', 'SHD', 'JSU', 'SHH', 'ZHJ', 'GUD', 'HKG', 'SCH', 'HUB', 'HEN', 'SHX'];
+    // p2MapData = ['BEJ', 'LIA', 'SHD', 'JSU', 'SHH', 'ZHJ', 'GUD', 'HKG', 'SCH', 'HUB', 'HEN', 'SHX'];
+    p2MapData = ['HAI', 'GUD', 'YUN', 'GXI', 'TAI', 'FUJ', 'GUI', 'HUN', 'JXI', 'SCH', 'TIB', 'ZHJ', 'CHQ', 'HUB', 'ANH', 'JSU', 'HEN', 'SHA', 'QIH', 'SHX', 'SHD', 'HXA', 'HEB', 'XIN', 'NMG', 'TAJ', 'LIA', 'JIL', 'HLJ', 'GAN', 'MAC', 'HKG', 'SHH', 'BEJ', 'NXA'];
 
     // 如果已经存在中国地图，则需要先取消选中，但不需要重新初始化地图
     if (map.html() != '') {
@@ -171,13 +186,13 @@ $(function() {
               });
             };
           for (var i = 1; i <= p2MapData.length; i++) {
-            p2MapQue(i / 16, p2MapData[i - 1]);
+            p2MapQue(i / p2MapData.length, p2MapData[i - 1]);
           }
           // 分社数字自增
           p.find('.num1>.num').countTo({
             from: 0,
             to: 12,
-            speed: 500,
+            speed: 1000,
             refreshInterval: 5
           });
         });
@@ -289,13 +304,13 @@ $(function() {
         p.find('.num1>.num').countTo({
           from: 0,
           to: 14,
-          speed: 1000,
+          speed: 1200,
           refreshInterval: 5
         });
         p.find('.num2>.num').countTo({
           from: 0,
           to: 31,
-          speed: 1000,
+          speed: 1200,
           refreshInterval: 5
         });
         // 显示图片数量自增
@@ -350,9 +365,113 @@ $(function() {
   };
 
 
+  /**
+   * p4
+   */
+  var p4 = {};
+
+  // p4初始化
+  p4.init = function() {
+    var p = $('#p4');
+
+    p.find('.tit').removeClass('hide').addClass('fadeInDown').one(as, function() {
+      cloudInit();
+      p.find('#partnerCloud').removeClass('hide').fadeIn();
+    });
+
+    // 初始化logo云
+    var cloudInit = function() {
+      $('#partnerCloudCanvas').attr({
+        "width": $(window).height(),
+        "height": $(window).height()
+      });
+      if (!$('#partnerCloudCanvas').tagcanvas({
+          imageScale: 1,
+          outlineColour: 'rgba(0,0,0,0)',
+          shuffleTags: true,
+          depth: 1,
+          minBrightness: 0.05,
+          pulsateTo: 0.6,
+          initial: [rndN(-5, 5) / 100, rndN(-5, 5) / 100],
+          decel: 0.98,
+          wheelZoom: false,
+          fadeIn: 1000,
+          reverse: true,
+          weight: false,
+          shape: 'sphere',
+          imageMode: null,
+          imagePadding: 0,
+          centreImage: '../img/logo-b.png'
+        })) {
+        // something went wrong, hide the canvas container
+        $('#partnerCloudCanvas').hide();
+      }
+    };
+  };
+
+  // p4重置
+  p4.reset = function() {
+    var p = $('#p4');
+    p.find('.tit').addClass('hide').removeClass('fadeInDown');
+    p.find('#partnerCloud').addClass('hide');
+  };
+
+  /**
+   * p5
+   */
+  var p4 = {};
+
+  // p4初始化
+  p5.init = function() {
+    var p = $('#p5');
+
+    p.find('.tit').removeClass('hide').addClass('fadeInDown').one(as, function() {
+      cloudInit();
+      p.find('#clientCloud').removeClass('hide').fadeIn();
+    });
+
+    // 初始化logo云
+    var cloudInit = function() {
+      $('#clientCloudCanvas').attr({
+        "width": $(window).height(),
+        "height": $(window).height()
+      });
+      if (!$('#clientCloudCanvas').tagcanvas({
+          imageScale: .5,
+          outlineColour: 'rgba(0,0,0,0)',
+          shuffleTags: true,
+          depth: 1,
+          minBrightness: 0.05,
+          pulsateTo: 0.6,
+          // initial: [rndN(-5, 5) / 100, rndN(-5, 5) / 100],
+          initial: [rndN(-5, 5) / 100, 0],
+          decel: 0.98,
+          wheelZoom: false,
+          fadeIn: 1000,
+          reverse: true,
+          weight: false,
+          imageMode: null,
+          imagePadding: 0,
+          centreImage: '../img/logo-b.png',
+          shape: "vring(0.3)",
+          offsetY: 0,
+          lock: "x"
+        })) {
+        // something went wrong, hide the canvas container
+        $('#clientCloudCanvas').hide();
+      }
+    };
+  };
+
+  // p5重置
+  p5.reset = function() {
+    var p = $('#p4');
+  };
+
+
   // 初始化p1
   Pace.on('hide', function() {
-    p1.init();
+    p5.init();
   });
 
 });

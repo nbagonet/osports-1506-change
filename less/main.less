@@ -134,65 +134,73 @@ a
 /** PACE */
 .pace
 {
-    user-select: none;
-    pointer-events: none;
-}
-.pace.pace-active
-{
-    z-index: 2000;
-
-    background: url(../img/bg.jpg) 50% 50% no-repeat;
-    background-size: cover;
-
-    .fixed(0,0,0,0);
-    > .pace-activity
-    {
-        z-index: 100;
-
-        background: url(../img/logo-o.png) 50% 50% no-repeat;
-        background-size: auto 10vh;
-
-        .absolute(0,0,0,0);
-        .animation(flip 2s linear infinite);
-    }
-}
-.pace.pace-inactive .pace-progress
-{
-    display: none;
-}
-
-.pace .pace-progress
-{
     position: fixed;
-    z-index: 2000;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
 
-    transform: translate3d(0, 0, 0) !important;
-    text-align: center;
+    user-select: none;
+    transition: transform .5s ease-out;
+    transform: translate3d(0, -50px, 0);
+            pointer-events: none;
+
+    background: url(../img/bg.jpg) 50% 0 no-repeat;
+    background-size: cover;
+
+    -webkit-pointer-events: none;
+    &:after
+    {
+        z-index: 1000;
+
+        content: '';
+
+        background: url(../img/logo-o.png) 50% 50% no-repeat;
+        background-size: auto 20vh;
+
+        .absolute(0,0,0,0);
+        .animation(loading 1s ease infinite);
+    }
 }
-
-.pace .pace-progress:after
+@keyframes loading
 {
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 5rem;
-    font-weight: 100;
+    0%,
+    100%
+    {
+        background-position: 50% 50%;
+    }
+    50%
+    {
+        background-position: 50% 47%;
+    }
+}
+.pace.pace-active
+{
+    transform: translate3d(0, 0, 0);
+}
+.pace.pace-inactive
+{
+    display: none;
+}
+.pace .pace-progress
+{
+    transform: translate3d(0,0,0)!important;
+    pointer-events: none;
+    &:after
+    {
+        font-family: 'Helvetica Neue', sans-serif;
+        font-size: 10vw;
+        font-weight: 100;
 
-    position: absolute;
-    top: 65vh;
-    right: 0;
-    left: 0;
+        z-index: 2000;
 
-    display: block;
+        content: attr(data-progress-text);
+        text-align: center;
 
-    content: attr(data-progress-text);
-    text-align: center;
+        color: #fff;
 
-    color: rgba(255,255,255,.8);
-
-    .translateY(-50%);
+        .absolute(65vh,0,_,0);
+    }
 }
 
 .cover
@@ -867,5 +875,68 @@ a
     100%
     {
         height: 31px;
+    }
+}
+
+/**
+ * p4
+ */
+#p4
+{
+    > .tit
+    {
+        z-index: 900;
+
+        overflow: hidden;
+
+        .size(100vw,147vh/@h);
+        .absolute(0,0,_,0);
+    }
+    > .cloudCover
+    {
+        z-index: 1000;
+
+        .absolute(0,0,0,0);
+    }
+    > .partnerCloud
+    {
+        z-index: 800;
+
+        overflow: hidden;
+
+        .absolute(50%,_,_,50%);
+        .translate(-50%,-50%);
+    }
+}
+
+
+/**
+ * p5
+ */
+#p5
+{
+    > .tit
+    {
+        z-index: 900;
+
+        overflow: hidden;
+
+        .size(736vh/@h,334vh/@h);
+        .absolute(0,0,_,0);
+    }
+    > .cloudCover
+    {
+        z-index: 1000;
+
+        .absolute(0,0,0,0);
+    }
+    > .clientCloud
+    {
+        z-index: 800;
+
+        overflow: hidden;
+
+        .absolute(50%,_,_,50%);
+        .translate(-50%,-50%);
     }
 }

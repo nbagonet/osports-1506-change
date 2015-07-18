@@ -1,0 +1,15 @@
+{
+  "name": "TagCanvas",
+  "homepage": "https://github.com/goat1000/TagCanvas",
+  "version": "2.7.0",
+  "_release": "2.7.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "2.7.0",
+    "commit": "a4349bf51d0777896dca6bdf93f57565081c85ee"
+  },
+  "_source": "https://github.com/goat1000/TagCanvas.git",
+  "_target": "~2.7.0",
+  "_originalSource": "https://github.com/goat1000/TagCanvas.git",
+  "_direct": true
+}
