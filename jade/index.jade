@@ -89,6 +89,21 @@ html
               - for(var i=1;i<=27;i++)
                 li: a(href="#"): img(src="../img/logo2/#{i}.png")
 
+      //- p6
+      .page#p6
+        .tit.hide.animated: img(src="../img/txt8.png")
+        .tit-sub.hide.animated: img(src="../img/txt9.png")
+        .gallery
+          - for(var i=1;i<=9;i++)
+            .gallery-item.animated.none: a(href="javascript:void(0)" data-pic="../img/photo/#{i}.jpg"): img(src="../img/photo/#{i}-s.jpg")
+        .gallery-show.animated.none
+          .close &times;
+          .gallery-pic
+        ul.ilist
+          each val,index in ['图片','图表','数据','视频','<em>3D</em>动画','采访']
+            li.magictime.hide
+              span !{val}
+              i: img(src="../img/ico#{index+1}.png")
 
     script(src="../bower_components/jquery/dist/jquery.min.js")
     script(src="../js/main.min.js?_=1")

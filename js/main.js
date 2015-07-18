@@ -17,7 +17,7 @@ $(function() {
   var pw = new pageSwitch('wrap', {
     duration: 1000, //int 页面过渡时间
     direction: 1, //int 页面切换方向，0横向，1纵向
-    start: 4, //int 默认显示页面
+    start: 5, //int 默认显示页面
     loop: false, //bool 是否循环切换
     ease: 'ease', //string|function 过渡曲线动画，详见下方说明
     transition: 'scroll', //string|function转场方式，详见下方说明
@@ -115,7 +115,7 @@ $(function() {
   p1.reset = function() {
     var _p1 = $('#p1');
     // 清除计时器
-    $('body').stopTime();
+    tobj.stopTime();
     // 清除动画
     _p1.find('.ball').addClass('hide').removeClass('fadeIn');
     _p1.find('.logo-ost1,.line').addClass('hide').removeClass('zoomIn');
@@ -227,7 +227,7 @@ $(function() {
     map.empty();
 
     // 清除计时器
-    $('body').stopTime();
+    tobj.stopTime();
 
     // 清除动画
     p.find('.tit').addClass('hide').removeClass('slideInLeft');
@@ -353,7 +353,7 @@ $(function() {
     map.empty();
 
     // 清除计时器
-    $('body').stopTime();
+    tobj.stopTime();
 
     // 清除动画
     p.find('.tit').addClass('hide').removeClass('fadeInRight');
@@ -421,7 +421,7 @@ $(function() {
    */
   var p5 = {};
 
-  // p4初始化
+  // p5初始化
   p5.init = function() {
     var p = $('#p5');
 
@@ -442,16 +442,9 @@ $(function() {
           shuffleTags: true,
           depth: 1,
           minBrightness: 0.05,
-          // pulsateTo: 0.6,
-          // initial: [rndN(-5, 5) / 100, rndN(-5, 5) / 100],
-          initial: [-0.05, 0],
-          // decel: 0.98,
+          initial: [-0.02, 0],
           wheelZoom: false,
           fadeIn: 1000,
-          // reverse: true,
-          // weight: false,
-          // imageMode: null,
-          // imagePadding: 0,
           centreImage: '../img/logo-b.png',
           shape: "vcylinder"
         })) {
@@ -464,12 +457,60 @@ $(function() {
   // p5重置
   p5.reset = function() {
     var p = $('#p5');
+    p.find('.tit').addClass('hide').removeClass('fadeInDown');
+    p.find('#clientCloud').addClass('hide');
   };
 
+  /**
+   * p6
+   */
+  var p6 = {};
+
+  // p6初始化
+  p6.init = function() {
+    var p = $('#p6'),
+      galleryShow = function(src) {
+        var _pic = '<img src="' + src + '" >';
+        p.find('.gallery-show > .gallery-pic').html(_pic);
+        p.find('.gallery-show').removeClass('none');
+      };
+
+    p.find('.gallery-show').unbind('click').on('click', function() {
+      $(this).addClass('none');
+    });
+
+    p.find('.tit').removeClass('hide').addClass('fadeInLeft');
+    p.find('.tit-sub').removeClass('hide').addClass('fadeInRight').one(as, function() {
+      // 相册
+      p.find('.gallery-item').removeClass('none').addClass('flipInX').one(as, function() {
+        // 点击缩略图查看大图
+        $(this).find('a').unbind('click').on('click', function(e) {
+          e.preventDefault();
+          galleryShow($(this).data('pic'));
+        });
+      });
+      // 底部图标
+      tobj.oneTime('2.5s', function() {
+        p.find('.ilist > li').removeClass('hide').addClass('spaceInDown');
+      });
+    });
+  };
+
+  // p6重置
+  p6.reset = function() {
+    var p = $('#p6');
+    p.find('.gallery-show').addClass('none');
+    p.find('.gallery-show > .gallery-pic').empty();
+    p.find('.tit').addClass('hide').removeClass('fadeInLeft');
+    p.find('.tit-sub').addClass('hide').removeClass('fadeInRight');
+    p.find('.gallery-item').addClass('none').removeClass('flipInX');
+    p.find('.ilist > li').addClass('hide').removeClass('spaceInDown');
+    tobj.stopTime();
+  };
 
   // 初始化p1
   Pace.on('hide', function() {
-    p5.init();
+    p6.init();
   });
 
 });
