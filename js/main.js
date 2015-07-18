@@ -382,11 +382,11 @@ $(function() {
     // 初始化logo云
     var cloudInit = function() {
       $('#partnerCloudCanvas').attr({
-        "width": $(window).height(),
+        "width": $(window).width(),
         "height": $(window).height()
       });
       if (!$('#partnerCloudCanvas').tagcanvas({
-          imageScale: 1,
+          imageScale: .7,
           outlineColour: 'rgba(0,0,0,0)',
           shuffleTags: true,
           depth: 1,
@@ -419,7 +419,7 @@ $(function() {
   /**
    * p5
    */
-  var p4 = {};
+  var p5 = {};
 
   // p4初始化
   p5.init = function() {
@@ -433,29 +433,27 @@ $(function() {
     // 初始化logo云
     var cloudInit = function() {
       $('#clientCloudCanvas').attr({
-        "width": $(window).height(),
+        "width": $(window).width(),
         "height": $(window).height()
       });
       if (!$('#clientCloudCanvas').tagcanvas({
-          imageScale: .5,
+          imageScale: .35,
           outlineColour: 'rgba(0,0,0,0)',
           shuffleTags: true,
           depth: 1,
           minBrightness: 0.05,
-          pulsateTo: 0.6,
+          // pulsateTo: 0.6,
           // initial: [rndN(-5, 5) / 100, rndN(-5, 5) / 100],
-          initial: [rndN(-5, 5) / 100, 0],
-          decel: 0.98,
+          initial: [-0.05, 0],
+          // decel: 0.98,
           wheelZoom: false,
           fadeIn: 1000,
-          reverse: true,
-          weight: false,
-          imageMode: null,
-          imagePadding: 0,
+          // reverse: true,
+          // weight: false,
+          // imageMode: null,
+          // imagePadding: 0,
           centreImage: '../img/logo-b.png',
-          shape: "vring(0.3)",
-          offsetY: 0,
-          lock: "x"
+          shape: "vcylinder"
         })) {
         // something went wrong, hide the canvas container
         $('#clientCloudCanvas').hide();
@@ -465,7 +463,7 @@ $(function() {
 
   // p5重置
   p5.reset = function() {
-    var p = $('#p4');
+    var p = $('#p5');
   };
 
 
