@@ -73,6 +73,13 @@ $(function() {
     } else {
       p5.reset();
     }
+
+    // p6
+    if (cur == 6) {
+      p6.init();
+    } else {
+      p6.reset();
+    }
   });
 
 
