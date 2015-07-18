@@ -490,7 +490,7 @@ $(function() {
         });
       });
       // 底部图标
-      tobj.oneTime('2.5s', function() {
+      tobj.oneTime('2.2s', function() {
         p.find('.ilist > li').removeClass('hide').addClass('spaceInDown');
       });
     });
