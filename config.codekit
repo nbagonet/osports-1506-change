@@ -5258,7 +5258,7 @@
 		},
 	"\/bower_components\/masonry\/dist\/masonry.pkgd.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/masonry\/dist\/masonry.pkgd.js",
 		"outputAbbreviatedPath": "\/bower_components\/masonry\/dist\/masonry.pkgd.min.js",
@@ -8997,12 +8997,6 @@
 			"followForSyntaxChecking": 1,
 			"linkedFileAbbreviatedPath": "\/bower_components\/TagCanvas\/jquery.tagcanvas.js",
 			"position": 6,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/masonry\/dist\/masonry.pkgd.js",
-			"position": 7,
 			"type": 0
 			}
 		]
