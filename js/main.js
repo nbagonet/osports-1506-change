@@ -17,7 +17,7 @@ $(function() {
   var pw = new pageSwitch('wrap', {
     duration: 1000, //int 页面过渡时间
     direction: 1, //int 页面切换方向，0横向，1纵向
-    start: 5, //int 默认显示页面
+    start: 6, //int 默认显示页面
     loop: false, //bool 是否循环切换
     ease: 'ease', //string|function 过渡曲线动画，详见下方说明
     transition: 'scroll', //string|function转场方式，详见下方说明
@@ -79,6 +79,13 @@ $(function() {
       p6.init();
     } else {
       p6.reset();
+    }
+
+    // p7
+    if (cur == 7) {
+      p7.init();
+    } else {
+      p7.reset();
     }
   });
 
@@ -517,9 +524,132 @@ $(function() {
     tobj.stopTime();
   };
 
+  /**
+   * p7
+   */
+  var p7 = {};
+
+  // p7初始化
+  p7.init = function() {
+    var p = $('#p7');
+
+    // 初始化饼图
+    var chartPieInit = function() {
+      require.config({
+        paths: {
+          echarts: '../bower_components/echarts/build/dist'
+        }
+      });
+      require(
+        [
+          'echarts',
+          'echarts/chart/pie'
+        ],
+        function(ec) {
+          var myChart = ec.init(document.getElementById('pie1'));
+          var option = {
+            color: [
+              '#e35d5d', '#87b8ad', '#dea156'
+            ],
+            series: [{
+              name: '收入模式',
+              type: 'pie',
+              radius: [0, '73%'],
+              startAngle: 30,
+              itemStyle: {
+                normal: {
+                  labelLine: {
+                    show: true
+                  },
+                  label: {
+                    textStyle: {
+                      fontFamily: 'yuehei',
+                      fontSize: 16
+                    }
+                  }
+                }
+              },
+              data: [{
+                value: 85,
+                name: '媒体'
+              }, {
+                value: 13,
+                name: '商业客户'
+              }, {
+                value: 2,
+                name: '盗版'
+              }]
+            }, {
+              name: '收入模式',
+              type: 'pie',
+              radius: [0, '73%'],
+              startAngle: 30,
+              itemStyle: {
+                normal: {
+                  labelLine: {
+                    show: false
+                  },
+                  label: {
+                    position: 'inner',
+                    formatter: function(params) {
+                      return (params.percent - 0).toFixed(0) + '%'
+                    },
+                    textStyle: {
+                      fontFamily: 'langqian',
+                      fontSize: 16,
+                      fontWeight: 100
+                    }
+                  }
+                }
+              },
+              data: [{
+                value: 85,
+                name: '媒体'
+              }, {
+                value: 13,
+                name: '商业客户'
+              }, {
+                value: 2,
+                name: '盗版'
+              }]
+            }]
+          };
+          myChart.setOption(option);
+        }
+      );
+    };
+
+    // 标题
+    p.find('.tit').removeClass('hide').addClass('fadeInLeft');
+    p.find('.tit-sub').removeClass('hide').addClass('fadeInRight').one(as, function() {
+      // 初始化饼图
+      chartPieInit();
+      // 收入模式介绍
+      tobj.oneTime('2s', function() {
+        p.find('.info > h5').removeClass('hide').addClass('tinLeftIn').one(as, function() {
+          p.find('.info > .brackets > em').removeClass('hide').addClass('animate').one(as, function() {
+            p.find('.info > p').removeClass('hide').addClass('fadeInRight');
+          });
+        });
+      });
+    });
+
+  };
+
+  // p7重置
+  p7.reset = function() {
+    var p = $('#p7');
+    p.find('.tit').addClass('hide').removeClass('fadeInLeft');
+    p.find('.tit-sub').addClass('hide').removeClass('fadeInRight');
+    p.find('#pie1').empty();
+    p.find('.info > h5').addClass('hide').removeClass('tinLeftIn');
+    p.find('.info > .brackets > em').addClass('hide').removeClass('animate');
+    p.find('.info > p').addClass('hide').removeClass('fadeInRight');
+  };
+
   // 初始化p1
   Pace.on('hide', function() {
-    p6.init();
+    p7.init();
   });
 
 });
