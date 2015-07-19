@@ -17,7 +17,7 @@ $(function() {
   var pw = new pageSwitch('wrap', {
     duration: 1000, //int 页面过渡时间
     direction: 1, //int 页面切换方向，0横向，1纵向
-    start: 3, //int 默认显示页面
+    start: 0, //int 默认显示页面
     loop: false, //bool 是否循环切换
     ease: 'ease', //string|function 过渡曲线动画，详见下方说明
     transition: 'scroll', //string|function转场方式，详见下方说明
@@ -86,6 +86,48 @@ $(function() {
       p7.init();
     } else {
       p7.reset();
+    }
+
+    // p8
+    if (cur == 8) {
+      p8.init();
+    } else {
+      p8.reset();
+    }
+
+    // p9
+    if (cur == 9) {
+      p9.init();
+    } else {
+      p9.reset();
+    }
+
+    // p10
+    if (cur == 10) {
+      p10.init();
+    } else {
+      p10.reset();
+    }
+
+    // p11
+    if (cur == 11) {
+      p11.init();
+    } else {
+      p11.reset();
+    }
+
+    // p12
+    if (cur == 12) {
+      p12.init();
+    } else {
+      p12.reset();
+    }
+
+    // p13
+    if (cur == 13) {
+      p13.init();
+    } else {
+      p13.reset();
     }
   });
 
@@ -640,6 +682,7 @@ $(function() {
   // p7重置
   p7.reset = function() {
     var p = $('#p7');
+    tobj.stopTime();
     p.find('.tit').addClass('hide').removeClass('fadeInLeft');
     p.find('.tit-sub').addClass('hide').removeClass('fadeInRight');
     p.find('#pie1').empty();
@@ -648,9 +691,201 @@ $(function() {
     p.find('.info > p').addClass('hide').removeClass('fadeInRight');
   };
 
+  /**
+   * p8
+   */
+  var p8 = {};
+
+  // p8初始化
+  p8.init = function() {
+    var p = $('#p8');
+    p.find('.tit').removeClass('hide').addClass('fadeInLeft');
+    p.find('.tit-sub').removeClass('hide').addClass('fadeInRight').one(as, function() {
+      p.find('.con').removeClass('hide').addClass('foolishIn');
+    });
+  };
+
+  // p8重置
+  p8.reset = function() {
+    var p = $('#p8');
+    p.find('.tit').addClass('hide').removeClass('fadeInLeft');
+    p.find('.tit-sub').addClass('hide').removeClass('fadeInRight');
+    p.find('.con').addClass('hide').removeClass('foolishIn');
+  };
+
+  /**
+   * p9
+   */
+  var p9 = {};
+
+  // p9初始化
+  p9.init = function() {
+    var p = $('#p9');
+    p.find('.tit').removeClass('hide').addClass('fadeInDown').one(as, function() {
+      p.find('.con').removeClass('hide').addClass('openDownLeftRetourn');
+    });
+  };
+
+  // p9重置
+  p9.reset = function() {
+    var p = $('#p9');
+    p.find('.tit').addClass('hide').removeClass('fadeInDown');
+    p.find('.con').addClass('hide').removeClass('openDownLeftRetourn');
+  };
+
+  /**
+   * p10
+   */
+  var p10 = {};
+
+  // p10初始化
+  p10.init = function() {
+    var p = $('#p10');
+
+    p.find('.tit').removeClass('hide').addClass('fadeInDown').one(as, function() {
+      p.find('.blub > .b1').removeClass('hide').addClass('zoomIn').one(as, function() {
+        p.find('.blub > .b2').removeClass('hide').addClass('fadeIn').one(as, function() {
+          p.find('.tit-sub').removeClass('hide').addClass('lightSpeedIn').one(as, function() {
+            p.find('.txt > p:eq(0)').removeClass('hide').addClass('fadeInRight').one(as, function() {
+              p.find('.txt > p:eq(1)').removeClass('hide').addClass('fadeInRight').one(as, function() {
+                p.find('.txt > p:eq(2)').removeClass('hide').addClass('fadeInUp').one(as, function() {
+                  p.find('.txt > p:eq(3)').removeClass('hide').addClass('fadeInLeft').one(as, function() {
+                    p.find('.txt > p:eq(4)').removeClass('hide').addClass('fadeInLeft');
+                  });
+                });
+              });
+            });
+          });
+        });
+      });
+    });
+  };
+
+  // p10重置
+  p10.reset = function() {
+    var p = $('#p10');
+    p.find('.tit').addClass('hide').removeClass('fadeInDown');
+    p.find('.blub > .b1').addClass('hide').removeClass('zoomIn');
+    p.find('.blub > .b2').addClass('hide').removeClass('fadeIn');
+    p.find('.tit-sub').addClass('hide').removeClass('lightSpeedIn');
+    p.find('.txt > p').addClass('hide').removeClass('fadeInRight fadeInLeft fadeInUp');
+  };
+
+  /**
+   * p11
+   */
+  var p11 = {};
+
+  // p11初始化
+  p11.init = function() {
+    var p = $('#p11');
+
+    p.find('.tit-sub').removeClass('hide').addClass('fadeInDown');
+    p.find('.tit').removeClass('hide').addClass('fadeInUp').one(as, function() {
+      p.find('.con > li:eq(3) img').removeClass('hide').addClass('fadeInDown').one(as, function() {
+        p.find('.con > li:eq(3) i').removeClass('hide').addClass('zoomIn').one(as, function() {
+          p.find('.con > li:eq(3) strong').removeClass('hide').addClass('lightSpeedIn');
+          p.find('.con > li:eq(3) em').removeClass('hide').addClass('zoomIn').one(as, function() {
+            p.find('.con > li:eq(2) img').removeClass('hide').addClass('fadeInDown').one(as, function() {
+              p.find('.con > li:eq(2) i').removeClass('hide').addClass('zoomIn').one(as, function() {
+                p.find('.con > li:eq(2) strong').removeClass('hide').addClass('lightSpeedIn');
+                p.find('.con > li:eq(2) em').removeClass('hide').addClass('zoomIn').one(as, function() {
+                  p.find('.con > li:eq(1) img').removeClass('hide').addClass('fadeInDown').one(as, function() {
+                    p.find('.con > li:eq(1) i').removeClass('hide').addClass('zoomIn').one(as, function() {
+                      p.find('.con > li:eq(1) strong').removeClass('hide').addClass('lightSpeedIn');
+                      p.find('.con > li:eq(1) em').removeClass('hide').addClass('zoomIn').one(as, function() {
+                        p.find('.con > li:eq(0) img').removeClass('hide').addClass('fadeInDown').one(as, function() {
+                          p.find('.con > li:eq(0) i').removeClass('hide').addClass('zoomIn').one(as, function() {
+                            p.find('.con > li:eq(0) strong').removeClass('hide').addClass('lightSpeedIn');
+                            p.find('.con > li:eq(0) em').removeClass('hide').addClass('zoomIn').one(as, function() {
+
+                            });
+                          });
+                        });
+                      });
+                    });
+                  });
+                });
+              });
+            });
+          });
+        });
+      });
+    });
+  };
+
+  // p11重置
+  p11.reset = function() {
+    var p = $('#p11');
+
+    p.find('.tit-sub').addClass('hide').removeClass('fadeInDown');
+    p.find('.tit').addClass('hide').removeClass('fadeInUp');
+    p.find('.con > li img, .con > li i, .con > li strong, .con > li em').addClass('hide').removeClass('fadeInDown zoomIn lightSpeedIn');
+  };
+
+  /**
+   * p12
+   */
+  var p12 = {};
+
+  // p12初始化
+  p12.init = function() {
+    var p = $('#p12');
+
+    p.find('.tit').removeClass('hide').addClass('fadeInRight').one(as, function() {
+      p.find('.pics > .item:eq(0)').removeClass('hide').addClass('animate').one(as, function() {
+        p.find('.pics > .item:eq(1)').removeClass('hide').addClass('animate').one(as, function() {
+          p.find('.pics > .item:eq(2)').removeClass('hide').addClass('animate').one(as, function() {
+            p.find('.pics > .item:eq(3)').removeClass('hide').addClass('animate').one(as, function() {
+              p.find('.pics > .item:eq(4)').removeClass('hide').addClass('animate').one(as, function() {
+                p.find('.txt > p:eq(0),.txt > p:eq(2)').removeClass('hide').addClass('fadeInLeft');
+                p.find('.txt > p:eq(1)').removeClass('hide').addClass('fadeInRight');
+              });
+            });
+          });
+        });
+      });
+    });
+  };
+
+  // 重置p12
+  p12.reset = function() {
+    var p = $('#p12');
+
+    p.find('.tit').addClass('hide').removeClass('fadeInRight');
+    p.find('.pics > .item').addClass('hide').removeClass('animate');
+    p.find('.txt > p').addClass('hide').removeClass('fadeInRight fadeInLeft');
+  };
+
+  /**
+   * p13
+   */
+  var p13 = {};
+
+  // p13初始化
+  p13.init = function() {
+    var p = $('#p13');
+
+    p.find('.logo').removeClass('hide').addClass('fadeInDown').one(as, function() {
+      p.find('.txt > p:eq(0)').removeClass('hide').addClass('spaceInDown').one(as, function() {
+        p.find('.txt > p:eq(1)').removeClass('hide').addClass('spaceInDown').one(as, function() {
+          p.find('.txt > p:eq(2)').removeClass('hide').addClass('spaceInDown');
+        });
+      });
+    });
+  };
+
+  // p13重置
+  p13.reset = function() {
+    var p = $('#p13');
+
+    p.find('.logo').addClass('hide').removeClass('fadeInDown');
+    p.find('.txt > p').addClass('hide').removeClass('spaceInDown');
+  };
+
   // 初始化p1
   Pace.on('hide', function() {
-    p4.init();
+    p1.init();
   });
 
 });

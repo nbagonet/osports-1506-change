@@ -14,10 +14,11 @@ html
     script(src="../bower_components/viewport-units-buggyfill/viewport-units-buggyfill.min.js")
     script.
       window.viewportUnitsBuggyfill.init();
-    link(rel='stylesheet', type='text/css', href='../css/main.css')
+    link(rel='stylesheet', type='text/css', href='../css/main.css?_=2')
   body
 
     .cover: img(src="../img/cover.jpg")
+    .none: img(src="../img/logo-b.png")
 
     #wrap
 
@@ -119,10 +120,66 @@ html
             em.hide {
           p.animated.hide 图片/视频销售<br>服务费<br>侵权赔偿费<br>推广服务费
 
+      //- p8
+      .page#p8
+        .tit.animated.hide: img(src="../img/txt10.png")
+        .tit-sub.animated.hide: img(src="../img/txt13.png")
+        .con.magictime.hide: img(src="../img/con1.png")
 
+      //- p9
+      .page#p9
+        .tit.animated.hide: img(src="../img/txt14.png")
+        .con.magictime.hide: img(src="../img/con2.png")
+
+      //- p10
+      .page#p10
+        .tit.animated.hide: img(src="../img/txt15.png")
+        .con
+          .blub
+            .b1.animated.hide: img(src="../img/blub-1.png")
+            .b2.animated.hide: img(src="../img/blub-2.png")
+          .tit-sub.animated.hide 体育赛事整合营销
+          .txt
+            p.animated.hide 赛事组织
+            p.animated.hide 商务拓展
+            p.animated.hide 赛事活动推广
+            p.animated.hide 媒体发布
+            p.animated.hide 视觉
+
+      //- p11
+      .page#p11
+        .tit.animated.hide: img(src="../img/txt17.png")
+        .tit-sub.animated.hide: img(src="../img/txt16.png")
+        ul.con
+          each val,index in ['整合运作','立体营销','整体规划','方案执行']
+            li
+              span: img.animated.hide(src="../img/rock#{index+1}.png")
+              i.animated.hide
+              em.animated.hide
+              strong.animated.hide #{val}
+
+      //- p12
+      .page#p12
+        .tit.animated.hide: img(src="../img/txt18.png")
+        .pics
+          - for(var i=1;i<=5;i++)
+            .item.animated.hide: img(src="../img/pic/#{i}.jpg")
+        .txt
+          p.animated.hide 给热爱运动的人以便利
+          p.animated.hide 为想运动的人创造条件
+          p.animated.hide 让懒于运动人没有借口
+
+      //- p13
+      .page#p13
+        .con
+          .logo.animated.hide: img(src="../img/logo-l.png")
+          .txt
+            p.magictime.hide 未来十年
+            p.magictime.hide 我们将着力覆盖百万体育参与者
+            p.magictime.hide 提供全面体育服务
 
     script(src="../bower_components/jquery/dist/jquery.min.js")
-    script(src="../js/main.min.js?_=1")
+    script(src="../js/main.min.js?_=2")
     script.
       var _hmt = _hmt || [];
       (function() {
