@@ -6,10 +6,8 @@ var as = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animat
 
 $(function() {
 
-  // 禁用默认touch事件
-  // $('body').on('touchmove', function(e) {
-  //   e.preventDefault();
-  // });
+  // 初始页面页码，从1开始
+  var startPage = 1;
 
   /**
    * 页面切换效果
@@ -17,13 +15,18 @@ $(function() {
   var pw = new pageSwitch('wrap', {
     duration: 1000, //int 页面过渡时间
     direction: 1, //int 页面切换方向，0横向，1纵向
-    start: 0, //int 默认显示页面
+    start: Number(startPage - 1), //int 默认显示页面
     loop: false, //bool 是否循环切换
     ease: 'ease', //string|function 过渡曲线动画，详见下方说明
     transition: 'scroll', //string|function转场方式，详见下方说明
     freeze: false, //bool 是否冻结页面（冻结后不可响应用户操作，可以通过 `.freeze(false)` 方法来解冻）
     mouse: true, //bool 是否启用鼠标拖拽
     arrowkey: true, //bool 是否启用键盘方向切换
+  });
+
+  // 初始化p1
+  Pace.on('hide', function() {
+    eval('p' + startPage + '.init()');
   });
 
   /* 事件绑定
@@ -146,22 +149,20 @@ $(function() {
     _p1.find('.logo-ost1').removeClass('hide').addClass('zoomIn').one(as, function() {
       _p1.find('.txt1').removeClass('hide').addClass('fadeInUp').one(as, function() {
         _p1.find('.line').removeClass('hide').addClass('zoomIn').one(as, function() {
-          _p1.find('.logo-t2').addClass('fadeOut');
           _p1.find('.txt1').addClass('stu2');
-          _p1.find('.logo-t1').addClass('stu2');
+          _p1.find('.logo-t1').addClass('fadeOut');
+          _p1.find('.logo-t2').addClass('fadeOut');
           tobj.oneTime('1s', function() {
             _p1.find('.logo-t3').removeClass('hide').addClass('fadeIn');
-            _p1.find('.logo-t4').removeClass('hide').addClass('fadeIn').one(as, function() {
-              _p1.find('.logo-t5').removeClass('hide').addClass('fadeInUp').one(as, function() {
-                _p1.find('.logo-t6').removeClass('hide').addClass('fadeInRight').one(as, function() {
-                  _p1.find('.btn').removeClass('hide').addClass('fadeInDown').one(as, function() {
-                    _p1.find('.btn').addClass('animate');
-                  });
-                });
+            _p1.find('.logo-t4').removeClass('hide').addClass('fadeInUp');
+            _p1.find('.logo-t5').removeClass('hide').addClass('fadeInUp');
+            _p1.find('.logo-t6').removeClass('hide').addClass('fadeInUp').one(as, function() {
+              _p1.find('.btn').removeClass('hide').addClass('fadeInDown').one(as, function() {
+                _p1.find('.btn').addClass('animate');
               });
-              _p1.find('.logo-t1').addClass('hide');
             });
           });
+          _p1.find('.logo-t1').addClass('hide');
         });
       });
     });
@@ -176,11 +177,10 @@ $(function() {
     _p1.find('.ball').addClass('hide').removeClass('fadeIn');
     _p1.find('.logo-ost1,.line').addClass('hide').removeClass('zoomIn');
     _p1.find('.txt1,.logo-t5').addClass('hide').removeClass('fadeInUp');
-    _p1.find('.logo-t2').removeClass('fadeOut');
+    _p1.find('.logo-t1,.logo-t2').removeClass('fadeOut hide');
     _p1.find('.txt1').removeClass('stu2');
-    _p1.find('.logo-t1').removeClass('hide stu2');
-    _p1.find('.logo-t3,.logo-t4').addClass('hide').removeClass('fadeIn');
-    _p1.find('.logo-t6').addClass('hide').removeClass('fadeInRight');
+    _p1.find('.logo-t3').addClass('hide').removeClass('fadeIn');
+    _p1.find('.logo-t4,.logo-t5,.logo-t6').addClass('hide').removeClass('fadeInUp');
     _p1.find('.btn').addClass('hide').removeClass('fadeInDown animate');
   };
 
@@ -383,18 +383,18 @@ $(function() {
           });
         });
         // 显示向下大括号
-        tobj.oneTime('4s', function() {
-          p.find('.arrow').removeClass('hide').addClass('animate').one(as, function() {
-            // 显示媒体数自增
-            p.find('.num4').removeClass('hide').addClass('fadeInDown');
-            p.find('.num4>.num').countTo({
-              from: 0,
-              to: 275,
-              speed: 1000,
-              refreshInterval: 5
-            });
-          });
-        });
+        // tobj.oneTime('4s', function() {
+        //   p.find('.arrow').removeClass('hide').addClass('animate').one(as, function() {
+        //     // 显示媒体数自增
+        //     p.find('.num4').removeClass('hide').addClass('fadeInDown');
+        //     p.find('.num4>.num').countTo({
+        //       from: 0,
+        //       to: 275,
+        //       speed: 1000,
+        //       refreshInterval: 5
+        //     });
+        //   });
+        // });
       });
     });
 
@@ -442,7 +442,7 @@ $(function() {
         "height": $(window).height()
       });
       if (!$('#partnerCloudCanvas').tagcanvas({
-          imageScale: .7,
+          imageScale: .4,
           outlineColour: 'rgba(0,0,0,0)',
           shuffleTags: true,
           depth: 1,
@@ -525,11 +525,56 @@ $(function() {
 
   // p6初始化
   p6.init = function() {
-    var p = $('#p6'),
+    var p = $('#p6');
+
+    p.find('.tit').removeClass('hide').addClass('fadeInDown').one(as, function() {
+      cloudInit();
+      p.find('#mediaCloud').removeClass('hide');
+    });
+
+    // 初始化logo云
+    var cloudInit = function() {
+      $('#mediaCloudCanvas').attr({
+        "width": $(window).width(),
+        "height": $(window).height()
+      });
+      if (!$('#mediaCloudCanvas').tagcanvas({
+          imageScale: .45,
+          outlineColour: 'rgba(0,0,0,0)',
+          shuffleTags: true,
+          depth: 1,
+          minBrightness: 0.05,
+          initial: [-0.1, 0],
+          wheelZoom: false,
+          fadeIn: 1000,
+          centreImage: '../img/logo-b.png',
+          shape: "vcylinder"
+        })) {
+        // something went wrong, hide the canvas container
+        $('#mediaCloudCanvas').hide();
+      }
+    };
+  };
+
+  // p6重置
+  p6.reset = function() {
+    var p = $('#p6');
+    p.find('.tit').addClass('hide').removeClass('fadeInDown');
+    p.find('#mediaCloud').addClass('hide');
+  };
+
+  /**
+   * p7
+   */
+  var p7 = {};
+
+  // p7初始化
+  p7.init = function() {
+    var p = $('#p7'),
       galleryShow = function(src) {
         var _pic = '<img src="' + src + '" >';
         p.find('.gallery-show > .gallery-pic').html(_pic);
-        p.find('.gallery-show').removeClass('none');
+        p.find('.gallery-show').removeClass('none').addClass('fadeIn');
       };
 
     p.find('.gallery-show').unbind('click').on('click', function() {
@@ -539,23 +584,23 @@ $(function() {
     p.find('.tit').removeClass('hide').addClass('fadeInLeft');
     p.find('.tit-sub').removeClass('hide').addClass('fadeInRight').one(as, function() {
       // 相册
-      p.find('.gallery-item').removeClass('none').addClass('flipInX');
+      tobj.oneTime('800ms', function() {
+        p.find('.gallery-item').removeClass('none').addClass('flipInX');
+      });
       // 点击缩略图查看大图
-      tobj.oneTime('2.2s', function() {
+      tobj.oneTime('800ms', function() {
         p.find('.gallery-item > a').unbind('click').on('click', function(e) {
           e.preventDefault();
           galleryShow($(this).data('pic'));
         });
       });
       // 底部图标
-      tobj.oneTime('2.2s', function() {
-        p.find('.ilist > li').removeClass('hide').addClass('spaceInDown');
-      });
+      p.find('.ilist > li').removeClass('hide').addClass('spaceInDown');
     });
   };
 
-  // p6重置
-  p6.reset = function() {
+  // p7重置
+  p7.reset = function() {
     var p = $('#p6');
     p.find('.gallery-show').addClass('none');
     p.find('.gallery-show > .gallery-pic').empty();
@@ -570,126 +615,126 @@ $(function() {
   /**
    * p7
    */
-  var p7 = {};
+  // var p7 = {};
 
-  // p7初始化
-  p7.init = function() {
-    var p = $('#p7');
+  // // p7初始化
+  // p7.init = function() {
+  //   var p = $('#p7');
 
-    // 初始化饼图
-    var chartPieInit = function() {
-      require.config({
-        paths: {
-          echarts: '../bower_components/echarts/build/dist'
-        }
-      });
-      require(
-        [
-          'echarts',
-          'echarts/chart/pie'
-        ],
-        function(ec) {
-          var myChart = ec.init(document.getElementById('pie1'));
-          var option = {
-            color: [
-              '#e35d5d', '#87b8ad', '#dea156'
-            ],
-            series: [{
-              name: '收入模式',
-              type: 'pie',
-              radius: [0, '73%'],
-              startAngle: 30,
-              itemStyle: {
-                normal: {
-                  labelLine: {
-                    show: true
-                  },
-                  label: {
-                    textStyle: {
-                      fontFamily: 'yuehei',
-                      fontSize: 16
-                    }
-                  }
-                }
-              },
-              data: [{
-                value: 85,
-                name: '媒体'
-              }, {
-                value: 13,
-                name: '商业客户'
-              }, {
-                value: 2,
-                name: '盗版'
-              }]
-            }, {
-              name: '收入模式',
-              type: 'pie',
-              radius: [0, '73%'],
-              startAngle: 30,
-              itemStyle: {
-                normal: {
-                  labelLine: {
-                    show: false
-                  },
-                  label: {
-                    position: 'inner',
-                    formatter: function(params) {
-                      return (params.percent - 0).toFixed(0) + '%'
-                    },
-                    textStyle: {
-                      fontFamily: 'langqian',
-                      fontSize: 16,
-                      fontWeight: 100
-                    }
-                  }
-                }
-              },
-              data: [{
-                value: 85,
-                name: '媒体'
-              }, {
-                value: 13,
-                name: '商业客户'
-              }, {
-                value: 2,
-                name: '盗版'
-              }]
-            }]
-          };
-          myChart.setOption(option);
-        }
-      );
-    };
+  //   // 初始化饼图
+  //   var chartPieInit = function() {
+  //     require.config({
+  //       paths: {
+  //         echarts: '../bower_components/echarts/build/dist'
+  //       }
+  //     });
+  //     require(
+  //       [
+  //         'echarts',
+  //         'echarts/chart/pie'
+  //       ],
+  //       function(ec) {
+  //         var myChart = ec.init(document.getElementById('pie1'));
+  //         var option = {
+  //           color: [
+  //             '#e35d5d', '#87b8ad', '#dea156'
+  //           ],
+  //           series: [{
+  //             name: '收入模式',
+  //             type: 'pie',
+  //             radius: [0, '73%'],
+  //             startAngle: 30,
+  //             itemStyle: {
+  //               normal: {
+  //                 labelLine: {
+  //                   show: true
+  //                 },
+  //                 label: {
+  //                   textStyle: {
+  //                     fontFamily: 'yuehei',
+  //                     fontSize: 16
+  //                   }
+  //                 }
+  //               }
+  //             },
+  //             data: [{
+  //               value: 85,
+  //               name: '媒体'
+  //             }, {
+  //               value: 13,
+  //               name: '商业客户'
+  //             }, {
+  //               value: 2,
+  //               name: '盗版'
+  //             }]
+  //           }, {
+  //             name: '收入模式',
+  //             type: 'pie',
+  //             radius: [0, '73%'],
+  //             startAngle: 30,
+  //             itemStyle: {
+  //               normal: {
+  //                 labelLine: {
+  //                   show: false
+  //                 },
+  //                 label: {
+  //                   position: 'inner',
+  //                   formatter: function(params) {
+  //                     return (params.percent - 0).toFixed(0) + '%'
+  //                   },
+  //                   textStyle: {
+  //                     fontFamily: 'langqian',
+  //                     fontSize: 16,
+  //                     fontWeight: 100
+  //                   }
+  //                 }
+  //               }
+  //             },
+  //             data: [{
+  //               value: 85,
+  //               name: '媒体'
+  //             }, {
+  //               value: 13,
+  //               name: '商业客户'
+  //             }, {
+  //               value: 2,
+  //               name: '盗版'
+  //             }]
+  //           }]
+  //         };
+  //         myChart.setOption(option);
+  //       }
+  //     );
+  //   };
 
-    // 标题
-    p.find('.tit').removeClass('hide').addClass('fadeInLeft');
-    p.find('.tit-sub').removeClass('hide').addClass('fadeInRight').one(as, function() {
-      // 初始化饼图
-      chartPieInit();
-      // 收入模式介绍
-      tobj.oneTime('2s', function() {
-        p.find('.info > h5').removeClass('hide').addClass('tinLeftIn').one(as, function() {
-          p.find('.info > .brackets > em').removeClass('hide').addClass('animate').one(as, function() {
-            p.find('.info > p').removeClass('hide').addClass('fadeInRight');
-          });
-        });
-      });
-    });
+  //   // 标题
+  //   p.find('.tit').removeClass('hide').addClass('fadeInLeft');
+  //   p.find('.tit-sub').removeClass('hide').addClass('fadeInRight').one(as, function() {
+  //     // 初始化饼图
+  //     chartPieInit();
+  //     // 收入模式介绍
+  //     tobj.oneTime('2s', function() {
+  //       p.find('.info > h5').removeClass('hide').addClass('tinLeftIn').one(as, function() {
+  //         p.find('.info > .brackets > em').removeClass('hide').addClass('animate').one(as, function() {
+  //           p.find('.info > p').removeClass('hide').addClass('fadeInRight');
+  //         });
+  //       });
+  //     });
+  //   });
 
-  };
+  // };
 
-  // p7重置
-  p7.reset = function() {
-    var p = $('#p7');
-    tobj.stopTime();
-    p.find('.tit').addClass('hide').removeClass('fadeInLeft');
-    p.find('.tit-sub').addClass('hide').removeClass('fadeInRight');
-    p.find('#pie1').empty();
-    p.find('.info > h5').addClass('hide').removeClass('tinLeftIn');
-    p.find('.info > .brackets > em').addClass('hide').removeClass('animate');
-    p.find('.info > p').addClass('hide').removeClass('fadeInRight');
-  };
+  // // p7重置
+  // p7.reset = function() {
+  //   var p = $('#p7');
+  //   tobj.stopTime();
+  //   p.find('.tit').addClass('hide').removeClass('fadeInLeft');
+  //   p.find('.tit-sub').addClass('hide').removeClass('fadeInRight');
+  //   p.find('#pie1').empty();
+  //   p.find('.info > h5').addClass('hide').removeClass('tinLeftIn');
+  //   p.find('.info > .brackets > em').addClass('hide').removeClass('animate');
+  //   p.find('.info > p').addClass('hide').removeClass('fadeInRight');
+  // };
 
   /**
    * p8
@@ -701,7 +746,7 @@ $(function() {
     var p = $('#p8');
     p.find('.tit').removeClass('hide').addClass('fadeInLeft');
     p.find('.tit-sub').removeClass('hide').addClass('fadeInRight').one(as, function() {
-      p.find('.con').removeClass('hide').addClass('foolishIn');
+      p.find('.con').removeClass('hide').addClass('fadeInUp');
     });
   };
 
@@ -710,7 +755,7 @@ $(function() {
     var p = $('#p8');
     p.find('.tit').addClass('hide').removeClass('fadeInLeft');
     p.find('.tit-sub').addClass('hide').removeClass('fadeInRight');
-    p.find('.con').addClass('hide').removeClass('foolishIn');
+    p.find('.con').addClass('hide').removeClass('fadeInUp');
   };
 
   /**
@@ -782,33 +827,28 @@ $(function() {
 
     p.find('.tit-sub').removeClass('hide').addClass('fadeInDown');
     p.find('.tit').removeClass('hide').addClass('fadeInUp').one(as, function() {
+      p.find('.con > li:eq(0) img').removeClass('hide').addClass('fadeInDown').one(as, function() {
+        p.find('.con > li:eq(0) i').removeClass('hide').addClass('zoomIn').one(as, function() {
+          p.find('.con > li:eq(0) strong').removeClass('hide').addClass('lightSpeedIn');
+          p.find('.con > li:eq(0) em').removeClass('hide').addClass('zoomIn');
+        });
+      });
+      p.find('.con > li:eq(1) img').removeClass('hide').addClass('fadeInDown').one(as, function() {
+        p.find('.con > li:eq(1) i').removeClass('hide').addClass('zoomIn').one(as, function() {
+          p.find('.con > li:eq(1) strong').removeClass('hide').addClass('lightSpeedIn');
+          p.find('.con > li:eq(1) em').removeClass('hide').addClass('zoomIn');
+        });
+      });
+      p.find('.con > li:eq(2) img').removeClass('hide').addClass('fadeInDown').one(as, function() {
+        p.find('.con > li:eq(2) i').removeClass('hide').addClass('zoomIn').one(as, function() {
+          p.find('.con > li:eq(2) strong').removeClass('hide').addClass('lightSpeedIn');
+          p.find('.con > li:eq(2) em').removeClass('hide').addClass('zoomIn');
+        });
+      });
       p.find('.con > li:eq(3) img').removeClass('hide').addClass('fadeInDown').one(as, function() {
         p.find('.con > li:eq(3) i').removeClass('hide').addClass('zoomIn').one(as, function() {
           p.find('.con > li:eq(3) strong').removeClass('hide').addClass('lightSpeedIn');
-          p.find('.con > li:eq(3) em').removeClass('hide').addClass('zoomIn').one(as, function() {
-            p.find('.con > li:eq(2) img').removeClass('hide').addClass('fadeInDown').one(as, function() {
-              p.find('.con > li:eq(2) i').removeClass('hide').addClass('zoomIn').one(as, function() {
-                p.find('.con > li:eq(2) strong').removeClass('hide').addClass('lightSpeedIn');
-                p.find('.con > li:eq(2) em').removeClass('hide').addClass('zoomIn').one(as, function() {
-                  p.find('.con > li:eq(1) img').removeClass('hide').addClass('fadeInDown').one(as, function() {
-                    p.find('.con > li:eq(1) i').removeClass('hide').addClass('zoomIn').one(as, function() {
-                      p.find('.con > li:eq(1) strong').removeClass('hide').addClass('lightSpeedIn');
-                      p.find('.con > li:eq(1) em').removeClass('hide').addClass('zoomIn').one(as, function() {
-                        p.find('.con > li:eq(0) img').removeClass('hide').addClass('fadeInDown').one(as, function() {
-                          p.find('.con > li:eq(0) i').removeClass('hide').addClass('zoomIn').one(as, function() {
-                            p.find('.con > li:eq(0) strong').removeClass('hide').addClass('lightSpeedIn');
-                            p.find('.con > li:eq(0) em').removeClass('hide').addClass('zoomIn').one(as, function() {
-
-                            });
-                          });
-                        });
-                      });
-                    });
-                  });
-                });
-              });
-            });
-          });
+          p.find('.con > li:eq(3) em').removeClass('hide').addClass('zoomIn');
         });
       });
     });
@@ -833,17 +873,13 @@ $(function() {
     var p = $('#p12');
 
     p.find('.tit').removeClass('hide').addClass('fadeInRight').one(as, function() {
-      p.find('.pics > .item:eq(0)').removeClass('hide').addClass('animate').one(as, function() {
-        p.find('.pics > .item:eq(1)').removeClass('hide').addClass('animate').one(as, function() {
-          p.find('.pics > .item:eq(2)').removeClass('hide').addClass('animate').one(as, function() {
-            p.find('.pics > .item:eq(3)').removeClass('hide').addClass('animate').one(as, function() {
-              p.find('.pics > .item:eq(4)').removeClass('hide').addClass('animate').one(as, function() {
-                p.find('.txt > p:eq(0),.txt > p:eq(2)').removeClass('hide').addClass('fadeInLeft');
-                p.find('.txt > p:eq(1)').removeClass('hide').addClass('fadeInRight');
-              });
-            });
-          });
-        });
+      p.find('.pics > .item:eq(0)').removeClass('hide').addClass('animate');
+      p.find('.pics > .item:eq(1)').removeClass('hide').addClass('animate');
+      p.find('.pics > .item:eq(2)').removeClass('hide').addClass('animate');
+      p.find('.pics > .item:eq(3)').removeClass('hide').addClass('animate');
+      p.find('.pics > .item:eq(4)').removeClass('hide').addClass('animate').one(as, function() {
+        p.find('.txt > p:eq(0),.txt > p:eq(2)').removeClass('hide').addClass('fadeInLeft');
+        p.find('.txt > p:eq(1)').removeClass('hide').addClass('fadeInRight');
       });
     });
   };
@@ -866,13 +902,10 @@ $(function() {
   p13.init = function() {
     var p = $('#p13');
 
-    p.find('.logo').removeClass('hide').addClass('fadeInDown').one(as, function() {
-      p.find('.txt > p:eq(0)').removeClass('hide').addClass('spaceInDown').one(as, function() {
-        p.find('.txt > p:eq(1)').removeClass('hide').addClass('spaceInDown').one(as, function() {
-          p.find('.txt > p:eq(2)').removeClass('hide').addClass('spaceInDown');
-        });
-      });
-    });
+    p.find('.logo').removeClass('hide').addClass('fadeInDown');
+    p.find('.txt > p:eq(0)').removeClass('hide').addClass('spaceInDown');
+    p.find('.txt > p:eq(1)').removeClass('hide').addClass('spaceInDown');
+    p.find('.txt > p:eq(2)').removeClass('hide').addClass('spaceInDown');
   };
 
   // p13重置
@@ -882,10 +915,5 @@ $(function() {
     p.find('.logo').addClass('hide').removeClass('fadeInDown');
     p.find('.txt > p').addClass('hide').removeClass('spaceInDown');
   };
-
-  // 初始化p1
-  Pace.on('hide', function() {
-    p1.init();
-  });
 
 });
