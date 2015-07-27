@@ -7,7 +7,7 @@ var as = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animat
 $(function() {
 
   // 初始页面页码，从1开始
-  var startPage = 8;
+  var startPage = 1;
 
   /**
    * 页面切换效果
