@@ -696,11 +696,11 @@ a
         {
             width: 80vw/@w;
 
+            animation-duration: 500ms;
             vertical-align: bottom;
 
             .inline-block();
             .margin(_,15vw/@w);
-            animation-duration: 500ms;
             &:nth-child(1)
             {
                 animation-delay: 0ms!important;
@@ -1300,9 +1300,19 @@ a
         .size(741vh/@h,auto);
         .absolute(145vh/@h,0,_,_);
     }
-    > .con
+    .piefont
     {
-        .size(90%,auto);
+        z-index: -1;
+
+        .absolute(-9999px,-9999px,_,_);
+        .pief1
+        {
+            font-family: 'yuehei';
+        }
+    }
+    > .pie1
+    {
+        .size(100%,1000vh/@h);
         .margin(500vh/@h,auto,_);
     }
 }
@@ -1834,13 +1844,16 @@ a
             p
             {
                 animation-duration: .5s;
-                &:nth-child(1){
+                &:nth-child(1)
+                {
                     animation-delay: 0ms;
                 }
-                &:nth-child(2){
+                &:nth-child(2)
+                {
                     animation-delay: 200ms;
                 }
-                &:nth-child(3){
+                &:nth-child(3)
+                {
                     animation-delay: 400ms;
                 }
             }

@@ -7,7 +7,7 @@ var as = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animat
 $(function() {
 
   // 初始页面页码，从1开始
-  var startPage = 1;
+  var startPage = 8;
 
   /**
    * 页面切换效果
@@ -613,130 +613,6 @@ $(function() {
   };
 
   /**
-   * p7
-   */
-  // var p7 = {};
-
-  // // p7初始化
-  // p7.init = function() {
-  //   var p = $('#p7');
-
-  //   // 初始化饼图
-  //   var chartPieInit = function() {
-  //     require.config({
-  //       paths: {
-  //         echarts: '../bower_components/echarts/build/dist'
-  //       }
-  //     });
-  //     require(
-  //       [
-  //         'echarts',
-  //         'echarts/chart/pie'
-  //       ],
-  //       function(ec) {
-  //         var myChart = ec.init(document.getElementById('pie1'));
-  //         var option = {
-  //           color: [
-  //             '#e35d5d', '#87b8ad', '#dea156'
-  //           ],
-  //           series: [{
-  //             name: '收入模式',
-  //             type: 'pie',
-  //             radius: [0, '73%'],
-  //             startAngle: 30,
-  //             itemStyle: {
-  //               normal: {
-  //                 labelLine: {
-  //                   show: true
-  //                 },
-  //                 label: {
-  //                   textStyle: {
-  //                     fontFamily: 'yuehei',
-  //                     fontSize: 16
-  //                   }
-  //                 }
-  //               }
-  //             },
-  //             data: [{
-  //               value: 85,
-  //               name: '媒体'
-  //             }, {
-  //               value: 13,
-  //               name: '商业客户'
-  //             }, {
-  //               value: 2,
-  //               name: '盗版'
-  //             }]
-  //           }, {
-  //             name: '收入模式',
-  //             type: 'pie',
-  //             radius: [0, '73%'],
-  //             startAngle: 30,
-  //             itemStyle: {
-  //               normal: {
-  //                 labelLine: {
-  //                   show: false
-  //                 },
-  //                 label: {
-  //                   position: 'inner',
-  //                   formatter: function(params) {
-  //                     return (params.percent - 0).toFixed(0) + '%'
-  //                   },
-  //                   textStyle: {
-  //                     fontFamily: 'langqian',
-  //                     fontSize: 16,
-  //                     fontWeight: 100
-  //                   }
-  //                 }
-  //               }
-  //             },
-  //             data: [{
-  //               value: 85,
-  //               name: '媒体'
-  //             }, {
-  //               value: 13,
-  //               name: '商业客户'
-  //             }, {
-  //               value: 2,
-  //               name: '盗版'
-  //             }]
-  //           }]
-  //         };
-  //         myChart.setOption(option);
-  //       }
-  //     );
-  //   };
-
-  //   // 标题
-  //   p.find('.tit').removeClass('hide').addClass('fadeInLeft');
-  //   p.find('.tit-sub').removeClass('hide').addClass('fadeInRight').one(as, function() {
-  //     // 初始化饼图
-  //     chartPieInit();
-  //     // 收入模式介绍
-  //     tobj.oneTime('2s', function() {
-  //       p.find('.info > h5').removeClass('hide').addClass('tinLeftIn').one(as, function() {
-  //         p.find('.info > .brackets > em').removeClass('hide').addClass('animate').one(as, function() {
-  //           p.find('.info > p').removeClass('hide').addClass('fadeInRight');
-  //         });
-  //       });
-  //     });
-  //   });
-
-  // };
-
-  // // p7重置
-  // p7.reset = function() {
-  //   var p = $('#p7');
-  //   tobj.stopTime();
-  //   p.find('.tit').addClass('hide').removeClass('fadeInLeft');
-  //   p.find('.tit-sub').addClass('hide').removeClass('fadeInRight');
-  //   p.find('#pie1').empty();
-  //   p.find('.info > h5').addClass('hide').removeClass('tinLeftIn');
-  //   p.find('.info > .brackets > em').addClass('hide').removeClass('animate');
-  //   p.find('.info > p').addClass('hide').removeClass('fadeInRight');
-  // };
-
-  /**
    * p8
    */
   var p8 = {};
@@ -744,9 +620,379 @@ $(function() {
   // p8初始化
   p8.init = function() {
     var p = $('#p8');
+
+    // 初始化饼图的方法
+    var chartPieInit = function() {
+
+      require.config({
+        paths: {
+          echarts: '../bower_components/echarts/build/dist'
+        }
+      });
+
+      require(
+        [
+          'echarts',
+          'echarts/chart/pie'
+        ],
+        function(ec) {
+          var myChart = ec.init(document.getElementById('pie1'));
+          var option = {
+            color: [
+              '#e35d5d', '#87b8ad', '#dea156', '#77c4d3', '#E74C3C', '#2BBFBD'
+            ],
+            series: [{
+              name: '三级',
+              type: 'pie',
+              radius: ['60%', '90%'],
+              startAngle: 90,
+              itemStyle: {
+                normal: {
+                  labelLine: {
+                    show: false
+                  },
+                  label: {
+                    position: 'inner',
+                    textStyle: {
+                      fontFamily: 'yuehei',
+                      fontSize: 12
+                    }
+                  }
+                }
+              },
+              data: [{
+                value: 16.66,
+                name: '体育图片　　　\n　　体育资讯',
+                itemStyle: {
+                  normal: {
+                    color: '#F2836B',
+                    label: {
+                      textStyle: {
+                        color: '#ffffff'
+                      }
+                    },
+                    borderColor: '#ffffff',
+                    borderWidth: 1
+                  }
+                }
+              }, {
+                value: 16.66,
+                name: '专业知识\n装备信息\n场馆信息',
+                itemStyle: {
+                  normal: {
+                    color: '#F2836B',
+                    label: {
+                      textStyle: {
+                        color: '#ffffff'
+                      }
+                    },
+                    borderColor: '#ffffff',
+                    borderWidth: 1
+                  }
+                }
+              }, {
+                value: 16.66,
+                name: '　　　　　体育培训\n　　赛事报名\n明星见面会\n场馆预定　　　\n门票预订　　　　　　',
+                itemStyle: {
+                  normal: {
+                    color: '#F4B46D',
+                    label: {
+                      textStyle: {
+                        color: '#ffffff'
+                      }
+                    },
+                    borderColor: '#ffffff',
+                    borderWidth: 1
+                  }
+                }
+              }, {
+                value: 16.66,
+                name: '定制图片产品　　\n特许商品\n　　　装备器材',
+                itemStyle: {
+                  normal: {
+                    color: '#F4B46D',
+                    label: {
+                      textStyle: {
+                        color: '#ffffff'
+                      }
+                    },
+                    borderColor: '#ffffff',
+                    borderWidth: 1
+                  }
+                }
+              }, {
+                value: 11.11,
+                name: '',
+                itemStyle: {
+                  normal: {
+                    color: '#2BBFBD',
+                    borderColor: '#ffffff',
+                    borderWidth: 1
+                  }
+                }
+              }, {
+                value: 11.11,
+                name: '　　跑步\n　羽毛球\n足球\n篮球　\n网球　　\n高尔夫　　',
+                itemStyle: {
+                  normal: {
+                    color: '#93BF9E',
+                    label: {
+                      textStyle: {
+                        color: '#ffffff',
+                        fontSize: 10
+                      }
+                    },
+                    borderColor: '#ffffff',
+                    borderWidth: 1
+                  }
+                }
+              }, {
+                value: 11.11,
+                name: '',
+                itemStyle: {
+                  normal: {
+                    color: '#2BBFBD',
+                    borderColor: '#ffffff',
+                    borderWidth: 1
+                  }
+                }
+              }]
+            }, {
+              name: '二级',
+              type: 'pie',
+              radius: ['30%', '60%'],
+              startAngle: 90,
+              itemStyle: {
+                normal: {
+                  labelLine: {
+                    show: false
+                  },
+                  label: {
+                    position: 'inner',
+                    textStyle: {
+                      fontFamily: 'yuehei',
+                      fontSize: 12
+                    }
+                  }
+                }
+              },
+              data: [{
+                value: 16.66,
+                name: '内容库',
+                itemStyle: {
+                  normal: {
+                    color: '#e35d5d',
+                    label: {
+                      textStyle: {
+                        color: '#ffffff'
+                      }
+                    },
+                    borderColor: '#ffffff',
+                    borderWidth: 1
+                  }
+                }
+              }, {
+                value: 16.66,
+                name: '信息库',
+                itemStyle: {
+                  normal: {
+                    color: '#e35d5d',
+                    label: {
+                      textStyle: {
+                        color: '#ffffff'
+                      }
+                    },
+                    borderColor: '#ffffff',
+                    borderWidth: 1
+                  }
+                }
+              }, {
+                value: 16.66,
+                name: '应用服务',
+                itemStyle: {
+                  normal: {
+                    color: '#dea156',
+                    label: {
+                      textStyle: {
+                        color: '#ffffff'
+                      }
+                    },
+                    borderColor: '#ffffff',
+                    borderWidth: 1
+                  }
+                }
+              }, {
+                value: 16.66,
+                name: '实体产品',
+                itemStyle: {
+                  normal: {
+                    color: '#dea156',
+                    label: {
+                      textStyle: {
+                        color: '#ffffff'
+                      }
+                    },
+                    borderColor: '#ffffff',
+                    borderWidth: 1
+                  }
+                }
+              }, {
+                value: 11.11,
+                name: '大数据\n平台',
+                itemStyle: {
+                  normal: {
+                    color: '#2BBFBD',
+                    label: {
+                      textStyle: {
+                        color: '#ffffff'
+                      }
+                    },
+                    borderColor: '#ffffff',
+                    borderWidth: 1
+                  }
+                }
+              }, {
+                value: 11.11,
+                name: '体育服务\n平台',
+                itemStyle: {
+                  normal: {
+                    color: '#2BBFBD',
+                    label: {
+                      textStyle: {
+                        color: '#ffffff'
+                      }
+                    },
+                    borderColor: '#ffffff',
+                    borderWidth: 1
+                  }
+                }
+              }, {
+                value: 11.11,
+                name: '电商平台',
+                itemStyle: {
+                  normal: {
+                    color: '#2BBFBD',
+                    label: {
+                      textStyle: {
+                        color: '#ffffff'
+                      }
+                    },
+                    borderColor: '#ffffff',
+                    borderWidth: 1
+                  }
+                }
+              }]
+            }, {
+              name: '一级',
+              type: 'pie',
+              radius: ['10%', '30%'],
+              startAngle: 90,
+              itemStyle: {
+                normal: {
+                  labelLine: {
+                    show: false
+                  },
+                  label: {
+                    position: 'inner',
+                    textStyle: {
+                      fontFamily: 'yuehei',
+                      fontSize: 12
+                    }
+                  }
+                }
+              },
+              data: [{
+                value: 33.33333,
+                name: '内容',
+                itemStyle: {
+                  normal: {
+                    color: '#E74C3C',
+                    label: {
+                      textStyle: {
+                        color: '#ffffff'
+                      }
+                    },
+                    borderColor: '#ffffff',
+                    borderWidth: 1
+                  }
+                }
+              }, {
+                value: 33.33333,
+                name: '产品',
+                itemStyle: {
+                  normal: {
+                    color: '#D96C0F',
+                    label: {
+                      textStyle: {
+                        color: '#ffffff'
+                      }
+                    },
+                    borderColor: '#ffffff',
+                    borderWidth: 1
+                  }
+                }
+              }, {
+                value: 33.33333,
+                name: '平台',
+                itemStyle: {
+                  normal: {
+                    color: '#00ADA7',
+                    label: {
+                      textStyle: {
+                        color: '#ffffff'
+                      }
+                    },
+                    borderColor: '#ffffff',
+                    borderWidth: 1
+                  }
+                }
+              }]
+            }, {
+              name: '中心',
+              type: 'pie',
+              radius: [0, '10%'],
+              startAngle: 30,
+              itemStyle: {
+                normal: {
+                  labelLine: {
+                    show: false
+                  },
+                  label: {
+                    position: 'inner',
+                    distance: -0.05,
+                    textStyle: {
+                      fontFamily: 'yuehei',
+                      fontSize: 14
+                    }
+                  }
+                }
+              },
+              data: [{
+                value: 100,
+                name: '用户',
+                itemStyle: {
+                  normal: {
+                    color: '#ffffff',
+                    label: {
+                      textStyle: {
+                        color: '#333333'
+                      }
+                    }
+                  }
+                }
+              }]
+            }]
+          };
+          myChart.setOption(option);
+        }
+      );
+
+    };
+
     p.find('.tit').removeClass('hide').addClass('fadeInLeft');
     p.find('.tit-sub').removeClass('hide').addClass('fadeInRight').one(as, function() {
-      p.find('.con').removeClass('hide').addClass('fadeInUp');
+      // 初始化饼图
+      chartPieInit();
     });
   };
 
@@ -755,7 +1001,7 @@ $(function() {
     var p = $('#p8');
     p.find('.tit').addClass('hide').removeClass('fadeInLeft');
     p.find('.tit-sub').addClass('hide').removeClass('fadeInRight');
-    p.find('.con').addClass('hide').removeClass('fadeInUp');
+    p.find('#pie1').empty();
   };
 
   /**
