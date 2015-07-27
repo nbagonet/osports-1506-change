@@ -248,18 +248,18 @@ $(function() {
           p.find('.num1>.num').countTo({
             from: 0,
             to: 12,
-            speed: 1000,
+            speed: 500,
             refreshInterval: 5
           });
         });
-        tobj.oneTime('1s', 'p1Num2', function() {
+        tobj.oneTime('500ms', 'p1Num2', function() {
           p.find('.num2 > .num, .num2 > .txt').removeClass('hide').addClass('fadeInUp').one(as, function() {
             // 摄影师数字自增
             p.find('.num2 > .plus').removeClass('hide').addClass('fadeIn');
             p.find('.num2 > .num').countTo({
               from: 0,
               to: 1000,
-              speed: 2000,
+              speed: 500,
               refreshInterval: 50,
               formatter: function(value, options) {
                 return (value.toFixed(0) + '').replace(/\d{1,3}(?=(\d{3})+(\.\d*)?$)/g, '$&,');
@@ -360,22 +360,22 @@ $(function() {
         p.find('.num1>.num').countTo({
           from: 0,
           to: 14,
-          speed: 1200,
+          speed: 500,
           refreshInterval: 5
         });
         p.find('.num2>.num').countTo({
           from: 0,
           to: 31,
-          speed: 1200,
+          speed: 500,
           refreshInterval: 5
         });
         // 显示图片数量自增
-        tobj.oneTime('1s', function() {
+        tobj.oneTime('500ms', function() {
           p.find('.num3>.num,.num3>.txt').removeClass('hide').addClass('fadeInDownBig');
           p.find('.num3>.num').countTo({
             from: 0,
             to: 10000000,
-            speed: 2000,
+            speed: 1000,
             refreshInterval: 5,
             formatter: function(value, options) {
               return (value.toFixed(0) + '').replace(/\d{1,3}(?=(\d{3})+(\.\d*)?$)/g, '$&,');
