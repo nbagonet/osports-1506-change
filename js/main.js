@@ -683,7 +683,7 @@ $(function() {
                     color: '#F2836B',
                     label: {
                       textStyle: {
-                        color: '#ffffff'
+                        color: '#ffffff',
                         fontSize: 10
                       }
                     },
@@ -699,7 +699,7 @@ $(function() {
                     color: '#F4B46D',
                     label: {
                       textStyle: {
-                        color: '#ffffff'
+                        color: '#ffffff',
                         fontSize: 10
                       }
                     },
@@ -715,7 +715,7 @@ $(function() {
                     color: '#F4B46D',
                     label: {
                       textStyle: {
-                        color: '#ffffff'
+                        color: '#ffffff',
                         fontSize: 10
                       }
                     },
@@ -862,7 +862,7 @@ $(function() {
                     color: '#2BBFBD',
                     label: {
                       textStyle: {
-                        color: '#ffffff'
+                        color: '#ffffff',
                         fontSize: 10
                       }
                     },
@@ -878,7 +878,7 @@ $(function() {
                     color: '#2BBFBD',
                     label: {
                       textStyle: {
-                        color: '#ffffff'
+                        color: '#ffffff',
                         fontSize: 10
                       }
                     },
