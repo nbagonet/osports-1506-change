@@ -716,7 +716,7 @@ $(function() {
                     label: {
                       textStyle: {
                         color: '#ffffff',
-                        fontSize: 10
+                        fontSize: 9
                       }
                     },
                     borderColor: '#ffffff',
@@ -863,7 +863,7 @@ $(function() {
                     label: {
                       textStyle: {
                         color: '#ffffff',
-                        fontSize: 10
+                        fontSize: 9
                       }
                     },
                     borderColor: '#ffffff',
