@@ -143,7 +143,21 @@ html
       //- p9
       .page#p9
         .tit.animated.hide: img(src="../img/txt14.png")
-        .con.magictime.hide: img(src="../img/con2.png")
+        //- .con.magictime.hide: img(src="../img/con2.png")
+        .con
+          dl
+            dt.hide
+              span
+                strong 平台
+                em 6+N
+            dd
+              ul
+                each val,index in ['天天跑者','天天篮球','天天网球','天天高尔夫','天天足球','天天羽毛球']
+                  li.hide
+                    i: img(src="../img/icon/#{index+1}.png")
+                    span.animated.hide #{val}
+          - for(var i=1;i<=7;i++)
+            div(class="r#{i} hide")
 
       //- p10
       .page#p10

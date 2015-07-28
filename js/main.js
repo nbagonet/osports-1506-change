@@ -1013,7 +1013,24 @@ $(function() {
   p9.init = function() {
     var p = $('#p9');
     p.find('.tit').removeClass('hide').addClass('fadeInDown').one(as, function() {
-      p.find('.con').removeClass('hide').addClass('openDownLeftRetourn');
+      p.find('.con dt').removeClass('hide').addClass('anim-in').one(as, function() {
+        p.find('.r1').removeClass('hide').addClass('anim-in').one(as, function() {
+          p.find('.r6').removeClass('hide').addClass('anim-in').one(as, function() {
+            p.find('.r7').removeClass('hide').addClass('anim-in').one(as, function() {
+              p.find('.r2,.r3,.r4,.r5').removeClass('hide').addClass('anim-in').one(as, function() {
+                p.find('.con li').removeClass('hide').addClass('anim-in').one(as, function() {
+                  $(this).find('span').removeClass('hide').addClass('fadeInUp').one(as, function() {
+                    p.find('.con li').removeClass('anim-in');
+                    p.find('.con ul').addClass('anim-roll');
+                    p.find('.con dt').removeClass('anim-in').addClass('anim-beat');
+                    p.find('.r2,.r3,.r4,.r5,.r6,.r7').removeClass('anim-in').addClass('anim-rBeat');
+                  });
+                });
+              });
+            });
+          });
+        });
+      });
     });
   };
 
@@ -1021,7 +1038,11 @@ $(function() {
   p9.reset = function() {
     var p = $('#p9');
     p.find('.tit').addClass('hide').removeClass('fadeInDown');
-    p.find('.con').addClass('hide').removeClass('openDownLeftRetourn');
+    p.find('.con dt').removeClass('anim-beat').addClass('hide');
+    p.find('.r1,.r2,.r3,.r4,.r5,.r6,.r7').removeClass('anim-in anim-rBeat').addClass('hide');
+    p.find('.con li').removeClass('anim-in').addClass('hide');
+    p.find('.con ul').removeClass('anim-roll');
+    p.find('.con li span').removeClass('fadeInUp').addClass('hide');
   };
 
   /**
