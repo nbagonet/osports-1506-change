@@ -684,6 +684,7 @@ $(function() {
                     label: {
                       textStyle: {
                         color: '#ffffff'
+                        fontSize: 10
                       }
                     },
                     borderColor: '#ffffff',
@@ -699,6 +700,7 @@ $(function() {
                     label: {
                       textStyle: {
                         color: '#ffffff'
+                        fontSize: 10
                       }
                     },
                     borderColor: '#ffffff',
@@ -714,6 +716,7 @@ $(function() {
                     label: {
                       textStyle: {
                         color: '#ffffff'
+                        fontSize: 10
                       }
                     },
                     borderColor: '#ffffff',
@@ -739,7 +742,7 @@ $(function() {
                     label: {
                       textStyle: {
                         color: '#ffffff',
-                        fontSize: 10
+                        fontSize: 9
                       }
                     },
                     borderColor: '#ffffff',
@@ -860,6 +863,7 @@ $(function() {
                     label: {
                       textStyle: {
                         color: '#ffffff'
+                        fontSize: 10
                       }
                     },
                     borderColor: '#ffffff',
@@ -875,6 +879,7 @@ $(function() {
                     label: {
                       textStyle: {
                         color: '#ffffff'
+                        fontSize: 10
                       }
                     },
                     borderColor: '#ffffff',
@@ -962,7 +967,7 @@ $(function() {
                     distance: -0.05,
                     textStyle: {
                       fontFamily: 'yuehei',
-                      fontSize: 14
+                      fontSize: 12
                     }
                   }
                 }
