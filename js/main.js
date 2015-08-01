@@ -422,13 +422,13 @@ $(function() {
 
 
   /**
-   * p4
+   * p5
    */
-  var p4 = {};
+  var p5 = {};
 
-  // p4初始化
-  p4.init = function() {
-    var p = $('#p4');
+  // p5初始化
+  p5.init = function() {
+    var p = $('#p5');
 
     p.find('.tit').removeClass('hide').addClass('fadeInDown').one(as, function() {
       p.find('#partnerCloud').removeClass('hide');
@@ -466,21 +466,21 @@ $(function() {
     };
   };
 
-  // p4重置
-  p4.reset = function() {
-    var p = $('#p4');
+  // p5重置
+  p5.reset = function() {
+    var p = $('#p5');
     p.find('.tit').addClass('hide').removeClass('fadeInDown');
     p.find('#partnerCloud').addClass('hide');
   };
 
   /**
-   * p5
+   * p6
    */
-  var p5 = {};
+  var p6 = {};
 
-  // p5初始化
-  p5.init = function() {
-    var p = $('#p5');
+  // p6初始化
+  p6.init = function() {
+    var p = $('#p6');
 
     p.find('.tit').removeClass('hide').addClass('fadeInDown').one(as, function() {
       cloudInit();
@@ -511,25 +511,28 @@ $(function() {
     };
   };
 
-  // p5重置
-  p5.reset = function() {
-    var p = $('#p5');
+  // p6重置
+  p6.reset = function() {
+    var p = $('#p6');
     p.find('.tit').addClass('hide').removeClass('fadeInDown');
     p.find('#clientCloud').addClass('hide');
   };
 
   /**
-   * p6
+   * p7
    */
-  var p6 = {};
+  var p7 = {};
 
-  // p6初始化
-  p6.init = function() {
-    var p = $('#p6');
+  // p7初始化
+  p7.init = function() {
+    var p = $('#p7');
 
     p.find('.tit').removeClass('hide').addClass('fadeInDown').one(as, function() {
       cloudInit();
       p.find('#mediaCloud').removeClass('hide');
+
+      // 媒体Logo动效
+      mLogo();
     });
 
     // 初始化logo云
@@ -554,23 +557,41 @@ $(function() {
         $('#mediaCloudCanvas').hide();
       }
     };
+
+    // 媒体logo动效
+    var mLogo = function() {
+      var html = $('#mediaCloud').html();
+
+      // 插入
+      $('#mediaCloudCanvas > ul').html(html);
+
+      // 展示动效
+      $('#mediaCloud > ul > li').addClass('animate');
+      $('#mediaCloud > ul > li').last().one(as, function() {
+        // $('#mediaCloudCanvas').tagcanvas("update");
+        cloudInit();
+      });
+
+    };
   };
 
-  // p6重置
-  p6.reset = function() {
-    var p = $('#p6');
+  // p7重置
+  p7.reset = function() {
+    var p = $('#p7');
     p.find('.tit').addClass('hide').removeClass('fadeInDown');
     p.find('#mediaCloud').addClass('hide');
+    p.find('#mediaCloud > ul > li').removeClass('animate');
+    p.find('#mediaCloudCanvas > ul').html('<li><a href="#"><img src="../img/blank.png"></a></li>');
   };
 
   /**
-   * p7
+   * p4
    */
-  var p7 = {};
+  var p4 = {};
 
-  // p7初始化
-  p7.init = function() {
-    var p = $('#p7'),
+  // p4初始化
+  p4.init = function() {
+    var p = $('#p4'),
       galleryShow = function(src) {
         var _pic = '<img src="' + src + '" >';
         p.find('.gallery-show > .gallery-pic').html(_pic);
@@ -599,9 +620,9 @@ $(function() {
     });
   };
 
-  // p7重置
-  p7.reset = function() {
-    var p = $('#p6');
+  // p4重置
+  p4.reset = function() {
+    var p = $('#p4');
     p.find('.gallery-show').addClass('none');
     p.find('.gallery-show > .gallery-pic').empty();
     p.find('.tit').addClass('hide').removeClass('fadeInLeft');
@@ -1187,5 +1208,33 @@ $(function() {
     p.find('.logo').addClass('hide').removeClass('fadeInDown');
     p.find('.txt > p').addClass('hide').removeClass('spaceInDown');
   };
+
+  // 微信内强制自动播放背景音乐
+  if ($('#music')[0]) {
+    setTimeout(function() {
+      $(window).scrollTop(1);
+    }, 0);
+    document.addEventListener("WeixinJSBridgeReady", function() {
+      WeixinJSBridge.invoke('getNetworkType', {}, function(e) {
+        document.getElementById('music').play();
+      });
+    }, false);
+  }
+
+  // 音乐播放控制
+  if ($('.control')[0]) {
+    $('.control').on('click', function(e) {
+      e.preventDefault();
+      var _m = $('#music')[0],
+        _this = $(this);
+      if (_this.hasClass('on')) {
+        _this.removeClass('on').addClass('off');
+        _m.pause();
+      } else {
+        _this.addClass('on').removeClass('off');
+        _m.play();
+      }
+    });
+  }
 
 });

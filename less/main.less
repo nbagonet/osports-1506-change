@@ -526,29 +526,38 @@ a
 
             width: 365vw/@w;
         }
+        .logo-t4,
+        .logo-t5,
+        .logo-t6
+        {
+            height: 38vw/@w;
+            img
+            {
+                width: initial;
+                height: 100%;
+            }
+        }
         .logo-t4
         {
             bottom: -132vw/@w;
             left: 0;
-
-            width: 125vw/@w;
+            // width: 125vw/@w;
         }
         .logo-t5
         {
             bottom: -132vw/@w;
-            left: 250vw/@w;
-
-            width: 164vw/@w;
+            left: 285vw/@w;
+            // width: 164vw/@w;
         }
         .logo-t6
         {
             right: 0;
             bottom: -132vw/@w;
-            img
-            {
-                width: 124vw/@w;
-                height: 38vw/@w;
-            }
+            // img
+            // {
+            //     width: 124vw/@w;
+            //     height: 38vw/@w;
+            // }
         }
     }
 }
@@ -885,9 +894,9 @@ a
 }
 
 /**
- * p4
+ * p5
  */
-#p4
+#p5
 {
     > .tit
     {
@@ -917,9 +926,9 @@ a
 
 
 /**
- * p5
+ * p6
  */
-#p5
+#p6
 {
     > .tit
     {
@@ -948,9 +957,9 @@ a
 
 
 /**
- * p6
+ * p7
  */
-#p6
+#p7
 {
     > .tit
     {
@@ -974,13 +983,200 @@ a
 
         .absolute(50%,_,_,50%);
         .translate(-50%,-50%);
+        > ul
+        {
+            z-index: 900;
+
+            .absolute(0,0,0,0);
+            .size(100vw,100vh);
+            li
+            {
+                z-index: 900;
+
+                .absolute(0,0,0,0);
+                opacity: 0;
+                >a{
+                    display:table-cell;
+                    .size(100vw,100vh);
+                    vertical-align: middle;
+                    text-align: center;
+                    img{
+                        display:inline;
+                    }
+                }
+                &.animate
+                {
+                    .animation(p7zoomIn .5s linear forwards);
+                }
+                &:nth-child(1)
+                {
+                    &.animate
+                    {
+                        animation-delay: 0ms;
+                    }
+                }
+                &:nth-child(2)
+                {
+                    &.animate
+                    {
+                        animation-delay: 100ms;
+                    }
+                }
+                &:nth-child(3)
+                {
+                    &.animate
+                    {
+                        animation-delay: 150ms;
+                    }
+                }
+                &:nth-child(4)
+                {
+                    &.animate
+                    {
+                        animation-delay: 180ms;
+                    }
+                }
+                &:nth-child(5)
+                {
+                    &.animate
+                    {
+                        animation-delay: 200ms;
+                    }
+                }
+                &:nth-child(6)
+                {
+                    &.animate
+                    {
+                        animation-delay: 232ms;
+                    }
+                }
+                &:nth-child(7)
+                {
+                    &.animate
+                    {
+                        animation-delay: 280ms;
+                    }
+                }
+                &:nth-child(8)
+                {
+                    &.animate
+                    {
+                        animation-delay: 300ms;
+                    }
+                }
+                &:nth-child(9)
+                {
+                    &.animate
+                    {
+                        animation-delay: 340ms;
+                    }
+                }
+                &:nth-child(10)
+                {
+                    &.animate
+                    {
+                        animation-delay: 500ms;
+                    }
+                }
+                &:nth-child(11)
+                {
+                    &.animate
+                    {
+                        animation-delay: 550ms;
+                    }
+                }
+                &:nth-child(12)
+                {
+                    &.animate
+                    {
+                        animation-delay: 610ms;
+                    }
+                }
+                &:nth-child(13)
+                {
+                    &.animate
+                    {
+                        animation-delay: 670ms;
+                    }
+                }
+                &:nth-child(14)
+                {
+                    &.animate
+                    {
+                        animation-delay: 700ms;
+                    }
+                }
+                &:nth-child(15)
+                {
+                    &.animate
+                    {
+                        animation-delay: 750ms;
+                    }
+                }
+                &:nth-child(16)
+                {
+                    &.animate
+                    {
+                        animation-delay: 800ms;
+                    }
+                }
+                &:nth-child(17)
+                {
+                    &.animate
+                    {
+                        animation-delay: 830ms;
+                    }
+                }
+                &:nth-child(18)
+                {
+                    &.animate
+                    {
+                        animation-delay: 900ms;
+                    }
+                }
+                &:nth-child(19)
+                {
+                    &.animate
+                    {
+                        animation-delay: 1000ms;
+                    }
+                }
+            }
+        }
+    }
+}
+@keyframes p7zoomIn
+{
+    0%
+    {
+        opacity: 0;
+
+        .scale(2);
+    }
+    50%
+    {
+        opacity: 0.2;
+
+        .scale(1);
+    }
+    99%
+    {
+        opacity: 0.5;
+
+        .scale(.1);
+    }
+    100%
+    {
+        opacity: 0;
+
+        .scale(0);
     }
 }
 
 /**
- * p7
+ * p4
  */
-#p7
+#p4
 {
     > .tit
     {
@@ -2362,5 +2558,39 @@ a
                 }
             }
         }
+    }
+}
+
+/** 音乐播放控制 */
+.control
+{
+    z-index: 900;
+
+    opacity: .75;
+
+    .size(80vw/6.4);
+    .absolute(10px,10px,_,_);
+    &.on
+    {
+        background: url(../img/music_on.png) 50% 50% no-repeat;
+        background-size: cover;
+
+        .animation(music 1s linear infinite);
+    }
+    &.off
+    {
+        background: url(../img/music_off.png) 50% 50% no-repeat;
+        background-size: cover;
+    }
+}
+@keyframes music
+{
+    form
+    {
+        .rotate(0deg);
+    }
+    to
+    {
+        .rotate(360deg);
     }
 }
