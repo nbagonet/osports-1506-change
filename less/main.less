@@ -904,7 +904,7 @@ a
 
         overflow: hidden;
 
-        .size(100vw,auto);
+        .size(80%,auto);
         .absolute(0,0,_,0);
     }
     > .cloudCover
@@ -993,15 +993,20 @@ a
             {
                 z-index: 900;
 
-                .absolute(0,0,0,0);
                 opacity: 0;
-                >a{
-                    display:table-cell;
-                    .size(100vw,100vh);
-                    vertical-align: middle;
+
+                .absolute(0,0,0,0);
+                > a
+                {
+                    display: table-cell;
+
                     text-align: center;
-                    img{
-                        display:inline;
+                    vertical-align: middle;
+
+                    .size(100vw,100vh);
+                    img
+                    {
+                        display: inline;
                     }
                 }
                 &.animate
@@ -1155,13 +1160,13 @@ a
     }
     50%
     {
-        opacity: 0.2;
+        opacity: .2;
 
         .scale(1);
     }
     99%
     {
-        opacity: 0.5;
+        opacity: .5;
 
         .scale(.1);
     }
@@ -1523,7 +1528,7 @@ a
     {
         z-index: 20;
 
-        .size(100%,auto);
+        .size(80%,auto);
         .absolute(0,0,_,0);
     }
     > .con
@@ -1713,7 +1718,15 @@ a
                             white-space: nowrap;
 
                             .absolute(100%,0,_,0);
-                            .glow-text(rgba(0,0,0,.75),1px);
+                            // .glow-text(rgba(0,0,0,.75),1px);
+                            img
+                            {
+                                width: initial;
+                                height: 16px;
+
+                                .padding(2vw,_,_);
+                                .margin(_,auto);
+                            }
                         }
                         &:nth-child(1)
                         {
@@ -2045,139 +2058,11 @@ a
  */
 #p10
 {
-    > .tit
+    > .tit-sub
     {
         z-index: 20;
 
-        .size(592vh/@h,auto);
-        .absolute(0,0,_,_);
-        .clearfix();
-    }
-    > .con
-    {
-        z-index: 500;
-
-        .size(90%,800vh/@h);
-        .absolute(50vh+150vh/@h,_,_,50%);
-        .translate(-50%,-50%);
-        .blub
-        {
-            .b1,
-            .b2
-            {
-                &.animated
-                {
-                    animation-duration: 500ms;
-                }
-            }
-            .b1
-            {
-                .size(217vh/@h,auto);
-                .margin(200vh/@h,auto,_);
-            }
-            .b2
-            {
-                margin-left: -169vh/@h;
-
-                .size(338vh/@h,auto);
-                .absolute(135vh/@h,_,_,50%);
-            }
-        }
-        .tit-sub
-        {
-            font-family: 'yuehei-s';
-            font-size: 80vw/@w;
-
-            z-index: 50;
-
-            text-align: center;
-
-            color: rgba(255,255,255,.5);
-
-            .absolute(_,0,0,0);
-            &.animated
-            {
-                animation-duration: 500ms;
-            }
-        }
-        .txt
-        {
-            z-index: 500;
-
-            .absolute(0,0,0,0);
-            p
-            {
-                font-family: 'yuehei';
-                font-size: 46vw/@w;
-
-                position: absolute;
-                z-index: 500;
-
-                width: 4em;
-                &.animated
-                {
-                    animation-duration: 200ms;
-                }
-                &:nth-child(1)
-                {
-                    bottom: 400vh/@h;
-                    left: 0;
-
-                    text-align: right;
-                }
-                &:nth-child(2)
-                {
-                    bottom: 600vh/@h;
-                    left: 0;
-
-                    text-align: right;
-                }
-                &:nth-child(3)
-                {
-                    top: 0;
-                    right: 0;
-                    left: 0;
-
-                    width: 100%;
-
-                    text-align: center;
-                }
-                &:nth-child(4)
-                {
-                    right: 0;
-                    bottom: 600vh/@h;
-
-                    text-align: left;
-                }
-                &:nth-child(5)
-                {
-                    right: 0;
-                    bottom: 400vh/@h;
-
-                    text-align: center;
-                }
-            }
-        }
-    }
-}
-
-/**
- * p11
- */
-#p11
-{
-    > .tit
-    {
-        z-index: 20;
-
-        .size(574vh/@h,auto);
-        .absolute(_,0,0,_);
-    }
-    > .tie-sub
-    {
-        z-index: 20;
-
-        .size(100%,auto);
+        .size(80%,auto);
         .absolute(0,0,_,0);
     }
     > .con
@@ -2186,14 +2071,16 @@ a
 
         overflow: hidden;
 
-        .size(90%,680vh/@h);
+        .size(90%,1200vh/@h);
         .absolute(50%,_,_,50%);
-        .translate(-50%,-50%);
+        .translate(-50%,-35%);
         > li
         {
             position: absolute;
             right: 0;
             left: 0;
+
+            opacity: 0;
             > span > img, > i, > em, > strong
             {
                 animation-duration: .5s!important;
@@ -2245,13 +2132,15 @@ a
                 z-index: 800;
                 right: 0;
             }
-            &:nth-child(4)
+            &:nth-child(9)
             {
-                z-index: 500;
-                bottom: 15vh/@h;
+                z-index: 450;
+                top: 960vh/@h;
                 left: 0;
 
                 height: 182vh/@h*1.3;
+
+                opacity: 1;
                 > i
                 {
                     top: 110vh/@h;
@@ -2265,15 +2154,24 @@ a
                 > strong
                 {
                     top: 50vh/@h;
+
+                    color: #fff;
+                }
+                > em, > strong, > i
+                {
+                    color: #fff;
+                    // border-color: #fff;
                 }
             }
-            &:nth-child(3)
+            &:nth-child(8)
             {
-                z-index: 510;
-                bottom: 157vh/@h;
+                z-index: 460;
+                top: 840vh/@h;
                 left: 0;
 
                 height: 182vh/@h*1.3;
+
+                opacity: 1;
                 > i
                 {
                     top: 110vh/@h;
@@ -2287,15 +2185,55 @@ a
                 > strong
                 {
                     top: 50vh/@h;
+
+                    color: #63a69f;
+                }
+                > em, > strong, > i
+                {
+                    color: #63a69f;
+                    // border-color: #63a69f;
                 }
             }
-            &:nth-child(2)
+            &:nth-child(7)
             {
-                z-index: 520;
-                bottom: 293vh/@h;
+                z-index: 470;
+                top: 720vh/@h;
+                left: 0;
+
+                height: 182vh/@h*1.3;
+
+                opacity: 1;
+                > i
+                {
+                    top: 110vh/@h;
+                    left: 390vh/@h;
+                }
+                > em
+                {
+                    top: 135vh/@h;
+                    left: 440vh/@h;
+                }
+                > strong
+                {
+                    top: 50vh/@h;
+
+                    color: #f2836b;
+                }
+                > em, > strong, > i
+                {
+                    color: #f2836b;
+                    // border-color: #f2836b;
+                }
+            }
+            &:nth-child(6)
+            {
+                z-index: 480;
+                top: 600vh/@h;
                 left: 0;
 
                 height: 184vh/@h*1.3;
+
+                opacity: 1;
                 > i
                 {
                     top: 110vh/@h;
@@ -2309,15 +2247,148 @@ a
                 > strong
                 {
                     top: 50vh/@h;
+
+                    color: #9dc02e;
+                }
+                > em, > strong, > i
+                {
+                    color: #9dc02e;
+                    // border-color: #9dc02e;
+                }
+            }
+            &:nth-child(5)
+            {
+                z-index: 490;
+                top: 480vh/@h;
+                left: 0;
+
+                height: 188vh/@h*1.3;
+
+                opacity: 1;
+                > i
+                {
+                    top: 115vh/@h;
+                    left: 340vh/@h;
+                }
+                > em
+                {
+                    top: 140vh/@h;
+                    left: 390vh/@h;
+                }
+                > strong
+                {
+                    top: 50vh/@h;
+
+                    color: #77c4d3;
+                }
+                > em, > strong, > i
+                {
+                    color: #77c4d3;
+                    // border-color: #77c4d3;
+                }
+            }
+            &:nth-child(4)
+            {
+                z-index: 500;
+                top: 360vh/@h;
+                left: 0;
+
+                height: 182vh/@h*1.3;
+
+                opacity: 1;
+                > i
+                {
+                    top: 110vh/@h;
+                    left: 290vh/@h;
+                }
+                > em
+                {
+                    top: 135vh/@h;
+                    left: 340vh/@h;
+                }
+                > strong
+                {
+                    top: 50vh/@h;
+
+                    color: #a75265;
+                }
+                > em, > strong, > i
+                {
+                    color: #a75265;
+                    // border-color: #a75265;
+                }
+            }
+            &:nth-child(3)
+            {
+                z-index: 510;
+                top: 240vh/@h;
+                left: 0;
+
+                height: 182vh/@h*1.3;
+
+                opacity: 1;
+                > i
+                {
+                    top: 110vh/@h;
+                    left: 390vh/@h;
+                }
+                > em
+                {
+                    top: 135vh/@h;
+                    left: 440vh/@h;
+                }
+                > strong
+                {
+                    top: 50vh/@h;
+
+                    color: #f9e270;
+                }
+                > em, > strong, > i
+                {
+                    color: #f9e270;
+                    // border-color: #f9e270;
+                }
+            }
+            &:nth-child(2)
+            {
+                z-index: 520;
+                top: 120vh/@h;
+                left: 0;
+
+                height: 184vh/@h*1.3;
+
+                opacity: 1;
+                > i
+                {
+                    top: 110vh/@h;
+                    left: 400vh/@h;
+                }
+                > em
+                {
+                    top: 135vh/@h;
+                    left: 450vh/@h;
+                }
+                > strong
+                {
+                    top: 50vh/@h;
+
+                    color: #f2385a;
+                }
+                > em, > strong, > i
+                {
+                    color: #f2385a;
+                    // border-color: #f2385a;
                 }
             }
             &:nth-child(1)
             {
                 z-index: 530;
-                bottom: 440vh/@h;
+                top: 0;
                 left: 0;
 
                 height: 188vh/@h*1.3;
+
+                opacity: 1;
                 > i
                 {
                     top: 115vh/@h;
@@ -2332,22 +2403,27 @@ a
                 {
                     top: 50vh/@h;
                 }
+                > em, > strong, > i
+                {
+                    color: #04d9d9;
+                    // border-color: #04d9d9;
+                }
             }
         }
     }
 }
 
 /**
- * p12
+ * p11
  */
-#p12
+#p11
 {
     > .tit
     {
         z-index: 20;
 
         .size(780vh/@h,auto);
-        .absolute(0,0,_,_);
+        .absolute(0,_,_,0);
     }
     .txt
     {
@@ -2515,9 +2591,9 @@ a
 }
 
 /**
- * p13
+ * p12
  */
-#p13
+#p12
 {
     .con
     {

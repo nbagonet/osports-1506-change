@@ -4,6 +4,19 @@ var as = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animat
     return Math.floor(min + Math.random() * (max - min));
   };
 
+/*
+ * name: getParam
+ * group: func
+ * intro: 获取url参数值
+ * param: 需要获取的参数名: param
+ * e.g. : alert(getParam("test"))
+ */
+var getParam = function(param) {
+  var r = new RegExp("\\?(?:.+&)?" + param + "=(.*?)(?:&.*)?$");
+  var m = window.location.toString().match(r);
+  return m ? m[1] : ""; //如果需要处理中文，可以用返回decodeURLComponent(m[1])
+};
+
 $(function() {
 
   // 初始页面页码，从1开始
@@ -125,13 +138,6 @@ $(function() {
     } else {
       p12.reset();
     }
-
-    // p13
-    if (cur == 13) {
-      p13.init();
-    } else {
-      p13.reset();
-    }
   });
 
 
@@ -195,7 +201,6 @@ $(function() {
       map = $('#map-10-china');
 
     // 需要选中的省市数据
-    // p2MapData = ['BEJ', 'LIA', 'SHD', 'JSU', 'SHH', 'ZHJ', 'GUD', 'HKG', 'SCH', 'HUB', 'HEN', 'SHX'];
     p2MapData = ['HAI', 'GUD', 'YUN', 'GXI', 'TAI', 'FUJ', 'GUI', 'HUN', 'JXI', 'SCH', 'TIB', 'ZHJ', 'CHQ', 'HUB', 'ANH', 'JSU', 'HEN', 'SHA', 'QIH', 'SHX', 'SHD', 'HXA', 'HEB', 'XIN', 'NMG', 'TAJ', 'LIA', 'JIL', 'HLJ', 'GAN', 'MAC', 'HKG', 'SHH', 'BEJ', 'NXA'];
 
     // 如果已经存在中国地图，则需要先取消选中，但不需要重新初始化地图
@@ -382,19 +387,6 @@ $(function() {
             }
           });
         });
-        // 显示向下大括号
-        // tobj.oneTime('4s', function() {
-        //   p.find('.arrow').removeClass('hide').addClass('animate').one(as, function() {
-        //     // 显示媒体数自增
-        //     p.find('.num4').removeClass('hide').addClass('fadeInDown');
-        //     p.find('.num4>.num').countTo({
-        //       from: 0,
-        //       to: 275,
-        //       speed: 1000,
-        //       refreshInterval: 5
-        //     });
-        //   });
-        // });
       });
     });
 
@@ -1045,7 +1037,8 @@ $(function() {
             p.find('.r7').removeClass('hide').addClass('anim-in').one(as, function() {
               p.find('.r2,.r3,.r4,.r5').removeClass('hide').addClass('anim-in').one(as, function() {
                 p.find('.con li').removeClass('hide').addClass('anim-in').one(as, function() {
-                  $(this).find('span').removeClass('hide').addClass('fadeInUp').one(as, function() {
+                  $('body').oneTime('1200ms', function() {
+                    p.find('.con li span').removeClass('hide');
                     p.find('.con li').removeClass('anim-in');
                     p.find('.con ul').addClass('anim-roll');
                     p.find('.con dt').removeClass('anim-in').addClass('anim-beat');
@@ -1068,7 +1061,7 @@ $(function() {
     p.find('.r1,.r2,.r3,.r4,.r5,.r6,.r7').removeClass('anim-in anim-rBeat').addClass('hide');
     p.find('.con li').removeClass('anim-in').addClass('hide');
     p.find('.con ul').removeClass('anim-roll');
-    p.find('.con li span').removeClass('fadeInUp').addClass('hide');
+    p.find('.con li span').addClass('hide');
   };
 
   /**
@@ -1080,20 +1073,11 @@ $(function() {
   p10.init = function() {
     var p = $('#p10');
 
-    p.find('.tit').removeClass('hide').addClass('fadeInDown').one(as, function() {
-      p.find('.blub > .b1').removeClass('hide').addClass('zoomIn').one(as, function() {
-        p.find('.blub > .b2').removeClass('hide').addClass('fadeIn').one(as, function() {
-          p.find('.tit-sub').removeClass('hide').addClass('lightSpeedIn').one(as, function() {
-            p.find('.txt > p:eq(0)').removeClass('hide').addClass('fadeInRight').one(as, function() {
-              p.find('.txt > p:eq(1)').removeClass('hide').addClass('fadeInRight').one(as, function() {
-                p.find('.txt > p:eq(2)').removeClass('hide').addClass('fadeInUp').one(as, function() {
-                  p.find('.txt > p:eq(3)').removeClass('hide').addClass('fadeInLeft').one(as, function() {
-                    p.find('.txt > p:eq(4)').removeClass('hide').addClass('fadeInLeft');
-                  });
-                });
-              });
-            });
-          });
+    p.find('.tit-sub').removeClass('hide').addClass('fadeInDown').one(as, function() {
+      p.find('.con > li img').removeClass('hide').addClass('fadeInDown').one(as, function() {
+        p.find('.con > li i').removeClass('hide').addClass('zoomIn').one(as, function() {
+          p.find('.con > li strong').removeClass('hide').addClass('lightSpeedIn');
+          p.find('.con > li em').removeClass('hide').addClass('zoomIn');
         });
       });
     });
@@ -1102,11 +1086,9 @@ $(function() {
   // p10重置
   p10.reset = function() {
     var p = $('#p10');
-    p.find('.tit').addClass('hide').removeClass('fadeInDown');
-    p.find('.blub > .b1').addClass('hide').removeClass('zoomIn');
-    p.find('.blub > .b2').addClass('hide').removeClass('fadeIn');
-    p.find('.tit-sub').addClass('hide').removeClass('lightSpeedIn');
-    p.find('.txt > p').addClass('hide').removeClass('fadeInRight fadeInLeft fadeInUp');
+
+    p.find('.tit-sub').addClass('hide').removeClass('fadeInDown');
+    p.find('.con > li img, .con > li i, .con > li strong, .con > li em').addClass('hide').removeClass('fadeInDown zoomIn lightSpeedIn');
   };
 
   /**
@@ -1117,53 +1099,6 @@ $(function() {
   // p11初始化
   p11.init = function() {
     var p = $('#p11');
-
-    p.find('.tit-sub').removeClass('hide').addClass('fadeInDown');
-    p.find('.tit').removeClass('hide').addClass('fadeInUp').one(as, function() {
-      p.find('.con > li:eq(0) img').removeClass('hide').addClass('fadeInDown').one(as, function() {
-        p.find('.con > li:eq(0) i').removeClass('hide').addClass('zoomIn').one(as, function() {
-          p.find('.con > li:eq(0) strong').removeClass('hide').addClass('lightSpeedIn');
-          p.find('.con > li:eq(0) em').removeClass('hide').addClass('zoomIn');
-        });
-      });
-      p.find('.con > li:eq(1) img').removeClass('hide').addClass('fadeInDown').one(as, function() {
-        p.find('.con > li:eq(1) i').removeClass('hide').addClass('zoomIn').one(as, function() {
-          p.find('.con > li:eq(1) strong').removeClass('hide').addClass('lightSpeedIn');
-          p.find('.con > li:eq(1) em').removeClass('hide').addClass('zoomIn');
-        });
-      });
-      p.find('.con > li:eq(2) img').removeClass('hide').addClass('fadeInDown').one(as, function() {
-        p.find('.con > li:eq(2) i').removeClass('hide').addClass('zoomIn').one(as, function() {
-          p.find('.con > li:eq(2) strong').removeClass('hide').addClass('lightSpeedIn');
-          p.find('.con > li:eq(2) em').removeClass('hide').addClass('zoomIn');
-        });
-      });
-      p.find('.con > li:eq(3) img').removeClass('hide').addClass('fadeInDown').one(as, function() {
-        p.find('.con > li:eq(3) i').removeClass('hide').addClass('zoomIn').one(as, function() {
-          p.find('.con > li:eq(3) strong').removeClass('hide').addClass('lightSpeedIn');
-          p.find('.con > li:eq(3) em').removeClass('hide').addClass('zoomIn');
-        });
-      });
-    });
-  };
-
-  // p11重置
-  p11.reset = function() {
-    var p = $('#p11');
-
-    p.find('.tit-sub').addClass('hide').removeClass('fadeInDown');
-    p.find('.tit').addClass('hide').removeClass('fadeInUp');
-    p.find('.con > li img, .con > li i, .con > li strong, .con > li em').addClass('hide').removeClass('fadeInDown zoomIn lightSpeedIn');
-  };
-
-  /**
-   * p12
-   */
-  var p12 = {};
-
-  // p12初始化
-  p12.init = function() {
-    var p = $('#p12');
 
     p.find('.tit').removeClass('hide').addClass('fadeInRight').one(as, function() {
       p.find('.pics > .item:eq(0)').removeClass('hide').addClass('animate');
@@ -1177,8 +1112,8 @@ $(function() {
     });
   };
 
-  // 重置p12
-  p12.reset = function() {
+  // 重置p11
+  p11.reset = function() {
     var p = $('#p12');
 
     p.find('.tit').addClass('hide').removeClass('fadeInRight');
@@ -1187,13 +1122,13 @@ $(function() {
   };
 
   /**
-   * p13
+   * p12
    */
-  var p13 = {};
+  var p12 = {};
 
-  // p13初始化
-  p13.init = function() {
-    var p = $('#p13');
+  // p12初始化
+  p12.init = function() {
+    var p = $('#p12');
 
     p.find('.logo').removeClass('hide').addClass('fadeInDown');
     p.find('.txt > p:eq(0)').removeClass('hide').addClass('spaceInDown');
@@ -1201,9 +1136,9 @@ $(function() {
     p.find('.txt > p:eq(2)').removeClass('hide').addClass('spaceInDown');
   };
 
-  // p13重置
-  p13.reset = function() {
-    var p = $('#p13');
+  // p12重置
+  p12.reset = function() {
+    var p = $('#p12');
 
     p.find('.logo').addClass('hide').removeClass('fadeInDown');
     p.find('.txt > p').addClass('hide').removeClass('spaceInDown');
@@ -1235,6 +1170,11 @@ $(function() {
         _m.play();
       }
     });
+  }
+
+  // 根据url参数跳转到指定页
+  if (getParam('p') != undefined && getParam('p') != '') {
+    pw.slide(Number(getParam('p')));
   }
 
 });
