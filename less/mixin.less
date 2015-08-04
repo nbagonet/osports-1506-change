@@ -3,3 +3,15 @@
     left:sin(360/@boxNum*pi()/180*(@posNum))*@radius+@boxRadius+@radius/1.6;
     top:cos(360/@boxNum*pi()/180*(@posNum))*@radius+@boxRadius+@radius/1.6;
 }
+
+
+.generate-mlogo(@n, @i: 1) when (@i =< @n) {
+    &:nth-child(@{i})
+    {
+        &.animate
+        {
+            animation-delay: 300ms*(@i - 1);
+        }
+    }
+    .generate-mlogo(@n, (@i + 1));
+}

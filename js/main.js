@@ -539,7 +539,7 @@ $(function() {
           shuffleTags: true,
           depth: 1,
           minBrightness: 0.05,
-          initial: [-0.1, 0],
+          initial: [0, 0.12],
           wheelZoom: false,
           fadeIn: 1000,
           centreImage: '../img/logo-b.png',
@@ -1073,13 +1073,184 @@ $(function() {
   p10.init = function() {
     var p = $('#p10');
 
-    p.find('.tit-sub').removeClass('hide').addClass('fadeInDown').one(as, function() {
-      p.find('.con > li img').removeClass('hide').addClass('fadeInDown').one(as, function() {
-        p.find('.con > li i').removeClass('hide').addClass('zoomIn').one(as, function() {
-          p.find('.con > li strong').removeClass('hide').addClass('lightSpeedIn');
-          p.find('.con > li em').removeClass('hide').addClass('zoomIn');
-        });
+    // 力导向布局图初始化方法
+    var forceInit = function() {
+      require.config({
+        paths: {
+          echarts: '../bower_components/echarts/build/dist'
+        }
       });
+
+      require(
+        [
+          'echarts',
+          'echarts/chart/force'
+        ],
+        function(ec) {
+          var myChart = ec.init(document.getElementById('marketingCanvas'));
+          var option = {
+            size: '70%',
+            color: [
+              'rgba(231,76,60,.95)', 'rgba(41,128,185,.95)', '#87b8ad', '#dea156', '#E74C3C', '#2BBFBD'
+            ],
+            series: [{
+              type: 'force',
+              name: "",
+              ribbonType: true,
+              categories: [{
+                name: '1'
+              }, {
+                name: '2'
+              }],
+              itemStyle: {
+                normal: {
+                  label: {
+                    show: true,
+                    textStyle: {
+                      color: '#fff'
+                    }
+                  },
+                  nodeStyle: {
+                    brushType: 'both',
+                    borderColor: 'rgba(255,255,255,1)',
+                    borderWidth: 3
+                  },
+                  linkStyle: {
+                    type: 'curve',
+                    color: '#fff',
+                    width: 3
+                  }
+                }
+              },
+              useWorker: false,
+              minRadius: 30,
+              maxRadius: 30,
+              gravity: 2,
+              scaling: 1,
+              draggable: false,
+              nodes: [{
+                category: 0,
+                name: '赛事',
+                value: 60,
+                label: '赛事',
+                itemStyle: {
+                  normal: {
+                    label: {
+                      show: true,
+                      textStyle: {
+                        fontSize: 18
+                      }
+                    }
+                  }
+                }
+              }, {
+                category: 0,
+                name: '赛事组织',
+                value: 12
+              }, {
+                category: 0,
+                name: '商务拓展',
+                value: 12
+              }, {
+                category: 0,
+                name: '赛事推广',
+                value: 12
+              }, {
+                category: 0,
+                name: '媒体发布',
+                value: 12
+              }, {
+                category: 0,
+                name: '视觉服务',
+                value: 12
+              }, {
+                category: 1,
+                name: '品牌',
+                value: 40,
+                itemStyle: {
+                  normal: {
+                    label: {
+                      show: true,
+                      textStyle: {
+                        fontSize: 18
+                      }
+                    }
+                  }
+                }
+              }, {
+                category: 1,
+                name: '整合运作',
+                value: 10
+              }, {
+                category: 1,
+                name: '立体营销',
+                value: 10
+              }, {
+                category: 1,
+                name: '整体规划',
+                value: 10
+              }, {
+                category: 1,
+                name: '方案执行',
+                value: 10
+              }],
+              links: [{
+                source: '赛事组织',
+                target: '赛事',
+                weight: 2
+              }, {
+                source: '商务拓展',
+                target: '赛事',
+                weight: 2
+              }, {
+                source: '赛事推广',
+                target: '赛事',
+                weight: 2
+              }, {
+                source: '媒体发布',
+                target: '赛事',
+                weight: 2
+              }, {
+                source: '视觉服务',
+                target: '赛事',
+                weight: 2
+              }, {
+                source: '整合运作',
+                target: '品牌',
+                weight: 2
+              }, {
+                source: '立体营销',
+                target: '品牌',
+                weight: 2
+              }, {
+                source: '整体规划',
+                target: '品牌',
+                weight: 2
+              }, {
+                source: '方案执行',
+                target: '品牌',
+                weight: 2
+              }, {
+                source: '品牌',
+                target: '赛事',
+                weight: 3
+              }]
+            }]
+          };
+          myChart.setOption(option);
+        }
+      );
+    };
+
+    p.find('.tit-sub').removeClass('hide').addClass('fadeInDown').one(as, function() {
+      // p.find('.con > li img').removeClass('hide').addClass('fadeInDown').one(as, function() {
+      //   p.find('.con > li i').removeClass('hide').addClass('zoomIn').one(as, function() {
+      //     p.find('.con > li strong').removeClass('hide').addClass('lightSpeedIn');
+      //     p.find('.con > li em').removeClass('hide').addClass('zoomIn');
+      //   });
+      // });
+      forceInit();
+
     });
   };
 
@@ -1088,7 +1259,8 @@ $(function() {
     var p = $('#p10');
 
     p.find('.tit-sub').addClass('hide').removeClass('fadeInDown');
-    p.find('.con > li img, .con > li i, .con > li strong, .con > li em').addClass('hide').removeClass('fadeInDown zoomIn lightSpeedIn');
+    // p.find('.con > li img, .con > li i, .con > li strong, .con > li em').addClass('hide').removeClass('fadeInDown zoomIn lightSpeedIn');
+    p.find('#marketingCanvas').empty();
   };
 
   /**
