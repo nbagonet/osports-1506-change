@@ -1080,7 +1080,6 @@ $(function() {
           echarts: '../bower_components/echarts/build/dist'
         }
       });
-
       require(
         [
           'echarts',
@@ -1242,15 +1241,10 @@ $(function() {
       );
     };
 
-    p.find('.tit-sub').removeClass('hide').addClass('fadeInDown').one(as, function() {
-      // p.find('.con > li img').removeClass('hide').addClass('fadeInDown').one(as, function() {
-      //   p.find('.con > li i').removeClass('hide').addClass('zoomIn').one(as, function() {
-      //     p.find('.con > li strong').removeClass('hide').addClass('lightSpeedIn');
-      //     p.find('.con > li em').removeClass('hide').addClass('zoomIn');
-      //   });
-      // });
-      forceInit();
-
+    forceInit();
+    p.find('.tit-sub').removeClass('hide').addClass('fadeInDown');
+    $('body').oneTime('2000ms', function() {
+      p.find('#marketingCanvas').removeClass('hide').addClass('fadeIn');
     });
   };
 
@@ -1259,8 +1253,7 @@ $(function() {
     var p = $('#p10');
 
     p.find('.tit-sub').addClass('hide').removeClass('fadeInDown');
-    // p.find('.con > li img, .con > li i, .con > li strong, .con > li em').addClass('hide').removeClass('fadeInDown zoomIn lightSpeedIn');
-    p.find('#marketingCanvas').empty();
+    p.find('#marketingCanvas').empty().addClass('hide');
   };
 
   /**
