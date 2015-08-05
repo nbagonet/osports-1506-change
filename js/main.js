@@ -1253,7 +1253,7 @@ $(function() {
     var p = $('#p10');
 
     p.find('.tit-sub').addClass('hide').removeClass('fadeInDown');
-    p.find('#marketingCanvas').empty().addClass('hide');
+    p.find('#marketingCanvas').empty().addClass('hide').removeClass('fadeIn');
   };
 
   /**
