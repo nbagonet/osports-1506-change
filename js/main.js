@@ -155,20 +155,22 @@ $(function() {
     _p1.find('.logo-ost1').removeClass('hide').addClass('zoomIn').one(as, function() {
       _p1.find('.txt1').removeClass('hide').addClass('fadeInUp').one(as, function() {
         _p1.find('.line').removeClass('hide').addClass('zoomIn').one(as, function() {
+          // _p1.find('.logo-t2').addClass('fadeOut');
           _p1.find('.txt1').addClass('stu2');
-          _p1.find('.logo-t1').addClass('fadeOut');
-          _p1.find('.logo-t2').addClass('fadeOut');
+          _p1.find('.logo-t1,.logo-t2').addClass('stu2');
           tobj.oneTime('1s', function() {
             _p1.find('.logo-t3').removeClass('hide').addClass('fadeIn');
-            _p1.find('.logo-t4').removeClass('hide').addClass('fadeInUp');
-            _p1.find('.logo-t5').removeClass('hide').addClass('fadeInUp');
-            _p1.find('.logo-t6').removeClass('hide').addClass('fadeInUp').one(as, function() {
-              _p1.find('.btn').removeClass('hide').addClass('fadeInDown').one(as, function() {
-                _p1.find('.btn').addClass('animate');
+            _p1.find('.logo-t1,.logo-t2').fadeOut(1000);
+            _p1.find('.logo-t4').removeClass('hide').addClass('fadeIn').one(as, function() {
+              _p1.find('.logo-t5').removeClass('hide').addClass('fadeInUp').one(as, function() {
+                _p1.find('.logo-t6').removeClass('hide').addClass('fadeInRight').one(as, function() {
+                  _p1.find('.btn').removeClass('hide').addClass('fadeInDown').one(as, function() {
+                    _p1.find('.btn').addClass('animate');
+                  });
+                });
               });
             });
           });
-          _p1.find('.logo-t1').addClass('hide');
         });
       });
     });

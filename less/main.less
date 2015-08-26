@@ -443,7 +443,8 @@ a
         &.stu2
         {
             top: 1080vh/@h;
-            // .animation(txt1-stu2 1s ease forwards);
+
+            .animation(txt1-stu2 1s ease forwards);
         }
     }
     .logo
@@ -501,15 +502,13 @@ a
             left: 200vw/@w;
 
             width: 274vw/@w;
-
-            .transition(all 1s ease);
+            // .transition(all 1s ease);
             &.stu2
             {
-                bottom: -132vw/@w;
-                left: 0;
-
-                width: 125vw/@w;
-                // .animation(logo-t1-stu2 1s ease forwards);
+                // bottom: -132vw/@w;
+                // left: 0;
+                // width: 125vw/@w;
+                .animation(logo-t1-stu2 1s ease forwards);
             }
         }
         .logo-t2
@@ -518,6 +517,13 @@ a
             left: 472vw/@w;
 
             width: 181vw/@w;
+            &.stu2
+            {
+                // bottom: -132vw/@w;
+                // left: 0;
+                // width: 125vw/@w;
+                .animation(logo-t2-stu2 1s ease forwards);
+            }
         }
         .logo-t3
         {
@@ -570,7 +576,7 @@ a
     }
     to
     {
-        // top: 1080vh/@h;
+        top: 1080vh/@h;
         top: 1080%/@h;
     }
 }
@@ -579,7 +585,7 @@ a
     form
     {
         bottom: 0;
-        left: 200vh/@h;
+        left: 200vw/@w;
 
         width: 274vw/@w;
     }
@@ -589,6 +595,23 @@ a
         left: 0;
 
         width: 125vw/@w;
+    }
+}
+@keyframes logo-t2-stu2
+{
+    form
+    {
+        bottom: 0;
+        left: 472vw/@w;
+
+        width: 181vw/@w;
+    }
+    to
+    {
+        bottom: -132vw/@w;
+        left: 125vw/@w;
+
+        width: 83.333vw/@w;
     }
 }
 @keyframes p1btn
@@ -1933,11 +1956,14 @@ a
         .size(80%,auto);
         .absolute(0,0,_,0);
     }
-    .canvasCover{
-        .absolute(0,0,0,0);
+    .canvasCover
+    {
         z-index: 900;
+
+        .absolute(0,0,0,0);
     }
-    #marketingCanvas{
+    #marketingCanvas
+    {
         .size(90%,1200vh/@h);
         .margin(400vh/@h,auto,_);
     }
