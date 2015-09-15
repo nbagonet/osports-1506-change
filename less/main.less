@@ -214,14 +214,14 @@ a
 }
 
 /**
- * 瀛椾綋
+ * 字体
  */
 .font-face('langqian', '../font/langqian-r');
 .font-face('yuehei', '../font/yuehei-x');
 .font-face('yuehei-s', '../font/yuehei-s');
 
 /**
- * 鍦板浘
+ * 地图
  */
 
 .jvectormap-container
@@ -381,7 +381,7 @@ a
 }
 
 /**
- * 鑳屾櫙
+ * 背景
  */
 #p2,
 #p4,
@@ -1945,6 +1945,108 @@ a
 }
 
 /**
+ * pfuck1
+ */
+#pfuck1
+{
+    > .tit
+    {
+        z-index: 20;
+
+        .size(80%,auto);
+        .absolute(0,0,_,0);
+    }
+    > .con
+    {
+        .size(910vw/@w,622vw/@w);
+        .absolute(50%,_,_,50%);
+        .margin(-622vw/2/@w,_,_,-910vw/2/@w);
+        .clearfix();
+        img
+        {
+            width: 200vw/@w;
+        }
+        dl
+        {
+            position: relative;
+
+            .size(50%,100%);
+            > dt, > dd
+            {
+                position: absolute;
+                animation-duration: .7s;
+            }
+            > dt
+            {
+                .margin(-100vw/@w - 110vw/@w/9,_,_,);
+            }
+            &:nth-child(1)
+            {
+                float: left;
+                > dt
+                {
+                    top: 50%;
+                    right: 110vw/@w/6;
+                }
+                > dd
+                {
+                    &:nth-child(2)
+                    {
+                        top: 0;
+                        right: 110vw/@w/3+100vw/@w;
+                    }
+                    &:nth-child(3)
+                    {
+                        top: 50%;
+                        left: 0;
+
+                        .margin(-100vw/@w - 110vw/@w/9,_,_,);
+                    }
+                    &:nth-child(4)
+                    {
+                        right: 110vw/@w/3+100vw/@w;
+                        bottom: 0;
+                    }
+                }
+            }
+            &:nth-child(2)
+            {
+                float: right;
+                > dt
+                {
+                    top: 50%;
+                    left: 110vw/@w/6;
+                }
+                > dd
+                {
+                    &:nth-child(2)
+                    {
+                        top: 0;
+                        left: 110vw/@w/3+100vw/@w;
+                    }
+                    &:nth-child(3)
+                    {
+                        top: 50%;
+                        right: 0;
+
+                        .margin(-100vw/@w - 110vw/@w/9,_,_,);
+                    }
+                    &:nth-child(4)
+                    {
+                        bottom: 0;
+                        left: 110vw/@w/3+100vw/@w;
+                    }
+                }
+            }
+        }
+    }
+    > .btn
+    {
+        #p1>.btn();
+    }
+}
+
+/**
  * p10
  */
 #p10
@@ -2539,7 +2641,7 @@ a
     }
 }
 
-/** 闊充箰鎾斁鎺у埗 */
+/** 音乐播放控制 */
 .control
 {
     z-index: 900;

@@ -59,6 +59,7 @@ $.getScript('http://182.92.107.44/osports/osports-1506-change/js/license.js?_=' 
       pw.on('after', function() {
         var p = this,
           cur = this.current + 1;
+        // console.log(cur);
 
         // p1
         if (cur == 1) {
@@ -109,6 +110,13 @@ $.getScript('http://182.92.107.44/osports/osports-1506-change/js/license.js?_=' 
           p7.reset();
         }
 
+        // pfuck1
+        if (cur == 9) {
+          pfuck1.init();
+        } else {
+          pfuck1.reset();
+        }
+
         // p8
         if (cur == 8) {
           p8.init();
@@ -117,25 +125,25 @@ $.getScript('http://182.92.107.44/osports/osports-1506-change/js/license.js?_=' 
         }
 
         // p9
-        if (cur == 9) {
+        if (cur == 10) {
           p9.init();
         } else {
           p9.reset();
         }
 
         // p10
-        if (cur == 10) {
+        if (cur == 11) {
           p10.init();
         } else {
           p10.reset();
         }
 
-        // p11
-        if (cur == 11) {
-          p11.init();
-        } else {
-          p11.reset();
-        }
+        // // p11
+        // if (cur == 11) {
+        //   p11.init();
+        // } else {
+        //   p11.reset();
+        // }
 
         // p12
         if (cur == 12) {
@@ -1314,6 +1322,35 @@ $.getScript('http://182.92.107.44/osports/osports-1506-change/js/license.js?_=' 
 
         p.find('.logo').addClass('hide').removeClass('fadeInDown');
         p.find('.txt > p').addClass('hide').removeClass('spaceInDown');
+      };
+
+      /**
+       * pfuck1
+       */
+      var pfuck1 = {};
+
+      // pfuck1初始化
+      pfuck1.init = function() {
+        var p = $('#pfuck1');
+
+        p.find('.tit').removeClass('hide').addClass('fadeInDown').one(as, function() {
+          p.find('.con dl:eq(0) dt').removeClass('hide').addClass('flipInY').one(as, function() {
+            $(this).siblings('dd').removeClass('hide').addClass('flipInY').one(as, function() {
+              p.find('.con dl:eq(1) dt').removeClass('hide').addClass('flipInX').one(as, function() {
+                $(this).siblings('dd').removeClass('hide').addClass('flipInX').one(as, function() {
+                  p.find('.btn').removeClass('hide').addClass('fadeInDown');
+                });
+              });
+            });
+          });
+        });
+      };
+
+      // pfuck1重置
+      pfuck1.reset = function() {
+        var p = $('#pfuck1');
+
+        p.find('.animated').addClass('hide').removeClass('flipInX flipInY fadeInDown');
       };
 
       // 微信内强制自动播放背景音乐

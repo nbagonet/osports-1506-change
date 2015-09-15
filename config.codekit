@@ -8443,6 +8443,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/btn2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1997,
+		"inputAbbreviatedPath": "\/img\/btn2.png",
+		"outputAbbreviatedPath": "\/img\/btn2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/con1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -9939,6 +9950,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/txt26.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1994,
+		"inputAbbreviatedPath": "\/img\/txt26.png",
+		"outputAbbreviatedPath": "\/img\/txt26.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/txt27.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1889,
+		"inputAbbreviatedPath": "\/img\/txt27.png",
+		"outputAbbreviatedPath": "\/img\/txt27.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/txt28.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4253,
+		"inputAbbreviatedPath": "\/img\/txt28.png",
+		"outputAbbreviatedPath": "\/img\/txt28.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/txt29.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6648,
+		"inputAbbreviatedPath": "\/img\/txt29.png",
+		"outputAbbreviatedPath": "\/img\/txt29.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/txt3.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -9946,6 +10001,72 @@
 		"initialSize": 3818,
 		"inputAbbreviatedPath": "\/img\/txt3.png",
 		"outputAbbreviatedPath": "\/img\/txt3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/txt30.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3597,
+		"inputAbbreviatedPath": "\/img\/txt30.png",
+		"outputAbbreviatedPath": "\/img\/txt30.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/txt31.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4054,
+		"inputAbbreviatedPath": "\/img\/txt31.png",
+		"outputAbbreviatedPath": "\/img\/txt31.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/txt32.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2378,
+		"inputAbbreviatedPath": "\/img\/txt32.png",
+		"outputAbbreviatedPath": "\/img\/txt32.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/txt33.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3818,
+		"inputAbbreviatedPath": "\/img\/txt33.png",
+		"outputAbbreviatedPath": "\/img\/txt33.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/txt34.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3243,
+		"inputAbbreviatedPath": "\/img\/txt34.png",
+		"outputAbbreviatedPath": "\/img\/txt34.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/txt35.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3050,
+		"inputAbbreviatedPath": "\/img\/txt35.png",
+		"outputAbbreviatedPath": "\/img\/txt35.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -10068,7 +10189,7 @@
 		"outputAbbreviatedPath": "\/js\/main.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"syntaxCheckerStyle": 0
 		},
 	"\/js\/main.min.js": {
