@@ -1966,76 +1966,36 @@ a
         {
             width: 200vw/@w;
         }
-        dl
+        > ul
         {
             position: relative;
+            .size(100%);
+            > li
+            {
+                .absolute(50%,_,_,50%);
 
-            .size(50%,100%);
-            > dt, > dd
-            {
-                position: absolute;
-                animation-duration: .7s;
-            }
-            > dt
-            {
-                .margin(-100vw/@w - 110vw/@w/9,_,_,);
-            }
-            &:nth-child(1)
-            {
-                float: left;
-                > dt
+                width: 28vw;
+                height: 28vw*.8675496689;
+                > img
                 {
-                    top: 50%;
-                    right: 110vw/@w/6;
+                    width: 100%;
                 }
-                > dd
+                &:nth-child(1){
+                    .margin(-28vw*.8675496689*1.05,_,_,-28vw*1.4);
+                }
+                &:nth-child(2){
+                    .margin(-28vw*.8675496689*1.05,_,_,28vw*0.4);
+                }
+                &:nth-child(3){
+                    .margin(28vw*.8675496689*0.05,_,_,-28vw*1.4);
+                }
+                &:nth-child(4){
+                    .margin(28vw*.8675496689*0.05,_,_,28vw*0.4);
+                }
+                &:nth-child(5)
                 {
-                    &:nth-child(2)
-                    {
-                        top: 0;
-                        right: 110vw/@w/3+100vw/@w;
-                    }
-                    &:nth-child(3)
-                    {
-                        top: 50%;
-                        left: 0;
 
-                        .margin(-100vw/@w - 110vw/@w/9,_,_,);
-                    }
-                    &:nth-child(4)
-                    {
-                        right: 110vw/@w/3+100vw/@w;
-                        bottom: 0;
-                    }
-                }
-            }
-            &:nth-child(2)
-            {
-                float: right;
-                > dt
-                {
-                    top: 50%;
-                    left: 110vw/@w/6;
-                }
-                > dd
-                {
-                    &:nth-child(2)
-                    {
-                        top: 0;
-                        left: 110vw/@w/3+100vw/@w;
-                    }
-                    &:nth-child(3)
-                    {
-                        top: 50%;
-                        right: 0;
-
-                        .margin(-100vw/@w - 110vw/@w/9,_,_,);
-                    }
-                    &:nth-child(4)
-                    {
-                        bottom: 0;
-                        left: 110vw/@w/3+100vw/@w;
-                    }
+                    .margin(-28vw*.8675496689/2,_,_,-14vw);
                 }
             }
         }

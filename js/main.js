@@ -1334,12 +1334,19 @@ $.getScript('http://182.92.107.44/osports/osports-1506-change/js/license.js?_=' 
         var p = $('#pfuck1');
 
         p.find('.tit').removeClass('hide').addClass('fadeInDown').one(as, function() {
-          p.find('.con dl:eq(0) dt').removeClass('hide').addClass('flipInY').one(as, function() {
-            $(this).siblings('dd').removeClass('hide').addClass('flipInY').one(as, function() {
-              p.find('.con dl:eq(1) dt').removeClass('hide').addClass('flipInX').one(as, function() {
-                $(this).siblings('dd').removeClass('hide').addClass('flipInX').one(as, function() {
-                  p.find('.btn').removeClass('hide').addClass('fadeInDown');
-                });
+          // p.find('.con dl:eq(0) dt').removeClass('hide').addClass('flipInY').one(as, function() {
+          //   $(this).siblings('dd').removeClass('hide').addClass('flipInY').one(as, function() {
+          //     p.find('.con dl:eq(1) dt').removeClass('hide').addClass('flipInX').one(as, function() {
+          //       $(this).siblings('dd').removeClass('hide').addClass('flipInX').one(as, function() {
+          //         p.find('.btn').removeClass('hide').addClass('fadeInDown');
+          //       });
+          //     });
+          //   });
+          // });
+          p.find('.con li:eq(4)').removeClass('hide').addClass('fadeInDown').one(as, function() {
+            p.find('.con li:eq(0),.con li:eq(2)').removeClass('hide').addClass('flipInX').one(as, function() {
+              p.find('.con li:eq(1),.con li:eq(3)').removeClass('hide').addClass('flipInX').one(as, function() {
+                p.find('.btn').removeClass('hide').addClass('fadeInDown');
               });
             });
           });
